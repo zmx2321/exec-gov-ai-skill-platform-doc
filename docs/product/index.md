@@ -30,6 +30,14 @@ SmartFlow 当前最准确的定义是：
 - 个人免费版承接增长入口和体验入口
 - CLI 承接本地脚本接入与未来本地 Agent
 
+## 公开文档建议阅读顺序
+
+1. 先看 [应用场景](/product/scenarios)
+2. 再看 [核心能力](/product/capabilities)
+3. 接着看 [架构说明](/product/architecture)
+4. 如果关心落地形态，再看 [部署方式](/product/deployment)
+5. 最后看 [版本路线](/product/editions)
+
 ## 当前核心口径
 
 1. `public` 是平台治理域，不是普通租户。
@@ -45,6 +53,8 @@ SmartFlow 当前最准确的定义是：
 
 ## 继续阅读
 
+- [应用场景](/product/scenarios)
 - [核心能力](/product/capabilities)
 - [架构说明](/product/architecture)
+- [部署方式](/product/deployment)
 - [版本路线](/product/editions)

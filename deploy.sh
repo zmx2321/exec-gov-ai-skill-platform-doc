@@ -1,22 +1,24 @@
 #!/usr/bin/env sh
 
-# 确保脚本抛出遇到的错误
 set -e
 
-# 生成静态文件
+REPO_URL="${REPO_URL:-git@github.com:zmx2321/smart-flow-ai-skill-platform-doc.git}"
+DEPLOY_BRANCH="${DEPLOY_BRANCH:-gh-pages}"
+
 yarn docs:build
 
-# 进入生成的文件夹
 cd docs/.vitepress/dist
 
-# git pull origin master
 git init
+git checkout -B main
 git add -A
-git commit -m 'deploy'
 
+if git diff --cached --quiet; then
+  echo "No build changes to deploy."
+  exit 0
+fi
 
-# 如果发布到 https://<USERNAME>.github.io  填写你刚刚创建的仓库地址
-# git push -f https://github.com/zmx2321/blog.git master:gh-pages
-git push -f git@github.com:zmx2321/smart-flow-ai-skill-platform-doc.git main:gh-pages
+git commit -m "deploy"
+git push -f "${REPO_URL}" main:"${DEPLOY_BRANCH}"
 
 cd -

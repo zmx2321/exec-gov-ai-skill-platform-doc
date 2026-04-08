@@ -1,6 +1,6 @@
 # SmartFlow 文档站
 
-这是 `smart-flow-ai-skill-platform` 的对外文档站仓库，基于 VitePress 构建，当前只承接平台介绍、能力边界、版本路线和联系入口。
+这是 `smart-flow-ai-skill-platform` 的对外文档站仓库，基于 VitePress 构建，承接的是公开信息，包括平台介绍、应用场景、能力边界、部署方式、版本路线和联系入口。
 
 ## 线上地址
 
@@ -10,8 +10,8 @@
 ## 本地使用
 
 ```bash
-npm install
-npm run dev
+yarn
+yarn dev
 ```
 
 默认开发端口：
@@ -23,29 +23,45 @@ http://localhost:7080/smart-flow-ai-skill-platform-doc/
 ## 构建与预览
 
 ```bash
-npm run build
-npm run preview
+yarn build
+yarn preview
 ```
 
-## 直接部署
+## 上传源码与部署
 
-仓库远端默认读取 `origin`，部署到 `gh-pages` 分支：
+当前约定必须固定：
+
+- `yarn main`：上传当前文档源码仓库内容到 `main`
+- `yarn deploy`：构建并发布 GitHub Pages 到 `gh-pages`
+
+### 上传源码
 
 ```bash
-npm run deploy
+yarn main
 ```
 
-如果需要自定义：
+### 发布站点
 
 ```bash
-REPO_URL=git@github.com:zmx2321/smart-flow-ai-skill-platform-doc.git DEPLOY_BRANCH=gh-pages npm run deploy
+yarn deploy
 ```
 
 ## 脚本说明
 
-- `npm run dev`：启动 VitePress 开发环境
-- `npm run build`：构建静态站点
-- `npm run preview`：本地预览构建产物
-- `npm run clean`：清理 VitePress 缓存和构建输出
-- `npm run deploy`：构建后推送到 `gh-pages`
-- `./main.sh`：统一入口，支持 `dev/build/preview/deploy/clean`
+- `yarn dev`：启动 VitePress 开发环境
+- `yarn build`：构建静态站点
+- `yarn preview`：本地预览构建产物
+- `yarn clean`：清理 VitePress 缓存和构建输出
+- `yarn main`：把当前源码改动提交并推送到仓库 `main`
+- `yarn deploy`：构建后推送站点产物到 `gh-pages`
+
+## 公开信息范围
+
+这个仓库默认只放公开信息：
+
+- 平台介绍
+- 公开路线
+- 公开能力说明
+- 联系方式
+
+不放内部经营台账、内部蓝图细节和涉密交付信息。

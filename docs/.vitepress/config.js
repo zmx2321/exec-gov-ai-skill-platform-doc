@@ -18,8 +18,10 @@ export default {
     nav: [
       { text: "首页", link: "/" },
       { text: "产品介绍", link: "/product/" },
+      { text: "应用场景", link: "/product/scenarios" },
       { text: "核心能力", link: "/product/capabilities" },
       { text: "架构说明", link: "/product/architecture" },
+      { text: "部署方式", link: "/product/deployment" },
       { text: "版本路线", link: "/product/editions" },
       { text: "Logo 设计", link: "/logo-design/" },
       { text: "联系我", link: "/contact" },
@@ -31,8 +33,10 @@ export default {
           text: "平台文档",
           items: [
             { text: "产品概览", link: "/product/" },
+            { text: "应用场景", link: "/product/scenarios" },
             { text: "核心能力", link: "/product/capabilities" },
             { text: "架构说明", link: "/product/architecture" },
+            { text: "部署方式", link: "/product/deployment" },
             { text: "版本路线", link: "/product/editions" },
           ],
         },
@@ -43,6 +47,7 @@ export default {
           items: [
             { text: "首页", link: "/" },
             { text: "产品概览", link: "/product/" },
+            { text: "应用场景", link: "/product/scenarios" },
             { text: "Logo 设计", link: "/logo-design/" },
             { text: "联系我", link: "/contact" },
           ],
