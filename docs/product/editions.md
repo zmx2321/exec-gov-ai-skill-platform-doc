@@ -1,115 +1,169 @@
-# 版本路线
+---
+aside: false
+outline: false
+lastUpdated: false
+---
 
-SmartFlow 的版本路线不是单纯“菜单越来越多”，而是平台角色逐步变化：
+<div class="brand-page-shell">
+  <section class="brand-hero">
+    <div>
+      <p class="brand-kicker">Editions &amp; Roadmap</p>
+      <h1>版本路线</h1>
+      <p class="brand-lead">
+        SmartFlow 的版本路线不是单纯“菜单越来越多”，而是平台角色逐步变化：
+        <strong><code>1.0</code></strong> 先解决交付与可信执行，
+        <strong><code>2.0</code></strong> 解决标准产品化，
+        <strong><code>3.0</code></strong> 解决第三方生态，
+        <strong><code>4.0</code></strong> 解决更广泛的能力包、边缘执行和设备插件治理。
+      </p>
+      <div class="brand-chip-list">
+        <span class="brand-chip">1.0 可信交付</span>
+        <span class="brand-chip">2.0 标准产品化</span>
+        <span class="brand-chip">3.0 生态开放</span>
+        <span class="brand-chip">4.0 执行基础设施</span>
+      </div>
+      <div class="brand-actions">
+        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">沟通版本合作</a>
+        <a class="cta-button" href="./deployment.html">查看部署方式</a>
+      </div>
+    </div>
+    <div class="brand-hero__media">
+      <div class="matrix-panel matrix-panel--signal">
+        <div class="matrix-panel__hud">
+          <span>SMARTFLOW // ROADMAP</span>
+          <span>DOC 06</span>
+        </div>
+        <div class="matrix-panel__canvas">
+          <div class="matrix-panel__trace matrix-panel__trace--top"></div>
+          <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
+          <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
+          <div class="matrix-panel__ring"></div>
+          <div class="matrix-panel__glyph">路</div>
+          <div class="matrix-panel__bolt"></div>
+          <div class="matrix-panel__callout">DELIVERY / PRODUCT / ECO / INFRA</div>
+        </div>
+        <div class="matrix-panel__stack">
+          <span>1.0 = deliverable</span>
+          <span>2.0 = sellable</span>
+          <span>3.0 = extensible</span>
+          <span>4.0 = governable infrastructure</span>
+        </div>
+      </div>
+      <div class="brand-hero__panel">
+        <span class="brand-pill">Roadmap Thesis</span>
+        <strong>不是一条“多做点功能”的路线，而是一条“平台身份变化”的路线。</strong>
+        <p>每一阶段都围绕交付能力、产品化能力、生态能力和治理能力继续上探。</p>
+      </div>
+    </div>
+  </section>
 
-`1.0` 先解决交付与可信执行，`2.0` 解决标准产品化，`3.0` 解决第三方生态，`4.0` 解决更广泛的能力包、边缘执行和设备插件治理。
+  <section class="brand-grid brand-grid--four">
+    <article class="brand-card">
+      <p class="brand-kicker">1.0</p>
+      <h2>可信 AI 执行交付版</h2>
+      <ul class="brand-list">
+        <li>一个客户一个租户</li>
+        <li>脚本注册与 Skill 映射</li>
+        <li>智能大脑推荐、确认、执行、审计</li>
+        <li>模板分发、安装、回滚、日志</li>
+        <li>免费入口和 <code>smartflow-cli</code> 最小闭环</li>
+      </ul>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">2.0</p>
+      <h2>标准产品化版</h2>
+      <ul class="brand-list">
+        <li>套餐与配额产品化</li>
+        <li>团队版产品化</li>
+        <li>模板与技能包产品化</li>
+        <li>CLI + 本地 Agent 正式产品化</li>
+        <li>订单、转化、活跃度标准化</li>
+      </ul>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">3.0</p>
+      <h2>生态开放版</h2>
+      <ul class="brand-list">
+        <li>开发者接入</li>
+        <li>模板 / 技能市场</li>
+        <li>审核与上架</li>
+        <li>API / SDK / 文档中心</li>
+        <li>第三方分发与双边生态</li>
+      </ul>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">4.0</p>
+      <h2>智能执行基础设施版</h2>
+      <ul class="brand-list">
+        <li>插件包、设备动作包、边缘能力包</li>
+        <li>统一控制面管理安装、升级、回滚、授权和审计</li>
+        <li>控制面与执行端继续收敛到同一套治理逻辑</li>
+      </ul>
+    </article>
+  </section>
 
-## `1.0`：可信 AI 执行交付版
+  <section class="brand-grid brand-grid--two">
+    <article class="brand-card">
+      <p class="brand-kicker">Why 4.0 Is Plausible</p>
+      <h2>为什么 <code>4.0</code> 不是空想</h2>
+      <ul class="brand-list">
+        <li>能力要先注册，才能被调度</li>
+        <li>执行要有权限边界和风险控制</li>
+        <li>安装、升级、回滚都要可追踪</li>
+        <li>控制面和执行端要统一治理，而不是各跑各的</li>
+      </ul>
+      <p>从这个角度看，今天的脚本注册、Skill 调度、模板安装和日志审计，都是未来设备插件和边缘能力治理的前置基础。</p>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">Open Scenarios</p>
+      <h2><code>4.0</code> 可能承接的公开场景</h2>
+      <ul class="brand-list">
+        <li>边缘节点上的任务执行</li>
+        <li>设备能力包管理</li>
+        <li>本地 Agent 与设备执行端联动</li>
+        <li>需要统一控制面的多执行端系统</li>
+      </ul>
+    </article>
+  </section>
 
-一句话：
+  <section class="brand-card">
+    <p class="brand-kicker">Product Library</p>
+    <h2><code>1.0</code> 后面可以标准化出来的产品库</h2>
+    <div class="brand-grid brand-grid--three">
+      <article class="brand-card brand-card--nested">
+        <h3>企业 AI 工作流搭建</h3>
+        <p>把现有脚本、审批和执行确认链收成正式交付包，面向中小团队快速落地。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>自动化运维中枢</h3>
+        <p>围绕任务调度、日志留痕、模板分发和本地执行桥接，形成标准化服务包。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>行业模板与数据处理包</h3>
+        <p>把高频行业脚本沉淀成模板、技能包和后续可售卖能力目录，进入 2.0 与 3.0 的连接区。</p>
+      </article>
+    </div>
+  </section>
 
-**让平台可以直接拿去交付客户、治理多租户、运营免费入口，并通过 CLI 拉通本地脚本接入。**
-
-当前版本路线已经纳入的方向：
-
-- 一个客户一个租户
-- 脚本注册与 Skill 映射
-- 智能大脑推荐、确认、执行、审计
-- 平台模板分发、安装、回滚、日志
-- 公告投放与已读状态
-- 免费用户治理台账
-- `smartflow-cli register / run` 最小闭环
-
-这一阶段的重点，不是讲最大的故事，而是让平台真实可交付、可运行、可复用。
-
-## `2.0`：标准产品化版
-
-一句话：
-
-**把交付能力和免费入口收敛成标准产品，形成免费版、团队版、企业版的正式产品阶梯。**
-
-重点包括：
-
-- 套餐与配额产品化
-- 团队版产品化
-- 模板与技能包产品化
-- CLI + 本地 Agent 正式产品化
-- 订单、转化、活跃度标准化
-- 从“项目能交付”走向“产品可标准售卖”
-
-这一阶段要解决的核心问题，是如何把已有能力包装成真正能持续运营的产品。
-
-## `3.0`：生态开放版
-
-一句话：
-
-**把平台从自营交付产品升级成可让第三方接入、审核、分发、交易、共建的生态平台。**
-
-重点包括：
-
-- 开发者接入
-- 模板 / 技能市场
-- 审核与上架
-- API / SDK / 文档中心
-- 第三方分发与双边生态
-
-这一阶段的变化，不是“再多做几个后台页面”，而是平台开始承接第三方。
-
-## `4.0`：智能执行基础设施版
-
-一句话：
-
-**把平台从“脚本与 Skill 调度系统”进一步升级成可治理更广泛能力包、边缘执行端和设备插件的智能执行基础设施。**
-
-公开规划重点包括：
-
-- 把能力单元从脚本 / Skill 继续扩展到插件包、设备动作包、边缘能力包
-- 用统一控制面管理安装、升级、回滚、授权和审计
-- 把 Web 控制面、CLI、本地 Agent、边缘节点继续收敛到同一套治理逻辑
-- 支持更复杂的执行位置，例如本地环境、边缘节点和未来的设备执行端
-- 在更高风险场景下继续坚持权限控制、规则约束、审计追踪和人工确认
-
-### 为什么 `4.0` 不是空想
-
-`4.0` 并不是重新造一个完全不同的平台，它延续的是同一套核心逻辑：
-
-- 能力要先注册，才能被调度
-- 执行要有权限边界和风险控制
-- 安装、升级、回滚都要可追踪
-- 控制面和执行端要统一治理，而不是各跑各的
-
-从这个角度看，今天的脚本注册、Skill 调度、模板安装、日志审计，都是未来设备插件和边缘能力治理的前置基础。
-
-### `4.0` 可能承接的公开场景
-
-- 边缘节点上的任务执行
-- 设备能力包管理
-- 本地 Agent 与设备执行端联动
-- 需要统一控制面的多执行端系统
-
-`4.0` 的重点不是“先做机器人故事”，而是把当前平台抽象成一套更稳定、更通用的能力治理底座。
-
-## 为什么企业线和免费版要并行
-
-只做企业线的问题：
-
-- 增长依赖人工接单
-- 用户反馈样本不足
-
-只做免费线的问题：
-
-- 交付场景不足
-- 现金流不足
-
-所以当前路线保持为：
-
-**企业交付 `1.0` 承接收入，个人免费版承接入口，两条线共用同一套可信执行底座。**
-
-## 当前公开节奏
-
-对外当前最准确的说法是：
-
-- `1.0` 是当前已经成立的交付主线
-- `2.0` 是下一阶段的标准产品化
-- `3.0` 是开发者与市场生态
-- `4.0` 是更长期的智能执行基础设施方向
+  <section class="brand-grid brand-grid--two">
+    <article class="brand-card">
+      <p class="brand-kicker">Why Both Lines</p>
+      <h2>为什么企业线和免费版要并行</h2>
+      <ul class="brand-list">
+        <li>只做企业线：增长依赖人工接单，用户反馈样本不足</li>
+        <li>只做免费线：交付场景不足，现金流不足</li>
+        <li>所以当前路线保持为：企业交付 <code>1.0</code> 承接收入，个人免费版承接入口，两条线共用同一套可信执行底座</li>
+      </ul>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">Current Rhythm</p>
+      <h2>当前公开节奏</h2>
+      <ul class="brand-list">
+        <li><code>1.0</code> 是当前已经成立的交付主线</li>
+        <li><code>2.0</code> 是下一阶段的标准产品化</li>
+        <li><code>3.0</code> 是开发者与市场生态</li>
+        <li><code>4.0</code> 是更长期的智能执行基础设施方向</li>
+      </ul>
+    </article>
+  </section>
+</div>

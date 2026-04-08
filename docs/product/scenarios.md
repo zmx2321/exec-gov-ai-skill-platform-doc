@@ -1,85 +1,146 @@
-# 应用场景
+---
+aside: false
+outline: false
+lastUpdated: false
+---
 
-SmartFlow 不是一个抽象概念站点，它适合解决的是“真实任务如何被 AI 安全调度执行”的问题。
+<div class="brand-page-shell">
+  <section class="brand-hero">
+    <div>
+      <p class="brand-kicker">Scenarios</p>
+      <h1>应用场景</h1>
+      <p class="brand-lead">
+        SmartFlow 不是抽象概念站点，它解决的是
+        <strong>真实任务如何被 AI 安全调度执行</strong>。
+        场景越真实，这套平台的边界和价值就越清楚。
+      </p>
+      <div class="brand-chip-list">
+        <span class="brand-chip">企业内部自动化</span>
+        <span class="brand-chip">多客户交付</span>
+        <span class="brand-chip">个人入口</span>
+        <span class="brand-chip">混合执行</span>
+      </div>
+      <div class="brand-actions">
+        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">预约场景演示</a>
+        <a class="cta-button" href="./capabilities.html">查看核心能力</a>
+      </div>
+    </div>
+    <div class="brand-hero__media">
+      <div class="matrix-panel matrix-panel--contact">
+        <div class="matrix-panel__hud">
+          <span>SMARTFLOW // SCENARIO MAP</span>
+          <span>DOC 02</span>
+        </div>
+        <div class="matrix-panel__canvas">
+          <div class="matrix-panel__trace matrix-panel__trace--top"></div>
+          <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
+          <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
+          <div class="matrix-panel__stack">
+            <span>enterprise_internal_automation</span>
+            <span>multi_customer_delivery</span>
+            <span>personal_entry / local_hybrid / template_ops</span>
+          </div>
+          <div class="matrix-panel__callout">SCENARIOS SHOULD MAP TO REAL REVENUE</div>
+        </div>
+        <div class="matrix-panel__footer">
+          <span>fit: delivery</span>
+          <span>fit: product</span>
+          <span>fit: local execution</span>
+        </div>
+      </div>
+      <div class="brand-hero__panel">
+        <span class="brand-pill">Usage Thesis</span>
+        <strong>不是让 AI 多说一点，而是让任务真正落地。</strong>
+        <p>每个场景都围绕“入口、确认、执行、留痕、治理”这条主链路展开。</p>
+      </div>
+    </div>
+  </section>
 
-## 1. 企业内部自动化
+  <section class="brand-grid brand-grid--three">
+    <article class="brand-card">
+      <p class="brand-kicker">01</p>
+      <h2>企业内部自动化</h2>
+      <ul class="brand-list">
+        <li>已有 Python / 自动化脚本，但使用方式分散</li>
+        <li>希望把脚本收成统一入口，而不是每个人手工跑环境</li>
+        <li>需要执行可留痕、可确认、可审计</li>
+        <li>适合数据整理、批量处理、周期报表、规则型触发任务</li>
+      </ul>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">02</p>
+      <h2>多客户交付型平台</h2>
+      <ul class="brand-list">
+        <li>一个客户一套隔离环境</li>
+        <li>平台方统一管理客户、模板、日志和公告</li>
+        <li>同一套底座持续复制到多个客户</li>
+        <li>重点是“租户边界清晰 + 平台能治理”，不是把所有客户混在一个后台里</li>
+      </ul>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">03</p>
+      <h2>个人开发者与小团队入口</h2>
+      <ul class="brand-list">
+        <li>把本地脚本整理成可描述、可调用的能力</li>
+        <li>用统一入口展示和运行自己的工具</li>
+        <li>用 CLI 把本地脚本接入平台</li>
+        <li>既是体验入口，也是后续团队协作的升级入口</li>
+      </ul>
+    </article>
+  </section>
 
-适合这类团队：
+  <section class="brand-grid brand-grid--three">
+    <article class="brand-card">
+      <p class="brand-kicker">04</p>
+      <h2>混合执行与本地接入</h2>
+      <ul class="brand-list">
+        <li>任务涉及本地文件目录</li>
+        <li>依赖内网资源、私有数据源或本地网络环境</li>
+        <li>Web 端负责入口、规划、确认和留痕</li>
+        <li>本地环境与 CLI / Agent 负责真实执行</li>
+      </ul>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">05</p>
+      <h2>平台治理与模板运营</h2>
+      <ul class="brand-list">
+        <li>模板分发</li>
+        <li>公告投放</li>
+        <li>客户与租户治理</li>
+        <li>平台审计、版本回滚和运营台账</li>
+      </ul>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">06</p>
+      <h2>未来边缘与设备场景</h2>
+      <ul class="brand-list">
+        <li>边缘节点上的任务执行</li>
+        <li>本地设备能力包管理</li>
+        <li>设备动作模板与受控触发</li>
+        <li>Web 控制面统一管理不同执行端</li>
+      </ul>
+    </article>
+  </section>
 
-- 已经有 Python / 自动化脚本，但使用方式还很分散
-- 想把脚本接成统一入口，而不是每个人都手工跑环境
-- 需要执行可留痕、可确认、可审计
-
-典型任务：
-
-- 数据整理与批量处理
-- 周期性报表生成
-- 文件转换、抽取、聚合
-- 规则型内容处理与通知触发
-
-## 2. 多客户交付型平台
-
-适合这类交付模式：
-
-- 一个客户一套隔离环境
-- 平台方统一管理客户、模板、日志和公告
-- 同一套底座持续复制到多个客户
-
-这类场景里，重点不是“一个后台做很多功能”，而是：
-
-- 每个客户有自己的访问入口
-- 每个客户的数据和能力边界清晰
-- 平台方能统一治理，但不把租户混在一起
-
-## 3. 个人开发者与小团队入口
-
-SmartFlow 也适合作为个人开发者和小团队的能力整理入口：
-
-- 把本地脚本整理成可描述、可调用的能力
-- 用统一入口展示和运行自己的工具
-- 用 CLI 把本地脚本接入平台
-
-这条线的价值在于：
-
-- 它既是体验入口，也是产品化入口
-- 它能沉淀真实的使用样本和高频问题
-- 它能承接从个人使用到团队协作的升级路径
-
-## 4. 混合执行与本地接入
-
-有些任务不适合全部放到云端执行，例如：
-
-- 涉及本地文件目录
-- 依赖本地网络环境
-- 依赖内网资源或私有数据源
-
-这时可以采用混合模式：
-
-- Web 端负责入口、规划、确认和留痕
-- 本地环境负责真实执行
-- CLI / Agent 负责连接本地与平台
-
-## 5. 平台治理与模板运营
-
-如果你的目标不只是“自己跑脚本”，而是长期运营一套平台，这类能力会非常关键：
-
-- 模板分发
-- 公告投放
-- 客户与租户治理
-- 平台审计
-- 版本回滚
-
-这也是 SmartFlow 和单点脚本工具最大的区别之一。
-
-## 6. 面向未来的设备与边缘场景
-
-从平台路线看，SmartFlow 的长期目标不只停留在软件脚本。
-
-未来可延伸的场景包括：
-
-- 边缘节点上的任务执行
-- 本地设备能力包管理
-- 设备动作模板与受控触发
-- Web 控制面统一管理不同执行端
-
-这也是 `4.0` 路线的重要来源：从“脚本调度”继续演进到“能力包与设备插件调度”。
+  <section class="brand-card">
+    <p class="brand-kicker">How To Judge Fit</p>
+    <h2>如果你属于下面任一类，SmartFlow 的场景匹配度就很高</h2>
+    <div class="brand-link-grid">
+      <a class="brand-link-card" href="./capabilities.html">
+        <span>Capability Fit</span>
+        <strong>你已经有脚本，但没有统一治理</strong>
+        <p>继续看核心能力，确认多租户、执行闭环和模板治理是否契合。</p>
+      </a>
+      <a class="brand-link-card" href="./deployment.html">
+        <span>Deployment Fit</span>
+        <strong>你担心本地环境、内网或混合执行</strong>
+        <p>继续看部署方式，理解平台如何把控制面和执行端拆开治理。</p>
+      </a>
+      <a class="brand-link-card" href="../contact.html#lead-form">
+        <span>Lead Fit</span>
+        <strong>你想直接拿真实场景来沟通</strong>
+        <p>直接提交试用 / 演示线索，比空泛介绍更高效。</p>
+      </a>
+    </div>
+  </section>
+</div>

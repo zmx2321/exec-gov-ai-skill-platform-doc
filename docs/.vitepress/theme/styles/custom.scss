@@ -61,6 +61,41 @@
   --smartflow-toggle-bg: rgba(255, 255, 255, 0.9);
   --smartflow-toggle-border: rgba(15, 23, 42, 0.12);
   --smartflow-inner-highlight: rgba(255, 255, 255, 0.9);
+  --smartflow-matrix-border: rgba(15, 118, 110, 0.14);
+  --smartflow-matrix-bg:
+    radial-gradient(circle at top right, rgba(37, 99, 235, 0.14), transparent 34%),
+    linear-gradient(180deg, rgba(248, 252, 252, 0.98), rgba(233, 242, 245, 0.96));
+  --smartflow-matrix-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.96), 0 22px 60px rgba(15, 23, 42, 0.12);
+  --smartflow-matrix-grid: rgba(15, 118, 110, 0.05);
+  --smartflow-matrix-inner-border: rgba(15, 118, 110, 0.11);
+  --smartflow-matrix-hud: rgba(12, 95, 89, 0.78);
+  --smartflow-matrix-footer: rgba(12, 95, 89, 0.58);
+  --smartflow-matrix-canvas-border: rgba(15, 118, 110, 0.11);
+  --smartflow-matrix-canvas-bg:
+    radial-gradient(circle at 62% 48%, rgba(15, 118, 110, 0.12), transparent 24%),
+    radial-gradient(circle at 78% 28%, rgba(37, 99, 235, 0.16), transparent 28%),
+    linear-gradient(180deg, rgba(246, 251, 252, 0.98), rgba(232, 241, 245, 0.96));
+  --smartflow-matrix-scan: rgba(15, 118, 110, 0.04);
+  --smartflow-matrix-canvas-inner-border: rgba(15, 118, 110, 0.08);
+  --smartflow-matrix-trace: linear-gradient(90deg, rgba(15, 118, 110, 0), rgba(15, 118, 110, 0.72), rgba(37, 99, 235, 0.28));
+  --smartflow-matrix-trace-shadow: 0 0 18px rgba(15, 118, 110, 0.12);
+  --smartflow-matrix-node: #0f766e;
+  --smartflow-matrix-node-shadow: 0 0 10px rgba(15, 118, 110, 0.18);
+  --smartflow-matrix-ring-border: rgba(37, 99, 235, 0.56);
+  --smartflow-matrix-ring-shadow: 0 0 34px rgba(37, 99, 235, 0.12);
+  --smartflow-matrix-ring-top: rgba(37, 99, 235, 0.7);
+  --smartflow-matrix-ring-left: rgba(15, 118, 110, 0.26);
+  --smartflow-matrix-ring-inner: rgba(15, 118, 110, 0.3);
+  --smartflow-matrix-glyph: #0f766e;
+  --smartflow-matrix-glyph-shadow: 0 0 16px rgba(15, 118, 110, 0.14), 0 0 28px rgba(37, 99, 235, 0.12);
+  --smartflow-matrix-bolt: linear-gradient(180deg, #2dd4bf, #22c1dc 52%, #4f6fff 100%);
+  --smartflow-matrix-bolt-shadow: drop-shadow(0 0 8px rgba(15, 118, 110, 0.16)) drop-shadow(0 0 18px rgba(37, 99, 235, 0.16));
+  --smartflow-matrix-callout-border: rgba(37, 99, 235, 0.18);
+  --smartflow-matrix-callout-bg: rgba(255, 255, 255, 0.76);
+  --smartflow-matrix-callout-color: rgba(30, 41, 59, 0.72);
+  --smartflow-matrix-stack-border: rgba(15, 118, 110, 0.12);
+  --smartflow-matrix-stack-bg: rgba(255, 255, 255, 0.72);
+  --smartflow-matrix-stack-color: rgba(12, 95, 89, 0.8);
 }
 
 html {
@@ -128,6 +163,41 @@ html:not(.dark) {
   --smartflow-toggle-bg: rgba(3, 12, 10, 0.92);
   --smartflow-toggle-border: rgba(0, 245, 140, 0.22);
   --smartflow-inner-highlight: rgba(0, 245, 140, 0.06);
+  --smartflow-matrix-border: rgba(0, 245, 140, 0.14);
+  --smartflow-matrix-bg:
+    radial-gradient(circle at top right, rgba(93, 124, 255, 0.18), transparent 34%),
+    linear-gradient(180deg, rgba(4, 13, 11, 0.98), rgba(2, 8, 7, 0.98));
+  --smartflow-matrix-shadow: inset 0 1px 0 rgba(126, 248, 209, 0.06), 0 26px 64px rgba(0, 0, 0, 0.34);
+  --smartflow-matrix-grid: rgba(0, 245, 140, 0.04);
+  --smartflow-matrix-inner-border: rgba(0, 245, 140, 0.12);
+  --smartflow-matrix-hud: rgba(126, 248, 209, 0.76);
+  --smartflow-matrix-footer: rgba(177, 227, 213, 0.62);
+  --smartflow-matrix-canvas-border: rgba(0, 245, 140, 0.12);
+  --smartflow-matrix-canvas-bg:
+    radial-gradient(circle at 62% 48%, rgba(0, 245, 140, 0.16), transparent 24%),
+    radial-gradient(circle at 78% 28%, rgba(93, 124, 255, 0.24), transparent 28%),
+    linear-gradient(180deg, rgba(4, 13, 11, 0.98), rgba(2, 8, 7, 0.98));
+  --smartflow-matrix-scan: rgba(0, 245, 140, 0.038);
+  --smartflow-matrix-canvas-inner-border: rgba(0, 245, 140, 0.09);
+  --smartflow-matrix-trace: linear-gradient(90deg, rgba(0, 245, 140, 0), rgba(0, 245, 140, 0.86), rgba(0, 228, 255, 0.24));
+  --smartflow-matrix-trace-shadow: 0 0 18px rgba(0, 245, 140, 0.22);
+  --smartflow-matrix-node: #7ef8d1;
+  --smartflow-matrix-node-shadow: 0 0 12px rgba(0, 245, 140, 0.28);
+  --smartflow-matrix-ring-border: rgba(0, 228, 255, 0.72);
+  --smartflow-matrix-ring-shadow: 0 0 34px rgba(0, 228, 255, 0.14);
+  --smartflow-matrix-ring-top: rgba(93, 124, 255, 0.92);
+  --smartflow-matrix-ring-left: rgba(0, 245, 140, 0.3);
+  --smartflow-matrix-ring-inner: rgba(126, 248, 209, 0.38);
+  --smartflow-matrix-glyph: #6ef3ff;
+  --smartflow-matrix-glyph-shadow: 0 0 16px rgba(0, 228, 255, 0.28), 0 0 36px rgba(93, 124, 255, 0.2);
+  --smartflow-matrix-bolt: linear-gradient(180deg, #7ef8d1, #00e4ff 52%, #7c5cff 100%);
+  --smartflow-matrix-bolt-shadow: drop-shadow(0 0 10px rgba(0, 245, 140, 0.32)) drop-shadow(0 0 22px rgba(0, 228, 255, 0.2));
+  --smartflow-matrix-callout-border: rgba(93, 124, 255, 0.24);
+  --smartflow-matrix-callout-bg: rgba(6, 14, 26, 0.62);
+  --smartflow-matrix-callout-color: rgba(210, 231, 255, 0.78);
+  --smartflow-matrix-stack-border: rgba(0, 245, 140, 0.12);
+  --smartflow-matrix-stack-bg: rgba(4, 16, 12, 0.62);
+  --smartflow-matrix-stack-color: rgba(216, 255, 245, 0.82);
 }
 
 body {
@@ -606,7 +676,9 @@ body {
 }
 
 .landing-shell {
-  width: min(var(--smartflow-layout-max), calc(100vw - (var(--smartflow-page-gap) * 2)));
+  width: 100%;
+  max-width: var(--smartflow-layout-max);
+  box-sizing: border-box;
   margin: 52px auto 110px;
 }
 
@@ -953,6 +1025,8 @@ body {
   color: var(--smartflow-title);
   text-decoration: none;
   font-weight: 600;
+  font: inherit;
+  cursor: pointer;
   transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
 
@@ -967,7 +1041,9 @@ body {
 }
 
 .brand-page-shell {
-  width: min(var(--smartflow-layout-max), calc(100vw - (var(--smartflow-page-gap) * 2)));
+  width: 100%;
+  max-width: var(--smartflow-layout-max);
+  box-sizing: border-box;
   margin: 36px auto 110px;
 }
 
@@ -1015,17 +1091,91 @@ body {
   text-transform: uppercase;
 }
 
+.lead-form {
+  display: grid;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.lead-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.lead-field {
+  display: grid;
+  gap: 8px;
+  min-width: 0;
+}
+
+.lead-field span {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--smartflow-title);
+}
+
+.lead-field input,
+.lead-field select,
+.lead-field textarea {
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  padding: 14px 16px;
+  border: 1px solid var(--smartflow-line-strong);
+  border-radius: 18px;
+  background: var(--smartflow-panel-subtle);
+  color: var(--smartflow-title);
+  font: inherit;
+  line-height: 1.6;
+  box-shadow: inset 0 1px 0 var(--smartflow-inner-highlight);
+}
+
+.lead-field input::placeholder,
+.lead-field textarea::placeholder {
+  color: var(--smartflow-copy-soft);
+}
+
+.lead-field textarea {
+  resize: vertical;
+}
+
+.lead-form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.lead-form-note {
+  margin: 14px 0 0;
+  color: var(--smartflow-copy-soft);
+  font-size: 0.92rem;
+  line-height: 1.85;
+}
+
+.lead-form-note a {
+  color: var(--smartflow-link);
+  text-decoration: none;
+}
+
+.brand-link-card strong,
+.brand-link-card p,
+.matrix-panel__hud span,
+.matrix-panel__footer span,
+.matrix-panel__stack span {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
 .matrix-panel {
   position: relative;
   display: grid;
   gap: 16px;
   padding: 18px;
-  border: 1px solid rgba(0, 245, 140, 0.14);
+  border: 1px solid var(--smartflow-matrix-border);
   border-radius: 28px;
-  background:
-    radial-gradient(circle at top right, rgba(93, 124, 255, 0.18), transparent 34%),
-    linear-gradient(180deg, rgba(4, 13, 11, 0.98), rgba(2, 8, 7, 0.98));
-  box-shadow: inset 0 1px 0 rgba(126, 248, 209, 0.06), 0 26px 64px rgba(0, 0, 0, 0.34);
+  background: var(--smartflow-matrix-bg);
+  box-shadow: var(--smartflow-matrix-shadow);
   overflow: hidden;
 }
 
@@ -1033,8 +1183,8 @@ body {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, rgba(0, 245, 140, 0.04) 1px, transparent 1px),
-    linear-gradient(rgba(0, 245, 140, 0.04) 1px, transparent 1px);
+    linear-gradient(90deg, var(--smartflow-matrix-grid) 1px, transparent 1px),
+    linear-gradient(var(--smartflow-matrix-grid) 1px, transparent 1px);
   background-size: 18px 18px;
   content: "";
   opacity: 0.36;
@@ -1044,7 +1194,7 @@ body {
 .matrix-panel::after {
   position: absolute;
   inset: 14px;
-  border: 1px solid rgba(0, 245, 140, 0.12);
+  border: 1px solid var(--smartflow-matrix-inner-border);
   border-radius: 22px;
   content: "";
   pointer-events: none;
@@ -1062,30 +1212,27 @@ body {
   font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: rgba(126, 248, 209, 0.76);
+  color: var(--smartflow-matrix-hud);
 }
 
 .matrix-panel__footer {
-  color: rgba(177, 227, 213, 0.62);
+  color: var(--smartflow-matrix-footer);
   letter-spacing: 0.08em;
 }
 
 .matrix-panel__canvas {
   position: relative;
   min-height: 320px;
-  border: 1px solid rgba(0, 245, 140, 0.12);
+  border: 1px solid var(--smartflow-matrix-canvas-border);
   border-radius: 22px;
-  background:
-    radial-gradient(circle at 62% 48%, rgba(0, 245, 140, 0.16), transparent 24%),
-    radial-gradient(circle at 78% 28%, rgba(93, 124, 255, 0.24), transparent 28%),
-    linear-gradient(180deg, rgba(4, 13, 11, 0.98), rgba(2, 8, 7, 0.98));
+  background: var(--smartflow-matrix-canvas-bg);
   overflow: hidden;
 }
 
 .matrix-panel__canvas::before {
   position: absolute;
   inset: 0;
-  background: repeating-linear-gradient(180deg, rgba(0, 245, 140, 0.038) 0 1px, transparent 1px 18px);
+  background: repeating-linear-gradient(180deg, var(--smartflow-matrix-scan) 0 1px, transparent 1px 18px);
   content: "";
   opacity: 0.58;
 }
@@ -1093,7 +1240,7 @@ body {
 .matrix-panel__canvas::after {
   position: absolute;
   inset: 16px;
-  border: 1px solid rgba(0, 245, 140, 0.09);
+  border: 1px solid var(--smartflow-matrix-canvas-inner-border);
   border-radius: 18px;
   content: "";
 }
@@ -1102,8 +1249,8 @@ body {
   position: absolute;
   left: 24px;
   height: 2px;
-  background: linear-gradient(90deg, rgba(0, 245, 140, 0), rgba(0, 245, 140, 0.86), rgba(0, 228, 255, 0.24));
-  box-shadow: 0 0 18px rgba(0, 245, 140, 0.22);
+  background: var(--smartflow-matrix-trace);
+  box-shadow: var(--smartflow-matrix-trace-shadow);
   z-index: 1;
 }
 
@@ -1114,8 +1261,8 @@ body {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #7ef8d1;
-  box-shadow: 0 0 12px rgba(0, 245, 140, 0.28);
+  background: var(--smartflow-matrix-node);
+  box-shadow: var(--smartflow-matrix-node-shadow);
   content: "";
 }
 
@@ -1141,9 +1288,9 @@ body {
   width: 196px;
   height: 196px;
   transform: translate(-50%, -50%);
-  border: 3px solid rgba(0, 228, 255, 0.72);
+  border: 3px solid var(--smartflow-matrix-ring-border);
   border-radius: 50%;
-  box-shadow: 0 0 34px rgba(0, 228, 255, 0.14);
+  box-shadow: var(--smartflow-matrix-ring-shadow);
   z-index: 2;
 }
 
@@ -1151,10 +1298,10 @@ body {
   position: absolute;
   inset: -14px;
   border-radius: 50%;
-  border-top: 3px solid rgba(93, 124, 255, 0.92);
+  border-top: 3px solid var(--smartflow-matrix-ring-top);
   border-right: 3px solid transparent;
   border-bottom: 3px solid transparent;
-  border-left: 3px solid rgba(0, 245, 140, 0.3);
+  border-left: 3px solid var(--smartflow-matrix-ring-left);
   content: "";
   transform: rotate(18deg);
 }
@@ -1162,7 +1309,7 @@ body {
 .matrix-panel__ring::after {
   position: absolute;
   inset: 24px;
-  border: 2px solid rgba(126, 248, 209, 0.38);
+  border: 2px solid var(--smartflow-matrix-ring-inner);
   border-radius: 50%;
   content: "";
 }
@@ -1176,8 +1323,8 @@ body {
   font-size: clamp(2.8rem, 5vw, 4.6rem);
   font-weight: 800;
   letter-spacing: -0.08em;
-  color: #6ef3ff;
-  text-shadow: 0 0 16px rgba(0, 228, 255, 0.28), 0 0 36px rgba(93, 124, 255, 0.2);
+  color: var(--smartflow-matrix-glyph);
+  text-shadow: var(--smartflow-matrix-glyph-shadow);
 }
 
 .matrix-panel__bolt {
@@ -1187,9 +1334,9 @@ body {
   z-index: 4;
   width: 44px;
   height: 92px;
-  background: linear-gradient(180deg, #7ef8d1, #00e4ff 52%, #7c5cff 100%);
+  background: var(--smartflow-matrix-bolt);
   clip-path: polygon(54% 0%, 100% 0%, 58% 46%, 86% 46%, 18% 100%, 42% 58%, 12% 58%);
-  filter: drop-shadow(0 0 10px rgba(0, 245, 140, 0.32)) drop-shadow(0 0 22px rgba(0, 228, 255, 0.2));
+  filter: var(--smartflow-matrix-bolt-shadow);
 }
 
 .matrix-panel__callout {
@@ -1199,13 +1346,13 @@ body {
   z-index: 3;
   padding: 10px 12px;
   border-radius: 14px;
-  border: 1px solid rgba(93, 124, 255, 0.24);
-  background: rgba(6, 14, 26, 0.62);
+  border: 1px solid var(--smartflow-matrix-callout-border);
+  background: var(--smartflow-matrix-callout-bg);
   font-family: var(--smartflow-mono-font);
   font-size: 0.74rem;
   font-weight: 700;
   letter-spacing: 0.08em;
-  color: rgba(210, 231, 255, 0.78);
+  color: var(--smartflow-matrix-callout-color);
 }
 
 .matrix-panel__stack {
@@ -1220,12 +1367,12 @@ body {
   display: block;
   padding: 10px 12px;
   border-radius: 14px;
-  border: 1px solid rgba(0, 245, 140, 0.12);
-  background: rgba(4, 16, 12, 0.62);
+  border: 1px solid var(--smartflow-matrix-stack-border);
+  background: var(--smartflow-matrix-stack-bg);
   font-family: var(--smartflow-mono-font);
   font-size: 0.8rem;
   line-height: 1.55;
-  color: rgba(216, 255, 245, 0.82);
+  color: var(--smartflow-matrix-stack-color);
 }
 
 .matrix-panel--contact .matrix-panel__canvas {
@@ -1301,12 +1448,14 @@ body {
   .brand-grid--four,
   .brand-card__row,
   .brand-link-grid,
-  .brand-direction-grid {
+  .brand-direction-grid,
+  .lead-form-grid {
     grid-template-columns: 1fr;
   }
 
   .cta-actions,
-  .brand-actions {
+  .brand-actions,
+  .lead-form-actions {
     justify-content: flex-start;
   }
 
@@ -1379,7 +1528,8 @@ body {
 
   .landing-inline-links,
   .cta-actions,
-  .brand-actions {
+  .brand-actions,
+  .lead-form-actions {
     flex-direction: column;
     align-items: stretch;
   }

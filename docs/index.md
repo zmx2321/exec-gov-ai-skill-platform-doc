@@ -7,17 +7,17 @@ hero:
   tagline: 企业级业务自动化与安全执行系统。复杂工作，简单对话；私有部署，安全省人。
   actions:
     - theme: brand
+      text: 申请免费试用
+      link: /contact#lead-form
+    - theme: alt
+      text: 预约团队版演示
+      link: /contact#lead-form
+    - theme: alt
       text: 产品概览
       link: /product/
     - theme: alt
-      text: 应用场景
-      link: /product/scenarios
-    - theme: alt
       text: 部署方式
       link: /product/deployment
-    - theme: alt
-      text: 联系我
-      link: /contact
 
 features:
   - title: 多租户治理
@@ -35,14 +35,16 @@ features:
     <div class="landing-brand">
       <div class="landing-brand__copy">
         <p class="landing-kicker">Brand Signal</p>
-        <h2>把 Logo 从“摆一个图”改成品牌信号面板</h2>
+        <h2>首页先承接转化，再解释平台能力</h2>
         <p class="landing-lead">
           “智流”对应的是 <strong>智能调度</strong>、<strong>经验资产化</strong> 和 <strong>安全可控执行</strong>。
-          首页不再直接把它当作默认插画，而是把它放进一个更像控制台节点的品牌区，视觉上也更稳定。
+          这个首页不再把视觉主区只当作介绍位，而是明确承接
+          <strong>免费试用</strong>、<strong>团队演示</strong> 和 <strong>企业私有化咨询</strong> 三条转化路径。
         </p>
         <div class="landing-brand__chips">
+          <span>申请试用</span>
+          <span>预约演示</span>
           <span>智能调度</span>
-          <span>经验资产化</span>
           <span>安全可控</span>
           <span>Open &amp; Secure</span>
         </div>
@@ -69,9 +71,9 @@ features:
           </div>
         </div>
         <div class="landing-brand__meta">
-          <span class="link-panel-label">Brand</span>
+          <span class="link-panel-label">Primary CTA</span>
           <strong>智流·智能执行平台</strong>
-          <p>一个用 AI 调度脚本与执行能力的平台，复杂工作一句话搞定。</p>
+          <p>先让访客知道如何开始：体验、试用、演示、升级，而不是只看到“联系我”。</p>
         </div>
       </div>
     </div>
@@ -113,6 +115,39 @@ features:
 
   <section class="landing-band">
     <div class="landing-section-head">
+      <p class="landing-kicker">Commercial Route</p>
+      <h2>官网直接服务三层商业路径</h2>
+      <p class="landing-lead">
+        免费版先让价值被低门槛感知，团队版承接协作和标准订阅，企业版承接私有化与正式交付。
+        这不是三套分裂产品，而是一套平台的三种商业入口。
+      </p>
+    </div>
+    <div class="landing-grid landing-grid--three">
+      <article class="mode-card">
+        <span class="link-panel-label">Free</span>
+        <h3>免费版 / 社区技能</h3>
+        <p>面向开发者和个体用户，先体验平台价值、沉淀真实脚本样本，并为社区技能与生态入口蓄水。</p>
+      </article>
+      <article class="mode-card">
+        <span class="link-panel-label">Team</span>
+        <h3>团队版 SaaS</h3>
+        <p>承接多人协作、共享技能、审批、权限控制和更稳定的标准化产品订阅，是当前最直接的增长主线。</p>
+      </article>
+      <article class="mode-card">
+        <span class="link-panel-label">Enterprise</span>
+        <h3>企业版 / 私有化</h3>
+        <p>面向更重的安全、审计、内网、本地 Agent 和正式交付需求，用专业深度建立高端可信形象。</p>
+      </article>
+    </div>
+    <div class="landing-inline-links">
+      <a href="./contact.html#lead-form">申请免费试用</a>
+      <a href="./contact.html#lead-form">预约团队版演示</a>
+      <a href="./product/editions.html">查看版本路线</a>
+    </div>
+  </section>
+
+  <section class="landing-band">
+    <div class="landing-section-head">
       <p class="landing-kicker">Identity</p>
       <h2>项目名与产品名</h2>
       <p class="landing-lead">
@@ -133,6 +168,44 @@ features:
         <p><strong>副标题：</strong>企业级业务自动化与安全执行系统</p>
         <p><strong>Slogan：</strong>复杂工作，简单对话；私有部署，安全省人。</p>
         <p>一个用 AI 调度脚本的平台，复杂工作一句话搞定。</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="landing-band landing-band--overview">
+    <div class="landing-section-head">
+      <p class="landing-kicker">Founder Note</p>
+      <h2>谁在构建智流，为什么这套平台值得继续聊</h2>
+      <p class="landing-lead">
+        智流由一位拥有 <strong>10+ 年政企交付经验</strong> 的独立架构师持续打造。
+        当前项目已经不是概念稿，而是同时具备 <strong>多租户治理</strong>、<strong>可审计执行</strong>、
+        <strong>免费线索入口</strong> 和 <strong>CLI / 本地执行演进路径</strong> 的真实工程底座。
+      </p>
+      <div class="landing-inline-links">
+        <a href="./contact.html#lead-form">继续沟通合作</a>
+        <a href="https://zmx2321.github.io/vite-blog" target="_blank" rel="noreferrer">查看公开博客</a>
+      </div>
+    </div>
+    <div class="landing-metrics">
+      <article class="metric-card">
+        <span class="metric-value">10+</span>
+        <span class="metric-label">年交付与架构视角</span>
+        <p>从脚本接入、权限、审计、部署到多租户治理，平台不是只做一个漂亮前台。</p>
+      </article>
+      <article class="metric-card">
+        <span class="metric-value">public + tenant</span>
+        <span class="metric-label">治理边界先成立</span>
+        <p>平台总控、客户租户、模板分发、审计日志和台账已经形成正式边界。</p>
+      </article>
+      <article class="metric-card">
+        <span class="metric-value">Web + CLI</span>
+        <span class="metric-label">执行端继续扩展</span>
+        <p>今天先打通网页控制面和本地接入，未来继续延展到 Agent、边缘节点和设备端。</p>
+      </article>
+      <article class="metric-card">
+        <span class="metric-value">Free → Team → Enterprise</span>
+        <span class="metric-label">商业路径清晰</span>
+        <p>免费版承接入口，团队版承接订阅，企业版承接高价值交付，官网直接为这条路径服务。</p>
       </article>
     </div>
   </section>
@@ -272,14 +345,16 @@ features:
     <div class="cta-card">
       <div>
         <p class="landing-kicker">Contact</p>
-        <h2>如果你在做企业交付、工具产品或本地执行能力接入，这里可以快速了解 SmartFlow 并进一步沟通。</h2>
+        <h2>现在开放免费线索申请、团队版演示预约和企业版私有化咨询。</h2>
         <p class="landing-lead">
-          你可以从这里了解平台定位、核心能力、部署方式、版本路线，以及如何联系我继续交流合作。
+          如果你在做企业交付、自动化平台、本地执行能力接入，或者希望把已有脚本整理成正式产品，
+          这里就是当前最直接的入口。
         </p>
       </div>
       <div class="cta-actions">
-        <a class="cta-button cta-button--brand" href="./contact.html">联系我</a>
-        <a class="cta-button" href="https://zmx2321.github.io/vite-blog" target="_blank" rel="noreferrer">访问我的博客</a>
+        <a class="cta-button cta-button--brand" href="./contact.html#lead-form">申请免费试用</a>
+        <a class="cta-button" href="./contact.html#lead-form">预约团队版演示</a>
+        <a class="cta-button" href="https://github.com/zmx2321" target="_blank" rel="noreferrer">查看 GitHub</a>
       </div>
     </div>
   </section>
