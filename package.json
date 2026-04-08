@@ -1,0 +1,30 @@
+{
+  "name": "smart-flow-ai-skill-platform-doc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SmartFlow 平台文档站",
+  "scripts": {
+    "dev": "vitepress dev docs --host 0.0.0.0 --port 7080",
+    "docs:dev": "npm run dev",
+    "build": "vitepress build docs",
+    "docs:build": "npm run build",
+    "preview": "vitepress preview docs --host 0.0.0.0 --port 8080",
+    "docs:preview": "npm run preview",
+    "clean": "rm -rf docs/.vitepress/dist docs/.vitepress/cache docs/.vitepress/.temp",
+    "main": "bash ./main.sh",
+    "deploy": "bash ./deploy.sh"
+  },
+  "keywords": [
+    "vitepress",
+    "smartflow",
+    "docs"
+  ],
+  "author": "zmx2321",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "sass": "^1.68.0",
+    "vitepress": "1.0.0-rc.20",
+    "vue": "^3.3.4"
+  }
+}
