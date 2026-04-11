@@ -16,7 +16,7 @@ lastUpdated: false
       </div>
       <p class="brand-lead">
         核心定位可以概括为：
-        <strong>10+ 年前端 / GIS / 可视化交付经验，近两年补强 Python 自动化与中小型后台支撑。</strong>
+        <strong>8 年前端 / GIS / 可视化交付经验，近 2 年补强 Python 自动化与中小型后台支撑。</strong>
         适合需要把页面、流程和脚本能力打通成可交付结果的项目。
       </p>
       <div class="brand-chip-list">
@@ -93,7 +93,7 @@ lastUpdated: false
       <ul class="brand-list">
         <li>GIS 前端开发与地图业务页</li>
         <li>数据可视化前端与大屏项目</li>
-        <li>Vue 中后台 / 前端偏全栈交付</li>
+        <li>Vue 中后台 / 前端主导的小型闭环交付</li>
         <li>Python 自动化 / 报表与数据处理</li>
       </ul>
     </article>
@@ -103,7 +103,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Value 01</p>
       <h2>交付经验稳定</h2>
-      <p>10+ 年前端开发经验，长期参与政企数字化、GIS 可视化、大屏和后台管理系统项目，具备真实项目落地经验。</p>
+      <p>8 年前端开发经验，长期参与政企数字化、GIS 可视化、大屏和后台管理系统项目，具备真实项目落地经验。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Value 02</p>

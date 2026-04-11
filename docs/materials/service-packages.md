@@ -102,7 +102,7 @@ lastUpdated: false
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Not A Good Start</p>
-      <h2>当前不建议一上来就做的事</h2>
+      <h2>当前不建议直接启动的事项</h2>
       <ul class="brand-list">
         <li>大而全平台定制，没有明确第一阶段边界</li>
         <li>只想做一个“AI 聊天壳”，没有真实执行场景</li>
@@ -127,7 +127,7 @@ lastUpdated: false
         <tr>
           <td>01</td>
           <td>先说清当前最痛的流程名称</td>
-          <td>避免一开始就把需求谈成大而空的方向</td>
+          <td>避免一开始就把需求谈得过大、过空</td>
         </tr>
         <tr>
           <td>02</td>

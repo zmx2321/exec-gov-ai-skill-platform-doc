@@ -12,7 +12,7 @@ lastUpdated: false
       <div class="brand-hero__panel">
         <span class="brand-pill">Capability Logic</span>
         <strong>重点不是会不会执行，而是能不能在规则里执行。</strong>
-        <p>这些能力共同决定平台能不能先解决一类真实问题，并且后面少返工。</p>
+        <p>这些能力共同决定平台能不能先解决一类真实问题，并减少后续返工。</p>
       </div>
       <p class="brand-lead">
         ExecGov 的核心能力不是零散功能点，而是一套围绕
@@ -119,7 +119,7 @@ lastUpdated: false
     </article>
   </section>
 
-  <section class="brand-grid brand-grid--three">
+  <section class="brand-grid brand-grid--two">
     <article class="brand-card">
       <p class="brand-kicker">04</p>
       <h2>平台模板分发</h2>
@@ -278,7 +278,7 @@ lastUpdated: false
       </a>
       <a class="brand-link-card" href="./cli.html">
         <span>CLI</span>
-        <strong>本地桥接决定能不能把真实能力接进来</strong>
+        <strong>本地桥接决定能不能把真实能力接入平台</strong>
         <p>当前已经落地的 <code>register / list / run / agent</code> 命令，就是平台进入本地环境并接入脚本型能力的第一层接口。</p>
       </a>
     </div>

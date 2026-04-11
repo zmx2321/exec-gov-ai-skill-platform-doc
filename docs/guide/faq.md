@@ -32,7 +32,7 @@ lastUpdated: false
   <div class="brand-hero__media brand-hero__media--compact">
     <div class="matrix-panel matrix-panel--contact">
       <div class="matrix-panel__hud">
-        <span>SMARTFLOW // FAQ</span>
+        <span>EXECGOV // FAQ</span>
         <span>GUIDE 03</span>
       </div>
       <div class="matrix-panel__canvas">
@@ -83,7 +83,7 @@ lastUpdated: false
     <h2>安全、隔离与权限边界</h2>
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
-        <h3>AI 会不会乱跑或越权执行</h3>
+        <h3>AI 会不会越权执行</h3>
         <p>当前平台强调 AI 在规则内工作。推荐范围、执行边界、人工确认和审计留痕都不是可有可无的装饰层。</p>
       </article>
       <article class="brand-card brand-card--nested">
@@ -145,7 +145,7 @@ lastUpdated: false
         <p>还不是。本地 Agent 相关能力仍在持续完善，目前可以先按本地桥接与执行骨架理解。</p>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3>本地脚本和内网资源能不能接进来</h3>
+        <h3>本地脚本和内网资源能不能接入平台</h3>
         <p>可以，但通常不是让浏览器直接碰本地路径，而是通过 CLI / Agent 路线承接本地执行桥接。</p>
       </article>
       <article class="brand-card brand-card--nested">

@@ -65,7 +65,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Question 02</p>
       <h2>它到底安不安全、可不可控</h2>
-      <p>平台强调权限边界、人工确认、执行留痕和租户隔离，不是让 AI 在系统里自由乱跑。</p>
+      <p>平台强调权限边界、人工确认、执行留痕和租户隔离，不会让 AI 在系统里脱离规则自由执行。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Question 03</p>
@@ -118,7 +118,7 @@ lastUpdated: false
         </tr>
         <tr>
           <td>业务负责人</td>
-          <td>能不能真的把现有流程接进来</td>
+          <td>能不能真正把现有流程接入平台</td>
           <td>强调统一入口、AI 推荐、结果回显和热更新</td>
           <td><a href="../product/customer-flow.html">客户流程 / 交付</a></td>
         </tr>
@@ -142,7 +142,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">One Sentence</p>
       <h2>一句话怎么讲价值</h2>
-      <p>ExecGov 不是再造一个聊天框，而是把你已经有的脚本，以及后续可接入的 API、模板和流程收成统一入口，让 AI 在规则内帮你更快、更稳、更可控地完成真实工作。</p>
+      <p>ExecGov 不是再造一个聊天框，而是帮你把团队里那些散装的、危险的脚本和自动化流程收成统一入口，让它们跑得稳、留得下、查得到。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Longer Version</p>

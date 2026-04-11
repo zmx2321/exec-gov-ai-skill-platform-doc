@@ -3,36 +3,62 @@ layout: home
 
 hero:
   name: ExecGov
-  text: ExecGov（执治）
-  tagline: 先体验一条真实可跑通的执行链路：输入请求、AI 匹配、调度执行、返回结果；确认合适后，再接入你的脚本、本地工具和线上服务。
+  text: 执治
+  tagline: 以 Python 脚本为第一种成熟执行资产，帮你把团队里那些散装的、危险的脚本管得明明白白。谁、在什么时候、执行了什么、结果如何，全都有记录。
   actions:
     - theme: brand
       text: 立即免费体验（免登录）
       link: /guide/getting-started
     - theme: alt
-      text: 沟通具体场景
+      text: 申请设计合作伙伴
       link: /contact#lead-form
     - theme: alt
-      text: 了解构建者
-      link: /materials/founder-profile
+      text: 为什么我要做 ExecGov
+      link: /materials/why-execgov
 
 features:
-  - title: 多租户治理
-    details: 为不同客户提供独立、安全的执行空间，同时保留统一配置、交付与运营能力。
-  - title: 可信执行闭环
-    details: 从计划确认到执行留痕，每一次 AI 动作都可追踪、可复盘、可审计。
-  - title: 本地与云端协同
-    details: 不必暴露核心资产，也能把本地脚本、内网 API 与云端控制面连接起来。
-  - title: 清晰演进路线
-    details: 先把能落地的一条线做稳，再判断哪些能力和场景值得继续扩展。
+  - title: 脚本管得明白
+    details: 把散装脚本、定时任务和人工命令收成统一入口，不再靠人记路径和口口相传。
+  - title: 记录留得清楚
+    details: 谁执行、何时执行、执行了什么、结果如何，都能完整留痕并回看。
+  - title: 风险边界可控
+    details: 高风险动作先确认，租户与角色按边界隔离，不让脚本越权运行。
+  - title: 本地能力可接入
+    details: 不必暴露核心资产，也能把本地脚本、内网 API 与云端控制面接起来。
 ---
 
 <div class="landing-shell">
+  <section class="landing-band landing-band--partner">
+    <div class="partner-banner">
+      <div class="partner-banner__copy">
+        <p class="landing-kicker">Design Partners</p>
+        <h2>寻找 1-3 个设计合作伙伴</h2>
+        <p class="landing-lead">
+          如果您正为管理团队内大量脚本和自动化任务而烦恼，我们当前开放限时深度协作计划。
+          重点不是先卖一套大平台，而是一起把一条真实流程做成
+          <strong>可申请、可确认、可执行、可回看的样板</strong>。
+        </p>
+        <div class="partner-banner__chips">
+          <span>1-3 个真实付费名额</span>
+          <span>适合已有大量脚本的团队</span>
+          <span>限时深度协作</span>
+        </div>
+      </div>
+      <div class="partner-banner__actions">
+        <a class="cta-button cta-button--brand" href="./contact.html#lead-form">申请设计合作伙伴</a>
+        <a class="cta-button" href="mailto:zmx2321@163.com?subject=ExecGov%20Design%20Partner">直接发邮件</a>
+      </div>
+    </div>
+  </section>
+
   <section class="landing-band landing-band--brand landing-band--brand-story">
     <div class="landing-brand">
       <div class="landing-brand__copy">
         <p class="landing-kicker">Brand Signal</p>
-        <h2>先看它能不能替你省事，再决定是否继续深入</h2>
+        <h2>把团队里那些散装的、危险的脚本，管得明明白白</h2>
+        <p class="landing-lead">
+          <strong>帮你把团队里那些散装的、危险的脚本，管得明明白白。谁、在什么时候、执行了什么、结果如何，全都有记录；出了问题，也能追得回来。</strong>
+        </p>
         <p class="landing-lead">
           <strong>ExecGov（执治）是一个以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行平台。</strong>
         </p>
@@ -43,9 +69,12 @@ features:
           如果能力不能在规则里真正落地执行，就不是 ExecGov 想解决的问题。
         </p>
         <p class="landing-lead">
-          ExecGov 想解决的不是“模型能不能回答”，而是
-          <strong>脚本、本地资源和线上能力能不能在规则里稳定执行</strong>。
-          当前先把最常见、也最通用的一类能力，也就是 Python 脚本，做成可接入、可审计、可交付的第一条链路。
+          很多团队其实并不缺脚本，缺的是
+          <strong>统一入口、权限边界、执行确认和结果留痕</strong>。
+          脚本散在个人电脑、共享盘、服务器和聊天记录里，谁能跑、什么时候跑、跑完结果在哪里，常常没人说得清。
+        </p>
+        <p class="landing-lead">
+          ExecGov 当前先把最常见、也最通用的一类能力，也就是 Python 脚本，做成可接入、可审计、可交付的第一条链路。
           你可以先从公开体验入口走完一条简化流程，再决定是否接入自己的真实场景。
         </p>
         <p class="landing-lead">
@@ -60,20 +89,20 @@ features:
           但这并不等于终端用户已经可以完整自助支付。真实第三方支付网关、用户账单中心和外发提醒渠道仍在后续阶段。
         </p>
         <div class="landing-brand__chips">
-          <span>免登录体验</span>
-          <span>一句话调度</span>
+          <span>脚本治理</span>
+          <span>执行留痕</span>
           <span>审计留痕</span>
           <span>本地桥接</span>
           <span>安全可控</span>
         </div>
         <div class="landing-brand__quick-grid">
           <article class="landing-brand__quick-card">
-            <span>第一步</span>
-            <strong>60 秒先感受核心执行链路</strong>
+            <span>第一种成熟执行资产</span>
+            <strong>Python 脚本</strong>
           </article>
           <article class="landing-brand__quick-card">
-            <span>适合接入</span>
-            <strong>脚本、本地能力、线上服务</strong>
+            <span>最先解决的问题</span>
+            <strong>散装脚本收口与风险治理</strong>
           </article>
         </div>
         <p class="landing-lead">
@@ -87,7 +116,7 @@ features:
             <span>ENTRY SYSTEM</span>
             <span>SYNC 01</span>
           </div>
-          <p class="landing-brand__signal-summary">从免登录体验到场景沟通，再到真实接入，这套入口设计的目标都是让你先确认价值，再决定如何接入自己的能力。</p>
+          <p class="landing-brand__signal-summary">从免登录体验到设计合作伙伴，再到真实接入，这套入口设计的目标都是让你先确认“脚本能不能被管住、跑稳、留痕”，再决定如何落地。</p>
           <div class="landing-brand__signal-list">
             <div class="landing-brand__signal-item">
               <strong>入口</strong>
@@ -106,18 +135,41 @@ features:
         <div class="landing-brand__meta-grid">
           <article class="landing-brand__meta">
             <span class="link-panel-label">Mature Asset</span>
-            <strong>Python 脚本先跑通</strong>
+            <strong>Python 脚本是第一种成熟执行资产</strong>
             <p>先把接入、执行、回传和留痕这条链路做稳，再逐步扩到更多能力类型。</p>
           </article>
           <article class="landing-brand__meta">
             <span class="link-panel-label">Next Step</span>
-            <strong>先体验，再决定怎么接入</strong>
-            <p>可以先走免登录体验；需要真实场景时，再进入沟通、交付和部署确认。</p>
+            <strong>先把散装脚本收成统一入口</strong>
+            <p>先确认脚本目录、权限边界、风险动作和结果回传，再决定如何接入团队真实环境。</p>
           </article>
           <article class="landing-brand__meta landing-brand__meta--wide">
-            <span class="link-panel-label">Current Focus</span>
-            <strong>当前更高优先级仍然是把 1.1 低客服闭环做稳</strong>
-            <p>优先把自动注册、支付、续费提醒和停开恢复这条路径继续补齐，再决定下一阶段扩哪些能力。</p>
+            <span class="link-panel-label">Design Partner</span>
+            <strong>当前开放 1-3 个设计合作伙伴名额</strong>
+            <p>更适合已经有大量脚本、自动化任务和风险边界问题的团队，一起先做一条真实可交付的治理样板。</p>
+          </article>
+          <article class="landing-brand__meta landing-brand__meta--wide landing-brand__meta--trail">
+            <span class="link-panel-label">Audit Trail</span>
+            <strong>谁、何时、执行了什么、结果如何，都能回看</strong>
+            <p>不是把脚本换个地方放，而是把入口、权限边界、执行过程、结果回传和异常追责串成一条可追踪链路。</p>
+            <div class="landing-brand__record-grid">
+              <div class="landing-brand__record-item">
+                <span>发起来源</span>
+                <strong>入口、租户、执行人都对得上</strong>
+              </div>
+              <div class="landing-brand__record-item">
+                <span>执行边界</span>
+                <strong>脚本、参数、权限和风险动作可核对</strong>
+              </div>
+              <div class="landing-brand__record-item">
+                <span>结果回传</span>
+                <strong>日志、产物、状态和失败原因能回看</strong>
+              </div>
+              <div class="landing-brand__record-item">
+                <span>追责复盘</span>
+                <strong>异常发生后知道该找谁、补什么</strong>
+              </div>
+            </div>
           </article>
         </div>
       </div>
@@ -202,9 +254,41 @@ features:
     </div>
     <div class="landing-inline-links">
       <a href="./guide/getting-started.html">立即免费体验（免登录）</a>
-      <a href="./contact.html#lead-form">沟通具体场景</a>
-      <a href="./materials/founder-profile.html">了解构建者</a>
+      <a href="./contact.html#lead-form">申请设计合作伙伴</a>
+      <a href="./materials/why-execgov.html">为什么我要做 ExecGov</a>
       <a href="./product/editions.html">看当前阶段</a>
+    </div>
+  </section>
+
+  <section class="landing-band landing-band--overview">
+    <div class="landing-section-head">
+      <p class="landing-kicker">Showroom</p>
+      <h2>不是 hello demo，而是 3 个能拿去谈项目的样板案例</h2>
+      <p class="landing-lead">
+        这些案例不是为了展示一个按钮能点通，而是为了展示 ExecGov 如何把复杂、危险、容易出岔子的脚本流程，
+        变成 <strong>可申请、可确认、可执行、可回看的服务</strong>。
+      </p>
+    </div>
+    <div class="landing-grid landing-grid--three">
+      <a class="link-panel" href="./materials/case-studies.html#k8s-security-report">
+        <span class="link-panel-label">Case 01</span>
+        <strong>自动巡检 K8s 集群并生成安全报告</strong>
+        <p>从巡检请求、节点级检查、风险确认到报告生成，整条链路都可追踪、可审计。</p>
+      </a>
+      <a class="link-panel" href="./materials/case-studies.html#multi-cloud-cost-analysis">
+        <span class="link-panel-label">Case 02</span>
+        <strong>跨云成本分析与优化建议生成</strong>
+        <p>把云账单拉取、清洗、聚合、异常识别和优化建议收成一个受控执行服务。</p>
+      </a>
+      <a class="link-panel" href="./materials/case-studies.html#ops-data-automation">
+        <span class="link-panel-label">Case 03</span>
+        <strong>运营数据自动化与异常追踪</strong>
+        <p>把报表、文件、导入导出和异常追踪这类高频流程收成统一入口，减少人工返工。</p>
+      </a>
+    </div>
+    <div class="landing-inline-links">
+      <a href="./materials/case-studies.html">查看完整样板案例</a>
+      <a href="./contact.html#lead-form">拿真实场景来沟通</a>
     </div>
   </section>
 
@@ -267,7 +351,8 @@ features:
       <p class="landing-kicker">Founder Note</p>
       <h2>谁在构建 ExecGov，为什么这套平台值得继续了解</h2>
       <p class="landing-lead">
-        我现在在杭州，以微创业方式继续把这件事往前做。
+        我现在在杭州，以微创业方式继续把这件事往前做。我的长期主线是
+        <strong>8 年前端交付</strong>，最近 <strong>2 年</strong> 持续补强 Python 自动化和小型全栈闭环。
         核心目标不是讲一个很大的平台故事，而是把过去交付里反复碰到的
         <strong>脚本接入</strong>、<strong>权限边界</strong>、<strong>执行留痕</strong> 和 <strong>本地桥接</strong>
         这些问题，尽量做成真正能帮人省时间、减少返工的产品。
@@ -289,9 +374,9 @@ features:
         <p>现在不是融资驱动的大项目，而是先靠解决真实问题，把平台一步步做成可以独立养活自己的生意。</p>
       </article>
       <article class="metric-card">
-        <span class="metric-value">10+</span>
-        <span class="metric-label">年交付经验</span>
-        <p>从脚本接入、权限、审计到多租户治理，优先做真实项目里会踩坑的部分。</p>
+        <span class="metric-value">8 + 2</span>
+        <span class="metric-label">年前端 / 年闭环补强</span>
+        <p>长期主线是前端、GIS 可视化和中后台，最近两年持续补强 Python 自动化与小型全栈闭环。</p>
       </article>
       <article class="metric-card">
         <span class="metric-value">Web + CLI + Local</span>

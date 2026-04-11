@@ -221,7 +221,7 @@ lastUpdated: false
   <section class="brand-card">
     <p class="brand-kicker">Scenario To Delivery</p>
     <h2>场景确认后的关键资料</h2>
-    <div class="brand-link-grid">
+    <div class="brand-link-grid brand-link-grid--three">
       <a class="brand-link-card" href="./file-results.html">
         <span>Files</span>
         <strong>场景依赖文件输入和结果产物</strong>

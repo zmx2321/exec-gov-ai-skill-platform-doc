@@ -18,6 +18,9 @@ lastUpdated: false
         <strong>execgov-cli</strong> 是 ExecGov 当前面向个人开发者、交付实施和本地执行场景的命令行入口。
         这条线的重点不是“做一个命令行皮肤”，而是把 <strong>本地脚本、本地环境和平台控制面</strong> 接成一条现在能用的桥。
       </p>
+      <p class="brand-lead">
+        CLI 这条线承接的是平台外部控制面与本地环境之间的桥接，用来把本地脚本、执行环境和平台治理链路接起来。
+      </p>
       <div class="brand-chip-list">
         <span class="brand-chip">login</span>
         <span class="brand-chip">register</span>

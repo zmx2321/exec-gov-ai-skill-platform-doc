@@ -202,7 +202,7 @@ lastUpdated: false
           <td>只是第一次了解平台</td>
           <td><a href="../guide/getting-started.html">快速开始</a></td>
           <td>先判断平台定位和真实入口</td>
-          <td>不必一上来就准备完整交付清单。</td>
+          <td>不必一开始就准备完整交付清单。</td>
         </tr>
         <tr>
           <td>已经准备接客户或真实项目</td>

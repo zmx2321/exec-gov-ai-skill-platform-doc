@@ -11,7 +11,7 @@ lastUpdated: false
       <h1>试用与咨询</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Founder Signal</span>
-        <strong>由具备 10+ 年政企交付经验的构建者持续推进</strong>
+        <strong>由 8 年前端交付经验、近 2 年补强 Python 自动化与小型全栈闭环的构建者持续推进</strong>
         <p>当前平台已具备多租户治理、可信执行、免费入口和 CLI 演进路径，可用于试用、评估与正式沟通。</p>
       </div>
       <p class="brand-lead">
@@ -19,6 +19,7 @@ lastUpdated: false
         当前承接免费线索、团队版演示预约和企业版咨询。
       </p>
       <div class="brand-chip-list">
+        <span class="brand-chip">设计合作伙伴计划</span>
         <span class="brand-chip">免费试用申请</span>
         <span class="brand-chip">团队版演示预约</span>
         <span class="brand-chip">企业版 / 私有化咨询</span>
@@ -72,6 +73,16 @@ lastUpdated: false
 
   <section class="brand-grid brand-grid--two">
     <article class="brand-card">
+      <p class="brand-kicker">Design Partner</p>
+      <h2>当前开放 1-3 个设计合作伙伴名额</h2>
+      <ul class="brand-list">
+        <li>适合团队里已经有大量脚本、定时任务或自动化流程的人</li>
+        <li>目标不是先卖一套大系统，而是先把一条真实流程做成治理样板</li>
+        <li>默认按真实付费、真实场景、真实边界推进，不做纯展示型合作</li>
+        <li>如果适合，会一起梳理脚本目录、风险动作、结果回传和审计记录</li>
+      </ul>
+    </article>
+    <article class="brand-card">
       <p class="brand-kicker">Current Entry</p>
       <h2>公开体验入口后的下一步</h2>
       <ul class="brand-list">
@@ -106,7 +117,7 @@ lastUpdated: false
         enctype="text/plain"
         accept-charset="UTF-8"
       >
-        <input type="hidden" name="source" value="smartflow_docs_contact" />
+        <input type="hidden" name="source" value="execgov_docs_contact" />
         <div class="lead-form-grid">
           <label class="lead-field">
             <span>姓名</span>
@@ -225,7 +236,7 @@ lastUpdated: false
       <h2>最推荐的起步方式</h2>
       <ul class="brand-list">
         <li>优先提供一个最痛、最重复、规则相对明确的流程</li>
-        <li>先按一个点收口范围，不建议一开始就按大而全项目推进</li>
+        <li>先按一个点收口范围，不建议一开始就按大而全的项目方式推进</li>
         <li>先把第一步跑通，再决定是否继续扩第二阶段</li>
         <li>如果还不确定值不值得做，也可以先做最小范围判断</li>
       </ul>

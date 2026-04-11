@@ -11,7 +11,7 @@ lastUpdated: false
       <h1>交付背景与项目经历</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Builder Profile</span>
-        <strong>长期交付主线覆盖 GIS 可视化、Vue 中后台和 Python 自动化，当前按单人可维护方式推进，更适合把脚本、数据流程和业务页面收成可治理能力的项目。</strong>
+        <strong>长期主线是 8 年前端交付，近 2 年持续补强 Python 自动化与小型全栈闭环；当前按单人可维护方式推进，更适合把脚本、数据流程和业务页面收成可治理能力的项目。</strong>
         <p>重点不是单一技术标签，而是长期真实交付里沉淀下来的边界意识、上线意识和复用意识。</p>
       </div>
       <p class="brand-lead">
@@ -20,7 +20,8 @@ lastUpdated: false
         一起考虑清楚。ExecGov 的形成，本质上来自这些问题在真实项目中的反复出现和持续沉淀。
       </p>
       <div class="brand-chip-list">
-        <span class="brand-chip">10+ 年交付经验</span>
+        <span class="brand-chip">8 年前端交付</span>
+        <span class="brand-chip">2 年闭环补强</span>
         <span class="brand-chip">政企数字化</span>
         <span class="brand-chip">GIS 可视化</span>
         <span class="brand-chip">Vue 中后台</span>
@@ -51,7 +52,7 @@ lastUpdated: false
           <div class="matrix-panel__callout">DELIVERY FIRST, PRODUCT NEXT</div>
         </div>
         <div class="matrix-panel__footer">
-          <span class="matrix-panel__tag"><span class="matrix-panel__key">years</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">10+</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">years</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">8 + 2</span></span>
           <span class="matrix-panel__tag"><span class="matrix-panel__key">scene</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">gov + enterprise</span></span>
           <span class="matrix-panel__tag"><span class="matrix-panel__key">style</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">ship usable systems</span></span>
         </div>
@@ -62,12 +63,12 @@ lastUpdated: false
   <section class="brand-grid brand-grid--three">
     <article class="brand-card">
       <p class="brand-kicker">Track 01</p>
-      <h2>长期交付主线</h2>
+      <h2>8 年前端交付主线</h2>
       <p>核心经验长期集中在 GIS 可视化、地图业务页、Vue 中后台、大屏和复杂业务页面，不是短期拼装出来的能力组合。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Track 02</p>
-      <h2>能落地的自动化</h2>
+      <h2>近 2 年补强自动化与闭环</h2>
       <p>近两年持续补强 Python 自动化、数据处理、入库、报表生成和中小型后台支撑，能把重复流程收成可执行链路。</p>
     </article>
     <article class="brand-card">
@@ -150,7 +151,7 @@ lastUpdated: false
         <tr>
           <td>2024.04 - 2026.04</td>
           <td>中国移动设计院 / Web 前端开发</td>
-          <td>GIS、自动化、前端偏全栈</td>
+          <td>GIS、自动化、前端为主</td>
           <td>无线网质量评估、OpenLayers 地图模块、Python 数据采集与处理、PostgreSQL / PostGIS、AI 会话助手接入。</td>
         </tr>
         <tr>

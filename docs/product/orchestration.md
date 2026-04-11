@@ -65,6 +65,29 @@ lastUpdated: false
           <span class="matrix-panel__tag"><span class="matrix-panel__key">audit</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">whole_chain</span></span>
         </div>
       </div>
+      <article class="brand-hero__panel orchestration-readiness-card">
+        <span class="link-panel-label">Before Orchestration</span>
+        <strong>真正进入多步骤编排前，要先补齐这 4 个治理点</strong>
+        <p>不是把几个 Skill 串起来就算编排。要进入正式产品化，至少先把下面这些约束和恢复能力做稳。</p>
+        <div class="orchestration-readiness-list">
+          <div class="orchestration-readiness-item">
+            <span>需求拆解</span>
+            <strong>先把复合诉求拆成可确认的步骤节点</strong>
+          </div>
+          <div class="orchestration-readiness-item">
+            <span>节点确认</span>
+            <strong>高风险步骤仍要能单独停下并人工确认</strong>
+          </div>
+          <div class="orchestration-readiness-item">
+            <span>失败回退</span>
+            <strong>知道在哪一步失败，以及是否允许降级或回滚</strong>
+          </div>
+          <div class="orchestration-readiness-item">
+            <span>链路留痕</span>
+            <strong>整条任务链的输入、产物和状态都要能追踪</strong>
+          </div>
+        </div>
+      </article>
     </div>
   </section>
 

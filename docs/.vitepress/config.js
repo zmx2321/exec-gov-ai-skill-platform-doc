@@ -65,10 +65,12 @@ export default {
         ],
       },
       {
-        text: "介绍资料",
+        text: "关于 / 资料",
         activeMatch: "^/materials/",
         items: [
           { text: "资料总览", link: "/materials/" },
+          { text: "为什么我要做 ExecGov", link: "/materials/why-execgov" },
+          { text: "样板案例", link: "/materials/case-studies" },
           { text: "介绍提纲", link: "/materials/pitch" },
           { text: "价值说明", link: "/materials/value" },
           { text: "合作方式 / 服务包", link: "/materials/service-packages" },
@@ -114,9 +116,11 @@ export default {
       ],
       "/materials/": [
         {
-          text: "介绍资料",
+          text: "关于 / 资料",
           items: [
             { text: "资料总览", link: "/materials/" },
+            { text: "为什么我要做 ExecGov", link: "/materials/why-execgov" },
+            { text: "样板案例", link: "/materials/case-studies" },
             { text: "介绍提纲", link: "/materials/pitch" },
             { text: "价值说明", link: "/materials/value" },
             { text: "合作方式 / 服务包", link: "/materials/service-packages" },
@@ -137,7 +141,9 @@ export default {
             { text: "产品概览", link: "/product/" },
             { text: "CLI 指引", link: "/product/cli" },
             { text: "客户流程 / 交付", link: "/product/customer-flow" },
-            { text: "介绍资料", link: "/materials/" },
+            { text: "关于 / 资料", link: "/materials/" },
+            { text: "为什么我要做 ExecGov", link: "/materials/why-execgov" },
+            { text: "样板案例", link: "/materials/case-studies" },
             { text: "介绍提纲", link: "/materials/pitch" },
             // { text: "Logo 设计", link: "/logo-design/" },
             { text: "联系我", link: "/contact" },

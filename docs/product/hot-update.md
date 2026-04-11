@@ -208,7 +208,7 @@ lastUpdated: false
         <p>不会。当前推荐范围受租户和权限共同约束，AI 不会跨租户推荐其他客户的脚本或能力。</p>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3>本地脚本和内网资源能不能接进来</h3>
+        <h3>本地脚本和内网资源能不能接入平台</h3>
         <p>可以，但通常不是让浏览器直接碰本地路径，而是通过 <code>execgov-cli</code> 和后续 Agent 路线承接本地执行桥接。</p>
       </article>
     </div>

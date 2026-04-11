@@ -15,10 +15,13 @@ lastUpdated: false
         <p>把当前已做成的、仍在推进的、后续可能扩展的部分分开讲清楚，后面才不容易返工。</p>
       </div>
       <p class="brand-lead">
+        <strong>帮你把团队里那些散装的、危险的脚本和自动化流程收成统一入口：谁在什么时候执行了什么、结果如何，都能查得到。</strong>
+      </p>
+      <p class="brand-lead">
         <strong>ExecGov（执治）是一个以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行平台。</strong>
       </p>
       <p class="brand-lead">
-        ExecGov 让 AI 在规则内调用真实能力，先把个人试用、脚本接入和小型正式客户这几条路径走稳。
+        当前先从 Python 脚本做起，不是因为范围小，而是因为它最常见、最真实，也最容易立刻创造治理价值。
       </p>
       <p>
         当前最成熟的第一种执行资产是 Python 脚本，但平台长期管理的对象是
@@ -29,7 +32,7 @@ lastUpdated: false
         新增了通用资源层与执行器注册层，第一种非脚本能力样板
         <code>HTTP 能力接入</code> 已先在 <code>public</code> 超管侧落地。
         当前租户侧也已经有只读可见台账，可查看自己当前被授权的 HTTP 资源摘要、鉴权方式和写边界；
-        但这仍不代表租户侧已经全面开放多能力自助接入，更不代表已经做成“万能 API 平台”。
+        但这仍不代表租户侧已经全面开放多能力自助接入，更不代表已经做成通用 API 平台。
         这类资源的配置、凭据治理和试跑，目前仍只放在 <code>public</code> 超管治理域。
       </p>
       <p>
@@ -90,6 +93,29 @@ lastUpdated: false
           <strong>先把能落地的一条线做稳</strong>
           <p>免费体验、租户治理和正式交付共用一套底座，后面扩展才不容易返工。</p>
         </article>
+        <article class="brand-hero__panel product-signal-card product-signal-card--wide">
+          <span class="link-panel-label">What You Can Verify Now</span>
+          <strong>当前已经能验证的，不只是一个 demo 页面</strong>
+          <p>如果你正在判断这套平台是不是只停留在概念层，先看下面这 4 个点：它们对应的是当前已经落下或正在被真实使用的链路，而不是远期想象。</p>
+          <div class="product-signal-checks">
+            <div class="product-signal-check">
+              <span>公开入口</span>
+              <strong>先从免登录体验跑通一次真实执行链路</strong>
+            </div>
+            <div class="product-signal-check">
+              <span>成熟资产</span>
+              <strong>Python 脚本已经是第一种可接入、可审计的执行资产</strong>
+            </div>
+            <div class="product-signal-check">
+              <span>治理样板</span>
+              <strong>HTTP 能力接入已先在 public 超管治理域落地验证</strong>
+            </div>
+            <div class="product-signal-check">
+              <span>生命周期</span>
+              <strong>1.1 的订单、开通、续费和停开骨架已先落第一段</strong>
+            </div>
+          </div>
+        </article>
       </div>
     </div>
   </section>
@@ -101,7 +127,7 @@ lastUpdated: false
         <li>ExecGov（执治）是一个以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行平台。</li>
         <li>当前最成熟的能力形态是脚本型能力接入、执行、审计和持续更新。</li>
         <li>平台已经落下通用资源层和执行器注册层，第一种非脚本样板是 public 超管侧的 HTTP 能力接入；租户侧也已经有只读可见台账。</li>
-        <li>HTTP 资源当前只按“固定接口 + 显式鉴权 + 写操作白名单”推进，配置权仍保留在 public 超管侧，不把它包装成万能 API 平台。</li>
+        <li>HTTP 资源当前只按“固定接口 + 显式鉴权 + 写操作白名单”推进，配置权仍保留在 public 超管侧，不把它包装成通用 API 平台。</li>
         <li>1.1 已先在 public 超管侧落下订单与生命周期骨架，并在个人免费版前台落下一条轻量自助增购链路，但仍未对外承诺完整用户自助支付。</li>
         <li>平台后面可能继续扩展到 API、模板、连接器和审批流程等能力类型，但只按真实需求逐步开放。</li>
       </ul>
@@ -290,7 +316,7 @@ lastUpdated: false
   <section class="brand-card">
     <p class="brand-kicker">Delivery Extension</p>
     <h2>从体验走向正式接入时，重点补齐这三页</h2>
-    <div class="brand-link-grid">
+    <div class="brand-link-grid brand-link-grid--three">
       <a class="brand-link-card" href="./file-results.html">
         <span>Files</span>
         <strong>文件上传 / 结果下载</strong>

@@ -11,7 +11,7 @@ lastUpdated: false
       <h1>背景概览</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Quick Card</span>
-        <strong>目前以杭州单人推进，长期稳定的交付主线是 GIS 可视化、Vue 中后台和 Python 自动化，适合先用一个真实流程或模块起步。</strong>
+        <strong>目前以杭州单人推进，长期主线是 8 年前端交付，近 2 年持续补强 Python 自动化与小型全栈闭环，适合先用一个真实流程或模块起步。</strong>
         <p>更适合以一个真实业务流程起步，再往治理和复用扩展。</p>
       </div>
       <p class="brand-lead">
@@ -20,7 +20,8 @@ lastUpdated: false
         是当前最稳的交付组合，并且会优先把边界、风险和交付方式说清楚。
       </p>
       <div class="brand-chip-list">
-        <span class="brand-chip">10+ 年交付经验</span>
+        <span class="brand-chip">8 年前端交付</span>
+        <span class="brand-chip">2 年闭环补强</span>
         <span class="brand-chip">GIS 可视化</span>
         <span class="brand-chip">Vue 中后台</span>
         <span class="brand-chip">Python 自动化</span>

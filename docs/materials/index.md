@@ -11,25 +11,28 @@ lastUpdated: false
     <h1>介绍资料</h1>
     <div class="brand-hero__panel">
       <span class="brand-pill">Presentation Kit</span>
-      <strong>ExecGov 对外资料覆盖平台定位、价值判断、启动方式和交付背景，方便第一次接触时快速判断是否值得继续往下看。</strong>
+      <strong>ExecGov 对外资料覆盖创始人故事、样板案例、平台定位、价值判断、启动方式和交付背景，方便第一次接触时快速判断是否值得继续往下看。</strong>
       <p>资料按判断问题组织，便于快速进入对应内容。</p>
     </div>
     <p class="brand-lead">
-      ExecGov 的对外资料分成四条主线：
-      <strong>产品介绍、价值说明、启动方式、交付背景</strong>。
+      ExecGov 的对外资料分成六条主线：
+      <strong>创始人故事、样板案例、产品介绍、价值说明、启动方式、交付背景</strong>。
       这样可以在尽量短的路径里，先完成定位判断，再进入项目评估和交付判断。
     </p>
     <div class="brand-chip-list">
+      <span class="brand-chip">创始人故事</span>
+      <span class="brand-chip">样板案例</span>
       <span class="brand-chip">产品介绍</span>
       <span class="brand-chip">价值判断</span>
       <span class="brand-chip">启动方式</span>
       <span class="brand-chip">交付背景</span>
     </div>
     <div class="brand-actions">
-      <a class="cta-button cta-button--brand" href="./pitch.html">看介绍提纲</a>
+      <a class="cta-button cta-button--brand" href="./why-execgov.html">看为什么我要做 ExecGov</a>
+      <a class="cta-button" href="./case-studies.html">看样板案例</a>
+      <a class="cta-button" href="./pitch.html">看介绍提纲</a>
       <a class="cta-button" href="./value.html">看价值说明</a>
       <a class="cta-button" href="./service-packages.html">看启动方式</a>
-      <a class="cta-button" href="./founder-card.html">看背景概览</a>
     </div>
   </div>
   <div class="brand-hero__media brand-hero__media--compact">
@@ -59,6 +62,16 @@ lastUpdated: false
 </section>
 
   <section class="brand-grid brand-grid--three">
+    <article class="brand-card">
+      <p class="brand-kicker">Why</p>
+      <h2>为什么我要做 ExecGov</h2>
+      <p>回答我看到了什么痛点、为什么要把“治理”和“执行”放在一起，以及为什么先从 Python 脚本做起。</p>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">Showroom</p>
+      <h2>样板案例</h2>
+      <p>展示 2-3 个超越 hello demo 的端到端执行范例，适合直接拿去谈项目和沟通价值。</p>
+    </article>
     <article class="brand-card">
       <p class="brand-kicker">Pitch</p>
       <h2>介绍提纲</h2>
@@ -104,6 +117,18 @@ lastUpdated: false
         </tr>
       </thead>
       <tbody>
+        <tr>
+          <td>为什么要做这件事</td>
+          <td><a href="./why-execgov.html">为什么我要做 ExecGov</a></td>
+          <td>痛点来源、核心判断、为什么是治理 + 执行</td>
+          <td>技术决策者、首次接触方</td>
+        </tr>
+        <tr>
+          <td>有没有能直接谈项目的样板</td>
+          <td><a href="./case-studies.html">样板案例</a></td>
+          <td>端到端范例、治理边界、执行链和交付结果</td>
+          <td>客户、售前、技术负责人</td>
+        </tr>
         <tr>
           <td>ExecGov 到底是什么</td>
           <td><a href="./pitch.html">介绍提纲</a></td>
@@ -154,33 +179,43 @@ lastUpdated: false
     <p class="brand-kicker">Reading Order</p>
     <h2>首次了解建议路径</h2>
     <div class="brand-link-grid">
-      <a class="brand-link-card" href="./pitch.html">
+      <a class="brand-link-card" href="./why-execgov.html">
         <span>Step 01</span>
+        <strong>为什么我要做 ExecGov</strong>
+        <p>先看创始人故事和问题来源，判断这件事是不是从真实痛点长出来的。</p>
+      </a>
+      <a class="brand-link-card" href="./case-studies.html">
+        <span>Step 02</span>
+        <strong>样板案例</strong>
+        <p>再看 2-3 个可直接谈项目的端到端范例，判断执行链路是否足够有说服力。</p>
+      </a>
+      <a class="brand-link-card" href="./pitch.html">
+        <span>Step 03</span>
         <strong>介绍提纲</strong>
         <p>先判断平台定位和问题定义。</p>
       </a>
       <a class="brand-link-card" href="./value.html">
-        <span>Step 02</span>
+        <span>Step 04</span>
         <strong>价值说明</strong>
         <p>再判断为什么值得推进，以及价值来自哪里。</p>
       </a>
       <a class="brand-link-card" href="./service-packages.html">
-        <span>Step 03</span>
+        <span>Step 05</span>
         <strong>启动方式 / 服务包</strong>
         <p>已经接近真实项目时，先看合作结构和第一阶段收口方式。</p>
       </a>
       <a class="brand-link-card" href="./founder-profile.html">
-        <span>Step 04</span>
+        <span>Step 06</span>
         <strong>交付背景与项目经历</strong>
         <p>继续判断交付可信度和平台能力来源。</p>
       </a>
       <a class="brand-link-card" href="../product/index.html">
-        <span>Step 05</span>
+        <span>Step 07</span>
         <strong>产品概览</strong>
         <p>进一步深挖真实能力、模块结构和产品主线。</p>
       </a>
       <a class="brand-link-card" href="../contact.html#lead-form">
-        <span>Step 06</span>
+        <span>Step 08</span>
           <strong>沟通真实场景</strong>
         <p>进入真实沟通、评估和演示阶段。</p>
       </a>
@@ -216,7 +251,15 @@ lastUpdated: false
         <h2>先完成定位判断，再进入合作和交付判断</h2>
         <p class="brand-lead">进入真实项目沟通时，优先查看启动方式和交付背景；还在判断平台定位时，优先从介绍提纲和价值说明开始。</p>
       </div>
-      <div class="brand-link-grid brand-link-grid--compact">
+    <div class="brand-link-grid brand-link-grid--compact">
+        <a class="brand-link-card" href="./why-execgov.html">
+          <span>Why</span>
+          <strong>为什么我要做 ExecGov</strong>
+        </a>
+        <a class="brand-link-card" href="./case-studies.html">
+          <span>Cases</span>
+          <strong>样板案例</strong>
+        </a>
         <a class="brand-link-card" href="./pitch.html">
           <span>Pitch</span>
           <strong>介绍提纲</strong>
