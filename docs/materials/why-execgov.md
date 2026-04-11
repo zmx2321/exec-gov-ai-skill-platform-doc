@@ -4,7 +4,7 @@ outline: false
 lastUpdated: false
 ---
 
-<div class="brand-page-shell">
+<div class="brand-page-shell brand-page-shell--why-execgov">
   <section class="brand-hero">
     <div>
       <p class="brand-kicker">Founder Story</p>
@@ -54,6 +54,29 @@ lastUpdated: false
           <span class="matrix-panel__tag"><span class="matrix-panel__key">asset</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">python scripts</span></span>
         </div>
       </div>
+      <article class="brand-hero__panel why-execgov-guide-card">
+        <span class="link-panel-label">When To Read</span>
+        <strong>这页更适合拿来判断“这件事是不是从真实问题长出来的”</strong>
+        <p>如果你第一次接触 ExecGov，这页不是给你背功能列表，而是帮你先判断：这是不是一个建立在真实交付痛点上的产品方向。</p>
+        <div class="why-execgov-guide-list">
+          <div class="why-execgov-guide-item">
+            <span>适合先看</span>
+            <strong>技术决策者、项目负责人和第一次接触的人</strong>
+          </div>
+          <div class="why-execgov-guide-item">
+            <span>想确认的事</span>
+            <strong>它为什么不是聊天壳，而是治理加执行的产品判断</strong>
+          </div>
+          <div class="why-execgov-guide-item">
+            <span>下一步</span>
+            <strong>如果认同问题定义，再去看样板案例和产品概览更合适</strong>
+          </div>
+          <div class="why-execgov-guide-item">
+            <span>不看什么</span>
+            <strong>这页不负责展开所有模块细节，也不替代场景演示</strong>
+          </div>
+        </div>
+      </article>
     </div>
   </section>
 

@@ -32,6 +32,18 @@ lastUpdated: false
         <a class="cta-button" href="./product/">先看产品概览</a>
         <a class="cta-button" href="https://github.com/zmx2321" target="_blank" rel="noreferrer">查看 GitHub</a>
       </div>
+      <div class="contact-node-grid contact-hero-grid">
+        <article class="brand-hero__panel contact-node-card">
+          <span class="link-panel-label">Good Fit</span>
+          <strong>更适合已经有脚本、流程或内网接入诉求的团队</strong>
+          <p>如果你要判断权限边界、执行留痕、本地接入或正式交付怎么收口，这里会比继续抽象讨论更有效。</p>
+        </article>
+        <article class="brand-hero__panel contact-node-card">
+          <span class="link-panel-label">What You Get</span>
+          <strong>沟通后会更快判断该先试用、先演示还是直接接入</strong>
+          <p>重点不是聊大而全的平台故事，而是尽快明确下一步入口、准备材料和第一条治理样板怎么启动。</p>
+        </article>
+      </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
@@ -71,7 +83,7 @@ lastUpdated: false
     </div>
   </section>
 
-  <section class="brand-grid brand-grid--two">
+  <section class="brand-grid brand-grid--three">
     <article class="brand-card">
       <p class="brand-kicker">Design Partner</p>
       <h2>当前开放 1-3 个设计合作伙伴名额</h2>

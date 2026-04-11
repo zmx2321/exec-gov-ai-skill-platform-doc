@@ -6,8 +6,9 @@ import "./styles/custom.scss"
 
 const normalizePath = (pathname = "/") => pathname.replace(/\/index\.html$/, "/").replace(/\.html$/, "").replace(/\/+$/, "") || "/"
 
-const NAVBAR_TRIGGER_BUFFER = 12
+const NAVBAR_TRIGGER_BUFFER = 36
 const NAVBAR_MIN_TRIGGER = 12
+const NAVBAR_MAX_TRIGGER = 36
 
 const syncCurrentMenuState = () => {
   if (!inBrowser) {
@@ -74,12 +75,13 @@ const getNavbarTriggerOffset = () => {
   const navbarHeight = navbar?.getBoundingClientRect().height ?? 0
 
   if (!target) {
-    return Math.max(NAVBAR_MIN_TRIGGER, Math.round(navbarHeight))
+    return Math.max(NAVBAR_MIN_TRIGGER, Math.min(NAVBAR_MAX_TRIGGER, Math.round(navbarHeight)))
   }
 
   const targetTop = target.getBoundingClientRect().top + window.scrollY
+  const rawOffset = targetTop - navbarHeight - NAVBAR_TRIGGER_BUFFER
 
-  return Math.max(NAVBAR_MIN_TRIGGER, Math.round(targetTop - navbarHeight - NAVBAR_TRIGGER_BUFFER))
+  return Math.max(NAVBAR_MIN_TRIGGER, Math.min(NAVBAR_MAX_TRIGGER, Math.round(rawOffset)))
 }
 
 const syncNavbarTopState = () => {

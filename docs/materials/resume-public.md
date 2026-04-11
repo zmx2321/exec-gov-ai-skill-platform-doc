@@ -16,7 +16,7 @@ lastUpdated: false
       </div>
       <p class="brand-lead">
         核心定位可以概括为：
-        <strong>8 年前端 / GIS / 可视化交付经验，近 2 年补强 Python 自动化与中小型后台支撑。</strong>
+        <strong>8 年前端 / GIS / 可视化交付经验，近 2 年补强 Python 自动化与中小型后台支撑，也做过 1 年 Java（若依框架）全栈开发。</strong>
         适合需要把页面、流程和脚本能力打通成可交付结果的项目。
       </p>
       <div class="brand-chip-list">
@@ -66,7 +66,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Scope</p>
       <h2>当前可交付范围</h2>
-      <p>地图页面、数据可视化、后台模块、报表流程和 Python 自动化，是当前最有把握快速落地的范围。</p>
+      <p>地图页面、数据可视化、后台模块、报表流程，以及以 Python 为主、兼顾 Java / 若依补位的小型闭环，是当前最有把握快速落地的范围。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Contact</p>
@@ -113,7 +113,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Value 03</p>
       <h2>自动化补全闭环</h2>
-      <p>近两年持续做 Python 自动化、数据处理、报表生成和中小型 Django / DRF 支撑，能承接更完整的业务闭环。</p>
+      <p>近两年持续做 Python 自动化、数据处理、报表生成和中小型 Django / DRF 支撑；后端不只限于 Python，也有 1 年 Java（若依框架）全栈开发经历。</p>
     </article>
   </section>
 
@@ -132,9 +132,9 @@ lastUpdated: false
         <p>覆盖点位联动、气泡窗、多地图切换、模型展示、三维可视化和地图业务场景。</p>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3>Python / 后端 / 自动化</h3>
+        <h3>Python / Java / 后端 / 自动化</h3>
         <p>Python / Django / DRF / APScheduler / Pandas / PostgreSQL / MySQL / PostGIS</p>
-        <p>可承接数据采集、清洗、入库、报表生成、接口开发、定时任务和中小型后台支撑。</p>
+        <p>当前以后端补位与自动化为主，也有 1 年 Java（若依框架）全栈开发经历，可承接数据采集、清洗、入库、报表生成、接口开发、定时任务和中小型后台支撑。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>工程化 / AI 工具</h3>
@@ -171,7 +171,7 @@ lastUpdated: false
       <article class="brand-card brand-card--nested">
         <h3>2015 - 2019</h3>
         <p><strong>更早期经历</strong></p>
-        <p>电商、公众号、小程序和后台管理系统开发，积累前端基础能力、兼容性处理、接口联调与上线交付经验。</p>
+        <p>电商、公众号、小程序和后台管理系统开发，积累前端基础能力、兼容性处理、接口联调与上线交付经验；期间自学过 1 年爬虫，也做过 1 年 Java（若依框架）全栈开发，并在公司场景里自己写过脚本。</p>
       </article>
     </div>
   </section>
@@ -185,6 +185,7 @@ lastUpdated: false
         <li>OMC 服务器管理平台：WebSocket 日志、IndexedDB 缓存、文件编辑与上传链路。</li>
         <li>商业云交投大脑：Mapbox 地图、多省市切换、点位联动和可视化展示。</li>
         <li>CSV / Excel 自动化同步：Python 计算、批量入库、报表生成和重复流程收口。</li>
+        <li>公司内部脚本与抓取流程：自己写脚本处理数据抓取、清洗、导出和重复流程收口。</li>
       </ul>
     </article>
     <article class="brand-card">
@@ -194,7 +195,7 @@ lastUpdated: false
         <li>GIS 可视化、地图业务页和可视化项目补位。</li>
         <li>Vue 中后台、若依类后台、老项目接手维护。</li>
         <li>数据大屏、日志展示、实时数据页面。</li>
-        <li>报表、文件、抓数、导出和 Python 自动化。</li>
+        <li>报表、文件、抓数、导出、公司内部脚本和 Python 自动化。</li>
       </ul>
     </article>
   </section>

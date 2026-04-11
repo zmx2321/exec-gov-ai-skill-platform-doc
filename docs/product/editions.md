@@ -87,6 +87,29 @@ lastUpdated: false
           <strong>先把已验证路径继续做深</strong>
           <p>优先把交付、试用闭环和可复用能力做稳，再决定哪些部分值得继续做厚。</p>
         </article>
+        <article class="brand-hero__panel roadmap-signal-card roadmap-signal-card--wide">
+          <span class="link-panel-label">How To Read It</span>
+          <strong>判断当前版本，重点看“已经落地到哪”，不要看“以后可能做什么”</strong>
+          <p>如果你要评估这套平台现在适不适合接入，优先按下面这 4 个判断点来看，而不是被长期规划带偏。</p>
+          <div class="roadmap-signal-checks">
+            <div class="roadmap-signal-check">
+              <span>现在</span>
+              <strong>1.0 的核心是可信交付、脚本接入和多租户治理</strong>
+            </div>
+            <div class="roadmap-signal-check">
+              <span>正在补</span>
+              <strong>1.1 重点是自动注册、续费和低客服闭环</strong>
+            </div>
+            <div class="roadmap-signal-check">
+              <span>后续再看</span>
+              <strong>2.0 才会决定哪些路径值得继续标准化做厚</strong>
+            </div>
+            <div class="roadmap-signal-check">
+              <span>不要误判</span>
+              <strong>多步骤编排和长期 3.0 / 4.0 方向都还不是当前承诺能力</strong>
+            </div>
+          </div>
+        </article>
       </div>
     </div>
   </section>

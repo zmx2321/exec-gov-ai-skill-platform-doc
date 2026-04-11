@@ -4,7 +4,7 @@ outline: false
 lastUpdated: false
 ---
 
-<div class="brand-page-shell">
+<div class="brand-page-shell brand-page-shell--materials">
 <section class="brand-hero">
   <div>
     <p class="brand-kicker">External Materials</p>
@@ -58,6 +58,29 @@ lastUpdated: false
         <span class="matrix-panel__tag"><span class="matrix-panel__key">scene</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">decision</span></span>
       </div>
     </div>
+    <article class="brand-hero__panel materials-guide-card">
+      <span class="link-panel-label">How To Use</span>
+      <strong>第一次接触时，按“判断阶段”来选资料会更快</strong>
+      <p>这组资料不是让人从头一路翻到底，而是让不同阶段的人直接进入对应页面，先完成判断，再决定要不要继续沟通。</p>
+      <div class="materials-guide-list">
+        <div class="materials-guide-item">
+          <span>先判断问题</span>
+          <strong>先看创始人故事和介绍提纲，确认它到底在解决什么</strong>
+        </div>
+        <div class="materials-guide-item">
+          <span>再看说服力</span>
+          <strong>再看样板案例和价值说明，判断能不能支撑真实项目沟通</strong>
+        </div>
+        <div class="materials-guide-item">
+          <span>准备启动</span>
+          <strong>接近真实合作时，再看启动方式和第一阶段怎么收口</strong>
+        </div>
+        <div class="materials-guide-item">
+          <span>核实背景</span>
+          <strong>需要继续背调时，再看交付背景、项目经历和公开履历</strong>
+        </div>
+      </div>
+    </article>
   </div>
 </section>
 

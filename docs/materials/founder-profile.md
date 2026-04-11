@@ -4,14 +4,15 @@ outline: false
 lastUpdated: false
 ---
 
-<div class="brand-page-shell">
-  <section class="brand-hero">
+<div class="brand-page-shell brand-page-shell--founder-profile">
+  <section class="brand-hero brand-hero--founder-profile">
     <div>
       <p class="brand-kicker">Delivery Background</p>
       <h1>交付背景与项目经历</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Builder Profile</span>
         <strong>长期主线是 8 年前端交付，近 2 年持续补强 Python 自动化与小型全栈闭环；当前按单人可维护方式推进，更适合把脚本、数据流程和业务页面收成可治理能力的项目。</strong>
+        <p>后端补位不只限于 Python：早期自学过 1 年爬虫，在公司场景里自己写过脚本，也做过 1 年 Java（若依框架）全栈开发。</p>
         <p>重点不是单一技术标签，而是长期真实交付里沉淀下来的边界意识、上线意识和复用意识。</p>
       </div>
       <p class="brand-lead">
@@ -26,12 +27,7 @@ lastUpdated: false
         <span class="brand-chip">GIS 可视化</span>
         <span class="brand-chip">Vue 中后台</span>
         <span class="brand-chip">Python 自动化</span>
-      </div>
-      <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="../contact.html#lead-form">继续沟通场景</a>
-        <a class="cta-button" href="./founder-card.html">看背景概览</a>
-        <a class="cta-button" href="./resume-public.html">看项目与履历</a>
-        <a class="cta-button" href="./service-packages.html">查看启动方式</a>
+        <span class="brand-chip">Java / 若依</span>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -57,6 +53,48 @@ lastUpdated: false
           <span class="matrix-panel__tag"><span class="matrix-panel__key">style</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">ship usable systems</span></span>
         </div>
       </div>
+      <article class="brand-hero__panel founder-profile-action-card">
+        <span class="link-panel-label">继续查看</span>
+        <strong>方向匹配时，可从这里继续</strong>
+        <div class="founder-profile-action-grid">
+          <a class="founder-profile-action-link founder-profile-action-link--primary" href="../contact.html#lead-form">
+            <span>直接沟通</span>
+            <strong>沟通场景</strong>
+          </a>
+          <a class="founder-profile-action-link" href="./founder-card.html">
+            <span>背景概览</span>
+            <strong>快速判断主线与边界</strong>
+          </a>
+          <a class="founder-profile-action-link" href="./resume-public.html">
+            <span>项目与履历</span>
+            <strong>看标准履历信息</strong>
+          </a>
+          <a class="founder-profile-action-link" href="./service-packages.html">
+            <span>启动方式</span>
+            <strong>看怎么开始合作</strong>
+          </a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="brand-card founder-profile-summary-card">
+    <p class="brand-kicker">查看要点</p>
+    <h2>这页主要帮助判断交付背景是否匹配</h2>
+    <p class="brand-lead">适合在继续沟通前，快速看清长期主线、项目类型和是否具备真实交付收口经验。</p>
+    <div class="founder-profile-summary-grid">
+      <div class="founder-profile-summary-item">
+        <span>适合谁看</span>
+        <strong>技术负责人、项目负责人，以及需要先判断交付可信度的人。</strong>
+      </div>
+      <div class="founder-profile-summary-item">
+        <span>重点看什么</span>
+        <strong>长期主线、代表项目类型，以及是否真的做过交付收口。</strong>
+      </div>
+      <div class="founder-profile-summary-item">
+        <span>接下来可看</span>
+        <strong>如果背景方向一致，再结合项目与履历、启动方式判断是否值得继续沟通。</strong>
+      </div>
     </div>
   </section>
 
@@ -69,7 +107,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Track 02</p>
       <h2>近 2 年补强自动化与闭环</h2>
-      <p>近两年持续补强 Python 自动化、数据处理、入库、报表生成和中小型后台支撑，能把重复流程收成可执行链路。</p>
+      <p>近两年持续补强 Python 自动化、数据处理、入库、报表生成和中小型后台支撑；更早也做过 1 年 Java（若依框架）全栈开发，并在公司里自己写过脚本，后端补位不只停留在 Python。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Track 03</p>
@@ -175,8 +213,8 @@ lastUpdated: false
         <tr>
           <td>2015 - 2019</td>
           <td>更早期经历</td>
-          <td>电商、公众号、小程序、后台系统</td>
-          <td>持续积累前端基础能力、接口联调、兼容性处理、公众号 / 小程序和后台管理系统交付经验。</td>
+          <td>电商、公众号、小程序、后台系统、全栈补位</td>
+          <td>持续积累前端基础能力、接口联调、兼容性处理、公众号 / 小程序和后台管理系统交付经验；期间自学过 1 年爬虫，也做过 1 年 Java（若依框架）全栈开发，并在公司场景里自己写过脚本。</td>
         </tr>
       </tbody>
     </table>
@@ -191,6 +229,7 @@ lastUpdated: false
         <li>OMC 服务器管理平台：WebSocket 日志展示、IndexedDB 大体积缓存、文件编辑与上传链路。</li>
         <li>Mapbox / Cesium 可视化项目：多省市切换、点位联动、模型展示、视频投影和业务侧联动。</li>
         <li>CSV / Excel 自动化同步：Python 计算、批量入库、报表生成和重复流程收口。</li>
+        <li>公司内部脚本与抓取流程：自己写脚本处理数据抓取、清洗、导出和重复流程收口。</li>
       </ul>
     </article>
     <article class="brand-card">
@@ -199,7 +238,8 @@ lastUpdated: false
       <ul class="brand-list">
         <li>GIS 可视化、地图业务页和政企可视化项目补位。</li>
         <li>Vue 中后台、若依类后台、老项目接手和页面联调维护。</li>
-        <li>报表、文件、数据抓取、导出和 Python 自动化流程收口。</li>
+        <li>报表、文件、数据抓取、导出、公司内部脚本和 Python 自动化流程收口。</li>
+        <li>前端主导的小型全栈收口，包含若依类 Java 后台与自动化补位。</li>
         <li>把本地脚本、页面入口和执行留痕接成一个更可控的最小闭环。</li>
       </ul>
     </article>
@@ -211,7 +251,7 @@ lastUpdated: false
       <h2>这些经历如何映射到 ExecGov</h2>
       <ul class="brand-list">
         <li>GIS 和中后台经验，决定了平台入口必须可见、可操作、可复盘，而不是只停留在命令行或脚本目录。</li>
-        <li>自动化和数据处理经验，直接对应 ExecGov 当前最成熟的一类执行资产，也就是 Python 脚本能力。</li>
+        <li>自动化和数据处理经验，直接对应 ExecGov 当前最成熟的一类执行资产，也就是 Python 脚本能力；而做过 Java / 若依类后台补位，也让平台设计不会被单一语言视角绑住。</li>
         <li>政企交付经验，会天然把权限、确认、留痕、灰度、上线交接和责任边界放到设计优先级里。</li>
         <li>长期做项目交付，也更清楚平台能力必须从真实流程抽象出来，而不是从概念先行。</li>
       </ul>

@@ -185,7 +185,7 @@ lastUpdated: false
 <section class="brand-card">
   <p class="brand-kicker">Deployment Prep</p>
   <h2>部署评估前，通常先对齐这 3 件事</h2>
-  <div class="brand-link-grid">
+  <div class="brand-link-grid brand-link-grid--three">
     <a class="brand-link-card" href="./file-results.html">
       <span>Files</span>
       <strong>文件上传 / 结果下载</strong>
