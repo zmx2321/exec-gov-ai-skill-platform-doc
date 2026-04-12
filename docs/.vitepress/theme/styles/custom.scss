@@ -978,10 +978,12 @@ html:not(.dark) .VPDoc .VPNavBar[data-smartflow-nav-top="false"] .title {
 }
 
 .VPHero:not(.has-image) .actions {
-  display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  width: min(1240px, 100%);
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  max-width: 100%;
   gap: 14px;
+  justify-content: flex-start;
 }
 
 .VPHero .action {
@@ -990,6 +992,8 @@ html:not(.dark) .VPDoc .VPNavBar[data-smartflow-nav-top="false"] .title {
 
 .VPHero:not(.has-image) .action {
   min-width: 0;
+  padding: 0;
+  flex: 0 0 auto;
 }
 
 .VPHero .action .VPButton {
@@ -1008,8 +1012,8 @@ html:not(.dark) .VPDoc .VPNavBar[data-smartflow-nav-top="false"] .title {
 }
 
 .VPHero:not(.has-image) .action .VPButton {
-  width: 100%;
-  min-width: 0;
+  width: auto;
+  min-width: clamp(176px, 16vw, 240px);
   padding-inline: 20px;
 }
 
@@ -3777,7 +3781,18 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
   }
 
   .VPHero:not(.has-image) .actions {
+    display: grid;
+    width: 100%;
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .VPHero:not(.has-image) .action {
+    flex: none;
+  }
+
+  .VPHero:not(.has-image) .action .VPButton {
+    width: 100%;
+    min-width: 0;
   }
 
   .landing-brand__quick-grid,

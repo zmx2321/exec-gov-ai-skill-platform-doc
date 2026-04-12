@@ -112,6 +112,87 @@ lastUpdated: false
   </section>
 
   <section class="brand-card">
+    <p class="brand-kicker">Chat Binding</p>
+    <h2>在对话执行里上传文件后，脚本怎么知道该读哪一个文件</h2>
+    <div class="brand-grid brand-grid--two">
+      <article class="brand-card brand-card--nested">
+        <h3>不是靠脚本自己去猜</h3>
+        <p>当前做法不是让脚本去扫整个上传目录，也不是让它靠文件名碰运气，而是把这次上传形成的批次号显式挂到当前对话执行里。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>页面入口已经收口</h3>
+        <p>用户现在可以直接在对话执行底部快捷区点击“上传文件”，按钮紧挨“上传脚本”，旁边的说明图标会提示这批文件会绑定到当前会话。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>确认执行时会带入当前批次</h3>
+        <p>上传完成后，当前对话会保存这次 <code>uploadBatchId</code>。当用户确认执行某个 Skill 时，后端会把这批文件的快照一并带进这次执行。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>脚本拿到的是这次执行的文件快照</h3>
+        <p>脚本运行时会收到当前批次号、输入文件列表和批次目录信息，所以它处理的是当前这次确认执行绑定的文件，而不是别的历史批次。</p>
+      </article>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>环节</th>
+          <th>当前怎么做</th>
+          <th>作用</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>上传文件</td>
+          <td>前端生成受控批次</td>
+          <td>保证文件先进入可追踪批次，而不是散落上传。</td>
+        </tr>
+        <tr>
+          <td>触发对话</td>
+          <td>当前会话带上 <code>uploadBatchId</code></td>
+          <td>明确这次执行到底要消费哪一批输入。</td>
+        </tr>
+        <tr>
+          <td>确认执行</td>
+          <td>后端回填 <code>fileService</code> 快照</td>
+          <td>让执行器拿到批次号、目录和输入文件清单。</td>
+        </tr>
+        <tr>
+          <td>脚本运行</td>
+          <td>只读取当前绑定批次</td>
+          <td>避免误读别的批次、别的客户或别的历史文件。</td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <th>脚本里直接读什么</th>
+          <th>当前含义</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>EXECGOV_UPLOAD_BATCH_NO</code></td>
+          <td>当前绑定批次号，用来判断这次执行到底消费哪一批输入。</td>
+        </tr>
+        <tr>
+          <td><code>EXECGOV_UPLOAD_INPUT_FILES_JSON</code></td>
+          <td>当前批次输入文件数组，脚本可以直接拿到 <code>fileName</code>、<code>fileId</code>、大小等信息。</td>
+        </tr>
+        <tr>
+          <td><code>EXECGOV_UPLOAD_FILE_SERVICE_JSON</code></td>
+          <td>完整的文件服务快照，包含 <code>batchNo</code>、<code>inputFiles</code> 等上下文。</td>
+        </tr>
+        <tr>
+          <td><code>EXECGOV_SKILL_INPUT_PAYLOAD_JSON</code></td>
+          <td>本次执行的完整输入载荷，里面同样会保留 <code>uploadBatchId</code> 和 <code>fileService</code>。</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>当前 Python / Shell 执行器都会把这些变量注入运行环境。如果用户重新上传了一批新文件并再次确认执行，新的批次就会覆盖旧批次。脚本应始终按当前执行上下文里的批次信息读取输入，而不是凭“最新文件”这种不稳定规则处理。</p>
+  </section>
+
+  <section class="brand-card">
     <p class="brand-kicker">Fit</p>
     <h2>什么场景更适合走这条链路</h2>
     <table>

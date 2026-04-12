@@ -191,7 +191,7 @@ lastUpdated: false
       <a class="brand-link-card" href="../materials/index.html">
         <span>Step 08</span>
         <strong>介绍资料</strong>
-        <p>介绍、讲解、演示或方案沟通需要的资料，可从这里继续查看。</p>
+        <p>介绍、讲解、场景沟通或方案沟通需要的资料，可从这里继续查看。</p>
       </a>
     </div>
   </section>

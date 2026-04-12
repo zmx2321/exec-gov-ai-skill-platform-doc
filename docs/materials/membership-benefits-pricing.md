@@ -11,7 +11,7 @@ lastUpdated: false
       <h1>会员权益与价格说明</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Pricing Narrative</span>
-        <strong>这页面向销售演示、朋友试用和第一次报价沟通，核心目标不是把功能讲满，而是把当前应该走哪条闭环讲清楚。</strong>
+        <strong>这页面向销售讲解、免费线体验引导和第一次报价沟通，核心目标不是把功能讲满，而是把当前应该走哪条闭环讲清楚。</strong>
         <p>当前最稳的销售路径是：个人先走免费线，个人继续使用但还没进入正式协作时走本地脚本位增购，正式团队再进入月租 / 年租正式租户入口，企业与私有化按场景单独评估。</p>
       </div>
       <p class="brand-lead">
@@ -33,7 +33,7 @@ lastUpdated: false
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../product/personal-billing-membership.html">先看支付与会员说明</a>
         <a class="cta-button" href="../product/editions.html">查看版本路线</a>
-        <a class="cta-button" href="../contact.html#lead-form">沟通场景 / 试用</a>
+        <a class="cta-button" href="../contact.html#lead-form">沟通场景 / 分流</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -63,7 +63,7 @@ lastUpdated: false
   <section class="brand-grid brand-grid--four">
     <article class="brand-card">
       <p class="brand-kicker">Path 01</p>
-      <h2>朋友试用 / 免费体验</h2>
+      <h2>免费线体验</h2>
       <ul class="brand-list">
         <li>适合第一次接触 ExecGov 的个人、朋友或轻度体验者。</li>
         <li>先体验公开入口、个人技能库、上传、执行历史、公告和社区等基础路径。</li>
@@ -169,7 +169,7 @@ lastUpdated: false
 
 | 路径 | 更适合谁 | 当前能得到什么 | 当前边界 |
 | --- | --- | --- | --- |
-| 个人免费体验 | 朋友试用、个人探索、第一次接触平台的人 | 先感知产品定位、入口结构、个人工作台和平台价值 | 默认脚本位有限，不适合作为正式团队协作空间 |
+| 个人免费体验 | 免费线体验、个人探索、第一次接触平台的人 | 先感知产品定位、入口结构、个人工作台和平台价值 | 默认脚本位有限，不适合作为正式团队协作空间 |
 | 本地脚本位增购 | 已在个人空间里持续接脚本的人 | 继续扩容本地脚本位，付款后额度立即回填 | 这是轻量增购，不等于正式团队版会员 |
 | 团队版月租 | 想先验证正式协作的团队 | 正式租户注册入口、正式团队使用路径、更适合多人协作 | 价格和付款页以注册页当页展示为准 |
 | 团队版年租 | 已确认长期使用的团队 | 更稳定的服务周期，更少月度重复续期开通动作 | 仍不是私有化默认入口，深度交付边界需单独沟通 |
@@ -179,7 +179,7 @@ lastUpdated: false
 
   <section class="brand-card">
     <p class="brand-kicker">Demo Narrative</p>
-    <h2>给客户演示或让朋友试用，最顺的介绍顺序</h2>
+    <h2>给客户讲解或引导免费线体验，最顺的介绍顺序</h2>
     <div class="step-list">
       <div class="step-item">
         <div class="step-item__title">01. 先让对方免费体验</div>

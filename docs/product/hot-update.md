@@ -236,7 +236,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="../contact.html#lead-form">
           <span>Lead</span>
-          <strong>沟通交付 / 试用</strong>
+          <strong>沟通交付 / 分流</strong>
         </a>
       </div>
     </div>

@@ -224,7 +224,7 @@ lastUpdated: false
           <td>该怎么讲会员权益和价格</td>
           <td><a href="./membership-benefits-pricing.html">会员权益与价格说明</a></td>
           <td>免费线、脚本位增购、团队版月租 / 年租正式租户入口和企业项目的口径拆分</td>
-          <td>客户、售前、朋友试用引导者</td>
+          <td>客户、售前、免费线体验引导者</td>
         </tr>
         <tr>
           <td>项目该怎么开始谈</td>
@@ -287,7 +287,7 @@ lastUpdated: false
       <a class="brand-link-card" href="./membership-benefits-pricing.html">
         <span>Step 05</span>
         <strong>会员权益与价格说明</strong>
-        <p>进入试用、报价或销售沟通时，先把免费线、增购、团队版和企业交付口径拆开。</p>
+        <p>进入免费线判断、报价或销售沟通时，先把免费线、增购、团队版和企业交付口径拆开。</p>
       </a>
       <a class="brand-link-card" href="./service-packages.html">
         <span>Step 06</span>
@@ -307,7 +307,7 @@ lastUpdated: false
       <a class="brand-link-card" href="../contact.html#lead-form">
         <span>Step 09</span>
           <strong>沟通真实场景</strong>
-        <p>进入真实沟通、评估和演示阶段。</p>
+        <p>进入真实沟通、评估和场景讲解阶段。</p>
       </a>
     </div>
   </section>

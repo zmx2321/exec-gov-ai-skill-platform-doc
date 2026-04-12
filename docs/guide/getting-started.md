@@ -65,7 +65,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">02</p>
       <h2>它已经有公开入口</h2>
-      <p>你现在可以直接使用体验页、登录页、注册页和文档站，不需要从演示入口跳转。</p>
+      <p>你现在可以直接使用体验页、登录页、注册页和文档站，不需要再从旧入口跳转。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">03</p>
@@ -137,7 +137,7 @@ lastUpdated: false
           <td><code>/experience</code></td>
           <td>当前正式公开体验页</td>
           <td>第一次体验的人</td>
-          <td>它是真实入口，不是只用于截图演示的占位页。</td>
+          <td>它是真实入口，不是只用于截图展示的占位页。</td>
         </tr>
         <tr>
           <td><code>/login</code></td>

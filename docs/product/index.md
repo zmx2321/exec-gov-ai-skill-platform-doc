@@ -54,7 +54,7 @@ lastUpdated: false
       <div class="brand-chip-list">
         <span class="brand-chip">多租户治理</span>
         <span class="brand-chip">可信执行</span>
-        <span class="brand-chip">试用入口</span>
+        <span class="brand-chip">免费线入口</span>
         <span class="brand-chip">CLI / Agent 路线</span>
         <span class="brand-chip">HTTP 样板已落地</span>
         <span class="brand-chip">共享 SaaS</span>
@@ -244,7 +244,7 @@ lastUpdated: false
       <article class="brand-card brand-card--nested">
         <span class="brand-pill">03</span>
         <h3>产品入口问题</h3>
-        <p>个人试用、团队协作与企业交付需要一条连续路径，而不是三套彼此割裂的系统。</p>
+        <p>个人免费线、团队协作与企业交付需要一条连续路径，而不是三套彼此割裂的系统。</p>
       </article>
     </div>
   </section>
@@ -402,7 +402,7 @@ lastUpdated: false
       <ul class="brand-list">
         <li>不是把模型接出来就结束，而是让 AI 在规则内真正执行。</li>
         <li>不是一次性 demo，而是能持续沉淀能力资产、流程和审计记录。</li>
-        <li>个人试用、正式交付和本地接入能共用同一套可信执行底座。</li>
+        <li>个人免费线、正式交付和本地接入能共用同一套可信执行底座。</li>
         <li>支持网页入口、本地脚本接入，以及后续更完整的能力桥接路径。</li>
       </ul>
     </article>

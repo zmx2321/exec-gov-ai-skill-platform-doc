@@ -8,7 +8,7 @@ lastUpdated: false
   <section class="brand-hero brand-hero--contact">
     <div>
       <p class="brand-kicker">Lead Entry</p>
-      <h1>试用与咨询</h1>
+      <h1>线索分流与咨询</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Founder Signal</span>
         <strong>提交线索前，先判断你当前属于免费线、本地脚本位扩容、正式团队协作，还是企业项目交付。</strong>
@@ -16,7 +16,7 @@ lastUpdated: false
       </div>
       <p class="brand-lead">
         面向企业业务自动化、平台化交付、私有部署，以及已有脚本与流程的治理升级场景，
-        当前承接免费线判断、本地脚本位增购判断、团队版演示预约和企业版咨询。
+        当前承接免费线判断、本地脚本位增购判断、团队版路径判断和企业版咨询。
       </p>
       <div class="brand-chip-list">
         <span class="brand-chip">免费线判断</span>
@@ -40,7 +40,7 @@ lastUpdated: false
         </article>
         <article class="brand-hero__panel contact-node-card">
           <span class="link-panel-label">What You Get</span>
-          <strong>沟通后会更快判断该先试用、先扩容、先走标准团队版，还是直接进入企业交付</strong>
+          <strong>沟通后会更快判断该先走免费线、先扩容、先走标准团队版，还是直接进入企业交付</strong>
           <p>重点不是聊大而全的平台故事，而是尽快明确下一步入口、准备材料和第一条治理样板怎么启动。</p>
         </article>
       </div>
@@ -72,7 +72,7 @@ lastUpdated: false
         <article class="brand-hero__panel contact-node-card">
           <span class="link-panel-label">Reply Path</span>
           <strong>先留场景，再进入四层对应跟进</strong>
-          <p>会按免费线判断、本地脚本位、团队版演示和企业咨询四个方向继续跟进，不会一开始就拉成大而全的项目讨论。</p>
+          <p>会按免费线判断、本地脚本位、团队版路径判断和企业咨询四个方向继续跟进，不会一开始就拉成大而全的项目讨论。</p>
         </article>
         <article class="brand-hero__panel contact-node-card">
           <span class="link-panel-label">Before Send</span>
@@ -98,7 +98,7 @@ lastUpdated: false
       <p class="brand-kicker">Current Entry</p>
       <h2>公开体验入口后的下一步</h2>
       <ul class="brand-list">
-        <li>你已经可以先运行公开 demo，快速感受一次“AI 调度脚本”的完整链路。</li>
+        <li>你已经可以先运行公开体验入口，快速感受一次“AI 调度脚本”的完整链路。</li>
         <li>如果你想继续自己接脚本，下一步直接注册进入个人智能执行台。</li>
         <li>如果只是个人持续使用但还没进入正式协作，优先判断是否只需要本地脚本位扩容。</li>
         <li>如果你更关心多人协作、权限审计或本地接入，先判断是标准团队版还是企业交付，再进入沟通。</li>
@@ -111,7 +111,7 @@ lastUpdated: false
         <li>你想让 AI 调度哪类脚本、流程或数据任务。</li>
         <li>是否需要多人协作、审批、权限控制或执行审计。</li>
         <li>是否涉及本地环境、内网资源或私有化部署要求。</li>
-        <li>你更希望先试用、先扩容个人空间、先走团队版，还是直接沟通企业方案。</li>
+        <li>你更希望先走免费线、先扩容个人空间、先走团队版，还是直接沟通企业方案。</li>
       </ul>
     </article>
   </section>
@@ -160,7 +160,7 @@ lastUpdated: false
   <section id="lead-form" class="brand-grid brand-grid--two">
     <article class="brand-card">
       <p class="brand-kicker">Lead Form</p>
-      <h2>提交试用 / 咨询线索</h2>
+      <h2>提交线索</h2>
       <p class="brand-lead">
         至少留下姓名、需求描述和一种联系方式，即可进入跟进流程。这个表单会调用默认邮件客户端发送到公开邮箱。
       </p>
@@ -239,7 +239,7 @@ lastUpdated: false
         <li>脚本语言、依赖环境、运行频率和输入输出方式</li>
         <li>大概使用人数，是个人、小团队还是正式客户项目</li>
         <li>是否需要本地执行、内网访问、数据库连接或私有化部署</li>
-        <li>你更想先试用、先扩容个人空间、先走团队版，还是直接推进企业合作</li>
+        <li>你更想先走免费线、先扩容个人空间、先走团队版，还是直接推进企业合作</li>
       </ul>
       <div class="brand-grid brand-grid--two">
         <article class="brand-card brand-card--nested">

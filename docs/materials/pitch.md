@@ -16,7 +16,7 @@ lastUpdated: false
     </div>
     <p class="brand-lead">
       这一页集中说明 ExecGov 的核心介绍结构，覆盖平台定位、问题定义、四层路径和当前落地重点。
-      适合用于第一次接触、演示开场和正式沟通前统一口径。
+      适合用于第一次接触、介绍开场和正式沟通前统一口径。
     </p>
     <div class="brand-chip-list">
       <span class="brand-chip">30 秒版本</span>
@@ -204,7 +204,7 @@ lastUpdated: false
       <h2>当前阶段适合这样理解</h2>
       <ul class="brand-list">
         <li>平台当前最成熟的执行资产是 Python 脚本</li>
-        <li><code>execgov-cli</code> 适合本地接入和试用，常驻 Agent 能力在持续完善</li>
+        <li><code>execgov-cli</code> 适合本地接入和前期验证，常驻 Agent 能力在持续完善</li>
         <li>正式客户交付当前分成共享 SaaS 正式租户入口和企业单租户交付两条现实路线</li>
         <li>public 超管侧已先落下一版 HTTP 能力接入样板，验证第二种能力如何进入治理链路</li>
         <li>更标准的小团队使用方式会继续收敛，当前由 <code>tenant_1003+</code> / <code>exec-gov-common</code> 承接共享 SaaS 前端</li>
@@ -213,7 +213,7 @@ lastUpdated: false
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Demo Order</p>
-      <h2>演示顺序</h2>
+      <h2>讲解顺序</h2>
       <ol class="brand-list">
         <li>先判断对方属于免费线、本地脚本位、团队版还是企业交付</li>
         <li>再讲问题和平台定义</li>

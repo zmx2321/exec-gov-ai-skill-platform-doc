@@ -29,7 +29,7 @@ lastUpdated: false
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../guide/getting-started.html">先看快速开始</a>
         <a class="cta-button" href="./editions.html">查看版本路线</a>
-        <a class="cta-button" href="../contact.html#lead-form">沟通试用 / 升级</a>
+        <a class="cta-button" href="../contact.html#lead-form">沟通分流 / 升级</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -200,8 +200,8 @@ lastUpdated: false
     <div class="brand-card__row">
       <div>
         <p class="brand-kicker">Sales View</p>
-        <h2>如果你要对外演示或谈价格，再继续看销售口径页</h2>
-        <p class="brand-lead">这页主要讲实现边界、付款路径和真实现状；如果你要对客户、朋友试用者或售前同事讲“该怎么卖、怎么分层、怎么报价”，更适合继续看单独的会员权益与价格说明。</p>
+        <h2>如果你要对外讲解或谈价格，再继续看销售口径页</h2>
+        <p class="brand-lead">这页主要讲实现边界、付款路径和真实现状；如果你要对客户、免费线体验用户或售前同事讲“该怎么卖、怎么分层、怎么报价”，更适合继续看单独的会员权益与价格说明。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="../materials/membership-benefits-pricing.html">

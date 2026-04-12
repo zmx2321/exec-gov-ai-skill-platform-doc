@@ -134,6 +134,10 @@ lastUpdated: false
         <p>不一定。如果项目需要处理输入文件和结果产物，平台可以提供文件上传、批次状态和结果下载链路；是否开放以具体项目范围为准。</p>
       </article>
       <article class="brand-card brand-card--nested">
+        <h3>上传文件后，脚本怎么知道该处理哪一个文件</h3>
+        <p>不是让脚本自己去猜。当前对话执行底部快捷区的“上传文件”按钮会把这次上传绑定成一个 <code>uploadBatchId</code>，确认执行时后端再把这批文件的快照传给脚本。Python / Shell 脚本可以直接读取 <code>EXECGOV_UPLOAD_BATCH_NO</code>、<code>EXECGOV_UPLOAD_INPUT_FILES_JSON</code>、<code>EXECGOV_UPLOAD_FILE_SERVICE_JSON</code> 和 <code>EXECGOV_SKILL_INPUT_PAYLOAD_JSON</code>，所以处理的是当前绑定批次，而不是历史目录里“最新那个文件”。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
         <h3>正式交付后客户通常会拿到哪些说明</h3>
         <p>通常至少包括访问入口、账号方式、客户使用说明、客户脚本热更新说明；如果项目包含公告、客户须知或结果下载入口，也应一起交待清楚。</p>
       </article>
@@ -146,7 +150,7 @@ lastUpdated: false
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
         <h3>CLI 现在是不是概念功能</h3>
-        <p>不是。<code>execgov-cli</code> 已支持 <code>login</code>、<code>register</code>、<code>list</code>、<code>run</code>、<code>agent describe</code> 和 <code>agent start</code>，适合本地接入、调试和试用。</p>
+        <p>不是。<code>execgov-cli</code> 已支持 <code>login</code>、<code>register</code>、<code>list</code>、<code>run</code>、<code>agent describe</code> 和 <code>agent start</code>，适合本地接入、调试和前期验证。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>本地 Agent 是不是已经正式商用</h3>
@@ -169,7 +173,7 @@ lastUpdated: false
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
         <h3>现在已经做出什么</h3>
-        <p>企业 <code>1.0</code> 交付主线、个人免费入口、CLI 最小桥梁能力和外部文档都已可用，可以支撑演示、试用和部分真实场景。</p>
+        <p>企业 <code>1.0</code> 交付主线、个人免费入口、CLI 最小桥梁能力和外部文档都已可用，可以支撑公开讲解、免费线体验和部分真实场景。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>标准化小团队方案是不是已经完全开放</h3>
@@ -195,7 +199,7 @@ lastUpdated: false
       <div>
         <p class="brand-kicker">Next Read</p>
         <h2>FAQ 后的常用入口</h2>
-        <p class="brand-lead">可按目标继续查看产品概览、客户交付、CLI，或直接提交试用 / 咨询线索。</p>
+        <p class="brand-lead">可按目标继续查看产品概览、客户交付、CLI，或直接提交线索进入分流。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="../product/index.html">

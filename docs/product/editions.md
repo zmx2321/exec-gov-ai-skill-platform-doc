@@ -90,7 +90,7 @@ lastUpdated: false
         <article class="brand-hero__panel roadmap-signal-card">
           <span class="link-panel-label">Decision Rule</span>
           <strong>先把已验证路径继续做深</strong>
-          <p>优先把交付、试用闭环和可复用能力做稳，再决定哪些部分值得继续做厚。</p>
+          <p>优先把交付、入口闭环和可复用能力做稳，再决定哪些部分值得继续做厚。</p>
         </article>
         <article class="brand-hero__panel roadmap-signal-card roadmap-signal-card--wide">
           <span class="link-panel-label">How To Read It</span>
@@ -140,7 +140,7 @@ lastUpdated: false
       <p class="brand-kicker">Next</p>
       <h2>下一阶段先收敛这些</h2>
       <ul class="brand-list">
-        <li>把自动注册、试用开通、支付、续费、到期提醒和停开流程补成低客服闭环</li>
+        <li>把自动注册、入口开通、支付、续费、到期提醒和停开流程补成低客服闭环</li>
         <li>把小团队协作里真正高频的能力收成更稳的方案</li>
         <li>把套餐、额度和交付边界收敛成更清楚的产品规则</li>
         <li>把共享 SaaS 租户前端的品牌化、初始化和菜单边界继续收口成稳定方案</li>

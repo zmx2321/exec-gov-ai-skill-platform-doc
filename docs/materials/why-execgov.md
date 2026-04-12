@@ -73,7 +73,7 @@ lastUpdated: false
           </div>
           <div class="why-execgov-guide-item">
             <span>不看什么</span>
-            <strong>这页不负责展开所有模块细节，也不替代场景演示</strong>
+            <strong>这页不负责展开所有模块细节，也不替代场景讲解</strong>
           </div>
         </div>
       </article>
@@ -94,7 +94,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Problem 03</p>
       <h2>AI 只会说，还不够</h2>
-      <p>如果 AI 只能回答问题，却不能在规则里稳定调用真实能力，那它对很多技术决策者来说仍然只是一个演示层，不是可落地的执行层。</p>
+      <p>如果 AI 只能回答问题，却不能在规则里稳定调用真实能力，那它对很多技术决策者来说仍然只是一个展示层，不是可落地的执行层。</p>
     </article>
   </section>
 

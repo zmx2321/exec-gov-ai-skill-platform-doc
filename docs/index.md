@@ -239,7 +239,7 @@ features:
       <p class="landing-kicker">Commercial Route</p>
       <h2>面对哪类问题，先走哪条入口</h2>
       <p class="landing-lead">
-        当前更稳的理解方式不是笼统地说“先试用再看”，而是先判断自己属于
+        当前更稳的理解方式不是笼统地说“先体验再看”，而是先判断自己属于
         <strong>免费线</strong>、
         <strong>本地脚本位扩容</strong>、
         <strong>标准团队版</strong>，
@@ -346,7 +346,7 @@ features:
         <h3>ExecGov（执治）</h3>
         <p><strong>定位：</strong>企业级 AI 执行与治理平台</p>
         <p><strong>Slogan：</strong>让每次自动化，都可靠且可控。</p>
-        <p>用于官网、演示、方案、合同和正式交付沟通。</p>
+        <p>用于官网、资料页、方案、合同和正式交付沟通。</p>
       </article>
       <article class="mode-card">
         <span class="link-panel-label">Method</span>
@@ -605,7 +605,7 @@ features:
     <a class="link-panel" href="./materials/">
       <span class="link-panel-label">Materials</span>
       <strong>介绍资料</strong>
-      <p>把平台介绍、价值表达和演示提纲单独整理，便于阅读、评审和方案沟通。</p>
+      <p>把平台介绍、价值表达和介绍提纲单独整理，便于阅读、评审和方案沟通。</p>
     </a>
   </div>
 </section>
