@@ -11,12 +11,12 @@ lastUpdated: false
     <h1>介绍提纲</h1>
     <div class="brand-hero__panel">
       <span class="brand-pill">Talking Point</span>
-      <strong>真正有效的介绍，不是讲很多技术名词，而是让听的人快速知道它是什么、解决什么问题、为什么值得继续往下看。</strong>
-      <p>重点是先把定位、问题和交付方式讲清楚，再进入更深的产品和技术判断。</p>
+      <strong>真正有效的介绍，不是先堆技术名词，而是先判断对方现在处在免费线、本地脚本位、正式团队协作，还是企业项目交付哪一层。</strong>
+      <p>先把当前入口路径讲对，再补平台定位、问题定义和交付方式，才不会把个人扩容、标准团队版和企业交付混成一套说法。</p>
     </div>
     <p class="brand-lead">
-      这一页集中说明 ExecGov 的核心介绍结构，覆盖平台定位、问题定义、交付方式和当前落地重点。
-      适合用于第一次接触、演示开场和正式沟通前的统一表达。
+      这一页集中说明 ExecGov 的核心介绍结构，覆盖平台定位、问题定义、四层路径和当前落地重点。
+      适合用于第一次接触、演示开场和正式沟通前统一口径。
     </p>
     <div class="brand-chip-list">
       <span class="brand-chip">30 秒版本</span>
@@ -42,7 +42,7 @@ lastUpdated: false
         <div class="matrix-panel__stack">
           <span class="matrix-panel__line"><span class="matrix-panel__key">problem</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__ident">scripts_exist</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__ident">entry_is_fragmented</span></span>
           <span class="matrix-panel__line"><span class="matrix-panel__key">platform</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__ident">intent_routing</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__ident">controlled_execution</span></span>
-          <span class="matrix-panel__line"><span class="matrix-panel__key">delivery</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__string">tenant</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">dedicated_url</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">update</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">isolation</span></span>
+          <span class="matrix-panel__line"><span class="matrix-panel__key">path</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__string">free</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">local_slots</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">team_saas</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">private_delivery</span></span>
         </div>
         <div class="matrix-panel__callout">GOOD PITCHES REDUCE CONFUSION FAST</div>
       </div>
@@ -64,8 +64,49 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">3 Minutes</p>
       <h2>3 分钟版本怎么讲</h2>
-      <p>先讲问题：很多团队已经有脚本、接口和流程，但它们散落在共享盘、服务器和个人电脑里，执行风险高、交接成本高。再讲平台：AI 负责理解需求和推荐能力，平台负责边界、确认、执行和审计。最后讲价值：一个客户一个租户，一个客户一个网址，能力可以持续更新，而当前第一阶段主要以脚本型能力落地。现在更重要的是先把真实问题解决好，而不是把路线讲得很远。</p>
+      <p>先讲问题：很多团队已经有脚本、接口和流程，但它们散落在共享盘、服务器和个人电脑里，执行风险高、交接成本高。再讲平台：AI 负责理解需求和推荐能力，平台负责边界、确认、执行和审计。最后讲路径：个人先走免费线，持续使用但还没进入正式协作时走本地脚本位增购，真正进入多人协作时走团队版月租 / 年租正式租户入口，涉及更强隔离、内网或正式项目时再转企业交付。现在更重要的是先把真实问题解决好，而不是把路线讲得很远。</p>
     </article>
+  </section>
+
+  <section class="brand-card">
+    <p class="brand-kicker">Entry First</p>
+    <h2>先判断对方在哪一层，再决定怎么讲</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>当前对象</th>
+          <th>先讲什么</th>
+          <th>不要怎么讲</th>
+          <th>建议入口</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>第一次接触平台的人</td>
+          <td>先讲平台定位、痛点和免费线体验价值</td>
+          <td>不要一开始就讲企业交付和复杂定制</td>
+          <td><a href="../guide/getting-started.html">快速开始</a></td>
+        </tr>
+        <tr>
+          <td>已经在个人空间持续接脚本的人</td>
+          <td>先讲本地脚本位扩容和轻量增购</td>
+          <td>不要把个人扩容说成正式团队版</td>
+          <td><a href="./membership-benefits-pricing.html">会员权益与价格说明</a></td>
+        </tr>
+        <tr>
+          <td>准备进入多人协作的团队</td>
+          <td>先讲团队版月租 / 年租正式租户入口</td>
+          <td>不要把共享 SaaS 路径讲成默认私有化交付</td>
+          <td><a href="../product/personal-billing-membership.html">支付与会员说明</a></td>
+        </tr>
+        <tr>
+          <td>需要更强隔离、内网或正式项目验收的客户</td>
+          <td>先讲部署、交付边界和企业项目节奏</td>
+          <td>不要继续沿用标准会员页口径</td>
+          <td><a href="../product/deployment.html">部署方式</a> / <a href="./service-packages.html">启动方式 / 服务包</a></td>
+        </tr>
+      </tbody>
+    </table>
   </section>
 
   <section class="brand-card">
@@ -102,8 +143,8 @@ lastUpdated: false
         <tr>
           <td>04</td>
           <td>核心交付模式</td>
-          <td>一个客户一个租户，一个客户一个网址</td>
-          <td>多客户对应多个独立租户</td>
+          <td>标准 SaaS 正式租户入口和企业单租户交付是两条现实路线</td>
+          <td>共享 SaaS 与企业交付的双路径示意</td>
         </tr>
         <tr>
           <td>05</td>
@@ -150,10 +191,11 @@ lastUpdated: false
       <p class="brand-kicker">Do Say</p>
       <h2>对外表达要点</h2>
       <ul class="brand-list">
+        <li>先判断对方当前属于免费线、本地脚本位、团队版还是企业交付</li>
         <li>它把分散脚本、接口和流程收进统一入口</li>
         <li>AI 在规则内推荐和触发能力</li>
         <li>平台强调租户隔离、确认执行和审计留痕</li>
-        <li>一个客户一个租户，一个客户一个网址</li>
+        <li>标准团队版当前由共享 SaaS 前端承接，企业项目再进入更强隔离交付</li>
         <li>先讲当前可用能力，再讲后续扩展方向</li>
       </ul>
     </article>
@@ -163,9 +205,9 @@ lastUpdated: false
       <ul class="brand-list">
         <li>平台当前最成熟的执行资产是 Python 脚本</li>
         <li><code>execgov-cli</code> 适合本地接入和试用，常驻 Agent 能力在持续完善</li>
-        <li>正式客户交付支持独立租户、独立网址和持续更新</li>
+        <li>正式客户交付当前分成共享 SaaS 正式租户入口和企业单租户交付两条现实路线</li>
         <li>public 超管侧已先落下一版 HTTP 能力接入样板，验证第二种能力如何进入治理链路</li>
-        <li>更标准的小团队使用方式会继续收敛</li>
+        <li>更标准的小团队使用方式会继续收敛，当前由 <code>tenant_1003+</code> / <code>exec-gov-common</code> 承接共享 SaaS 前端</li>
         <li>更多能力类型会逐步接入统一治理链路</li>
       </ul>
     </article>
@@ -173,8 +215,9 @@ lastUpdated: false
       <p class="brand-kicker">Demo Order</p>
       <h2>演示顺序</h2>
       <ol class="brand-list">
-        <li>先讲问题和平台定义</li>
-        <li>再展示产品概览或体验路径</li>
+        <li>先判断对方属于免费线、本地脚本位、团队版还是企业交付</li>
+        <li>再讲问题和平台定义</li>
+        <li>再展示对应体验路径或团队升级路径</li>
         <li>再讲客户流程 / 交付和隔离边界</li>
         <li>最后按需要补 CLI 或部署方式</li>
       </ol>

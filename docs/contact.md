@@ -11,17 +11,17 @@ lastUpdated: false
       <h1>试用与咨询</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Founder Signal</span>
-        <strong>由 8 年前端交付经验、近 2 年补强 Python 自动化与小型全栈闭环的构建者持续推进</strong>
-        <p>当前平台已具备多租户治理、可信执行、免费入口和 CLI 演进路径，可用于试用、评估与正式沟通。</p>
+        <strong>提交线索前，先判断你当前属于免费线、本地脚本位扩容、正式团队协作，还是企业项目交付。</strong>
+        <p>当前平台已具备多租户治理、可信执行、免费入口和 CLI 演进路径，但不同阶段应该进入不同沟通入口，不再混成一个大而全咨询口。</p>
       </div>
       <p class="brand-lead">
         面向企业业务自动化、平台化交付、私有部署，以及已有脚本与流程的治理升级场景，
-        当前承接免费线索、团队版演示预约和企业版咨询。
+        当前承接免费线判断、本地脚本位增购判断、团队版演示预约和企业版咨询。
       </p>
       <div class="brand-chip-list">
-        <span class="brand-chip">设计合作伙伴计划</span>
-        <span class="brand-chip">免费试用申请</span>
-        <span class="brand-chip">团队版演示预约</span>
+        <span class="brand-chip">免费线判断</span>
+        <span class="brand-chip">本地脚本位增购</span>
+        <span class="brand-chip">团队版月租 / 年租</span>
         <span class="brand-chip">企业版 / 私有化咨询</span>
         <span class="brand-chip">本地脚本、CLI 与模板方案</span>
       </div>
@@ -40,7 +40,7 @@ lastUpdated: false
         </article>
         <article class="brand-hero__panel contact-node-card">
           <span class="link-panel-label">What You Get</span>
-          <strong>沟通后会更快判断该先试用、先演示还是直接接入</strong>
+          <strong>沟通后会更快判断该先试用、先扩容、先走标准团队版，还是直接进入企业交付</strong>
           <p>重点不是聊大而全的平台故事，而是尽快明确下一步入口、准备材料和第一条治理样板怎么启动。</p>
         </article>
       </div>
@@ -55,8 +55,8 @@ lastUpdated: false
           <div class="matrix-panel__trace matrix-panel__trace--top"></div>
           <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
-                    <div class="matrix-panel__stack">
-            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">leadEntry</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'free_trial'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'team_demo'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'enterprise_consulting'</span><span class="matrix-panel__punct">]</span></span>
+          <div class="matrix-panel__stack">
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">leadEntry</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'free_line'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'local_slots'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'team_saas'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'enterprise_delivery'</span><span class="matrix-panel__punct">]</span></span>
             <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">contactMail</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__string">'zmx2321@163.com'</span></span>
             <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">focus</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'delivery'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'product'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'private deployment'</span><span class="matrix-panel__punct">]</span></span>
           </div>
@@ -71,8 +71,8 @@ lastUpdated: false
       <div class="contact-node-grid">
         <article class="brand-hero__panel contact-node-card">
           <span class="link-panel-label">Reply Path</span>
-          <strong>先留场景，再进入对应跟进</strong>
-          <p>会按免费试用、团队演示和企业咨询三个方向继续跟进，不会一开始就拉成大而全的项目讨论。</p>
+          <strong>先留场景，再进入四层对应跟进</strong>
+          <p>会按免费线判断、本地脚本位、团队版演示和企业咨询四个方向继续跟进，不会一开始就拉成大而全的项目讨论。</p>
         </article>
         <article class="brand-hero__panel contact-node-card">
           <span class="link-panel-label">Before Send</span>
@@ -100,7 +100,8 @@ lastUpdated: false
       <ul class="brand-list">
         <li>你已经可以先运行公开 demo，快速感受一次“AI 调度脚本”的完整链路。</li>
         <li>如果你想继续自己接脚本，下一步直接注册进入个人智能执行台。</li>
-        <li>如果你更关心多人协作、权限审计或本地接入，直接走试用 / 演示沟通更高效。</li>
+        <li>如果只是个人持续使用但还没进入正式协作，优先判断是否只需要本地脚本位扩容。</li>
+        <li>如果你更关心多人协作、权限审计或本地接入，先判断是标准团队版还是企业交付，再进入沟通。</li>
       </ul>
     </article>
     <article class="brand-card">
@@ -110,9 +111,50 @@ lastUpdated: false
         <li>你想让 AI 调度哪类脚本、流程或数据任务。</li>
         <li>是否需要多人协作、审批、权限控制或执行审计。</li>
         <li>是否涉及本地环境、内网资源或私有化部署要求。</li>
-        <li>你更希望先试用、先演示，还是直接沟通企业方案。</li>
+        <li>你更希望先试用、先扩容个人空间、先走团队版，还是直接沟通企业方案。</li>
       </ul>
     </article>
+  </section>
+
+  <section class="brand-card">
+    <p class="brand-kicker">Lead Split</p>
+    <h2>提交线索前，先判断你属于哪一类</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>你现在的状态</th>
+          <th>更适合的下一步</th>
+          <th>为什么</th>
+          <th>建议入口</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>第一次接触平台，只想先感知产品</td>
+          <td>先走免费线</td>
+          <td>先确认这是不是值得继续了解的平台，不急着进入项目沟通</td>
+          <td><a href="./guide/getting-started.html">快速开始</a></td>
+        </tr>
+        <tr>
+          <td>已经在个人空间持续接脚本，但还没进入多人协作</td>
+          <td>先判断本地脚本位是否需要扩容</td>
+          <td>这属于个人轻量增购，不等于正式团队租户</td>
+          <td><a href="./materials/membership-benefits-pricing.html">会员权益与价格说明</a></td>
+        </tr>
+        <tr>
+          <td>准备进入多人协作、正式账号和更稳定周期</td>
+          <td>先走团队版月租 / 年租正式租户入口</td>
+          <td>当前标准团队版由共享 SaaS 前端承接，先验证标准路径是否够用</td>
+          <td><a href="./product/personal-billing-membership.html">支付与会员说明</a></td>
+        </tr>
+        <tr>
+          <td>涉及内网、本地桥接、更强隔离或正式项目验收</td>
+          <td>直接进入企业项目 / 私有化沟通</td>
+          <td>这类问题重点是部署、交付边界和治理要求，不是标准会员页</td>
+          <td><a href="./materials/service-packages.html">启动方式 / 服务包</a> / <a href="./product/deployment.html">部署方式</a></td>
+        </tr>
+      </tbody>
+    </table>
   </section>
 
   <section id="lead-form" class="brand-grid brand-grid--two">
@@ -190,13 +232,14 @@ lastUpdated: false
         <li>团队版 / 企业版的能力规划与落地路径</li>
         <li>私有化部署、数据自动化与本地执行方案</li>
         <li>脚本整理、Skill 接入、CLI / Agent 桥接能力</li>
+        <li>判断当前应停留在共享 SaaS 正式租户，还是转企业交付</li>
       </ul>
       <p class="brand-kicker">What To Prepare</p>
       <ul class="brand-list">
         <li>脚本语言、依赖环境、运行频率和输入输出方式</li>
         <li>大概使用人数，是个人、小团队还是正式客户项目</li>
         <li>是否需要本地执行、内网访问、数据库连接或私有化部署</li>
-        <li>你更想先试用、先演示，还是直接推进正式合作</li>
+        <li>你更想先试用、先扩容个人空间、先走团队版，还是直接推进企业合作</li>
       </ul>
       <div class="brand-grid brand-grid--two">
         <article class="brand-card brand-card--nested">
@@ -213,7 +256,7 @@ lastUpdated: false
     </article>
   </section>
 
-  <section class="brand-grid brand-grid--three contact-path-grid">
+  <section class="brand-grid brand-grid--four contact-path-grid">
     <article class="brand-card">
       <p class="brand-kicker">Path 01</p>
       <h2>个人体验 / 智能执行台</h2>
@@ -221,11 +264,16 @@ lastUpdated: false
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Path 02</p>
-      <h2>团队版 SaaS</h2>
-      <p>承接多人协作、共享执行能力、审批、权限控制和更稳定的产品订阅。当前优先走标准 SaaS 正式租户入口；如果需要更强隔离或更深定制，再转企业版 / 私有化。</p>
+      <h2>个人继续使用 / 本地脚本位</h2>
+      <p>适合已经在个人空间持续接脚本，但还没有进入多人正式协作的人。重点是扩容个人脚本位，不把它讲成正式团队版。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Path 03</p>
+      <h2>团队版 SaaS</h2>
+      <p>承接多人协作、共享执行能力、审批、权限控制和更稳定的产品订阅。当前优先走标准 SaaS 正式租户入口，由共享 SaaS 前端承接；如果需要更强隔离或更深定制，再转企业版 / 私有化。</p>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">Path 04</p>
       <h2>企业版 / 私有化</h2>
       <p>承接更高隔离、更高安全要求、内网、本地 Agent 和正式交付需求。</p>
     </article>
