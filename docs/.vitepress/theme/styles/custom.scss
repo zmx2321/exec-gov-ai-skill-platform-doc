@@ -1060,7 +1060,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 }
 
 .VPHome .VPHero.has-image .text::after {
-  content: "Execution Governance";
+  content: "Execution Fabric";
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1090,7 +1090,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 }
 
 .VPHome .VPHero.has-image .name::before {
-  content: "E·G";
+  content: "E·F";
   color: var(--smartflow-kicker);
   font-family: var(--smartflow-mono-font);
   font-size: 0.8rem;

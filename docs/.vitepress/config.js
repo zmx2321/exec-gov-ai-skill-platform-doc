@@ -385,7 +385,7 @@ export default {
   title: localeText.root.title,
   description: localeText.root.description,
   appearance: {
-    initialValue: "light",
+    initialValue: "dark",
     storageKey: "execfabric-doc-theme-appearance",
   },
   base: normalizedDocsBase,
@@ -398,10 +398,22 @@ export default {
       `(() => {
         const siteKey = "execfabric-doc-theme-appearance";
         const globalKey = "vitepress-theme-appearance";
-        const saved = localStorage.getItem(siteKey);
-        const normalized = saved === "light" || saved === "dark" || saved === "auto" ? saved : "light";
-        localStorage.setItem(siteKey, normalized);
-        localStorage.setItem(globalKey, normalized);
+        const migrateKey = "execfabric-doc-theme-default-dark-v1";
+        const normalize = (value) => (value === "light" || value === "dark" ? value : "dark");
+
+        try {
+          const savedSite = localStorage.getItem(siteKey);
+          const savedGlobal = localStorage.getItem(globalKey);
+          const hasMigrated = localStorage.getItem(migrateKey) === "true";
+          const normalized = hasMigrated ? normalize(savedSite ?? savedGlobal) : "dark";
+
+          localStorage.setItem(migrateKey, "true");
+          localStorage.setItem(siteKey, normalized);
+          localStorage.setItem(globalKey, normalized);
+          document.documentElement.classList.toggle("dark", normalized === "dark");
+        } catch {
+          document.documentElement.classList.add("dark");
+        }
       })();`,
     ],
   ],

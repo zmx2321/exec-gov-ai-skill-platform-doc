@@ -4,7 +4,7 @@ layout: home
 hero:
   name: ExecFabric
   text: 璇络
-  tagline: 把散装脚本、文件处理和本地自动化流程收成统一入口，让执行、确认和结果回传都可追踪。
+  tagline: ExecFabric（璇络）从 Python 脚本起步，把散装脚本、文件处理和本地自动化流程纳入统一入口，沉淀为可治理、可审计、可交付的执行网络，让执行有边界，结果可追踪。
   actions:
     - theme: brand
       text: 立即免费体验（免登录）
