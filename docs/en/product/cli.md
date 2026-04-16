@@ -7,8 +7,8 @@ lastUpdated: false
 <div class="brand-page-shell brand-page-shell--cli">
   <section class="brand-hero">
     <div>
-      <p class="brand-kicker">CLI Guide</p>
-      <h1>CLI Guide</h1>
+      <p class="brand-kicker">CLI &amp; Local Agent Guide</p>
+      <h1>CLI &amp; Local Agent Guide</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Minimal Formal Loop</span>
         <strong>The CLI already supports login, cloud registration, local-agent registration, direct run, machine binding, and Local Agent polling and execution on the current machine.</strong>
@@ -310,8 +310,8 @@ backup.execfabric-skill.json
           <strong>Scenarios</strong>
         </a>
         <a class="brand-link-card" href="./deployment.html">
-          <span>Deployment</span>
-          <strong>Deployment</strong>
+          <span>Deployment &amp; Delivery Boundaries</span>
+          <strong>Deployment &amp; Delivery Boundaries</strong>
         </a>
         <a class="brand-link-card" href="./onboarding-checklist.html">
           <span>Checklist</span>

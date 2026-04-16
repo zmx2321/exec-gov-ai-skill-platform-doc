@@ -28,7 +28,7 @@ lastUpdated: false
         <span class="brand-chip">continuous delivery</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="./customer-flow.html">Back to customer flow / delivery</a>
+        <a class="cta-button cta-button--brand" href="./customer-flow.html">Back to customer delivery &amp; usage</a>
         <a class="cta-button" href="./onboarding-checklist.html">View the onboarding checklist</a>
       </div>
     </div>
@@ -227,7 +227,7 @@ lastUpdated: false
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./customer-flow.html">
           <span>Delivery</span>
-          <strong>Customer Flow / Delivery</strong>
+          <strong>Customer Delivery &amp; Usage</strong>
         </a>
         <a class="brand-link-card" href="./file-results.html">
           <span>Files</span>

@@ -30,7 +30,7 @@ lastUpdated: false
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../contact.html#lead-form">Discuss a file-processing scenario</a>
-        <a class="cta-button" href="./customer-flow.html">View customer flow / delivery</a>
+        <a class="cta-button" href="./customer-flow.html">View Customer Delivery &amp; Usage</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -268,11 +268,11 @@ lastUpdated: false
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./customer-flow.html">
           <span>Delivery</span>
-          <strong>Customer Flow / Delivery</strong>
+          <strong>Customer Delivery &amp; Usage</strong>
         </a>
         <a class="brand-link-card" href="./deliverables.html">
-          <span>Deliverables</span>
-          <strong>Deliverables / Doc Entry</strong>
+          <span>Customer Delivery Docs &amp; Entry Points</span>
+          <strong>Customer Delivery Docs &amp; Entry Points</strong>
         </a>
         <a class="brand-link-card" href="./onboarding-checklist.html">
           <span>Checklist</span>

@@ -221,7 +221,7 @@ lastUpdated: false
         <li>体验页 demo 当前来自 <code>exec-fabric-ai-skill-platform-script/tenant_1000/experience/</code>，由 manifest 热插拔映射。</li>
         <li>注册后会进入个人智能执行台，可以开始接入自己的第一个脚本。</li>
         <li>当前 Web 上传注册已支持 <code>.py / .sh / .bash</code>。</li>
-        <li><code>execfabric-cli</code> 当前也在补齐 Shell，但目录注册的主示例和默认指引暂时仍以 Python 为主。</li>
+        <li><code>execfabric-cli</code> 当前已经支持 Python / Shell 两条接入主线，但目录注册的主示例和默认指引暂时仍以 Python 为主。</li>
         <li>如果只是个人继续使用但还没进入多人协作，先看本地脚本位增购，不要急着跳企业路径。</li>
         <li>如果只是标准能力和较轻协作，可以优先评估共享 SaaS 共享租户路径。</li>
         <li><code>execfabric-cli</code> 当前已可用，本地接入能力会继续增强。</li>

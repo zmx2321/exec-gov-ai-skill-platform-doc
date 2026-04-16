@@ -471,8 +471,8 @@ features:
         <p>Best for reporting, Excel, batch processing, and workflows that return result files. Explain the input-file and output-artifact chain clearly first.</p>
       </a>
       <a class="link-panel" href="./product/deliverables.html">
-        <span class="link-panel-label">Deliverables</span>
-        <strong>Deliverables / document entry</strong>
+        <span class="link-panel-label">Customer Delivery Docs &amp; Entry Points</span>
+        <strong>Customer Delivery Docs &amp; Entry Points</strong>
         <p>Best for formal delivery conversations so customers know exactly which URLs, accounts, instructions, and result entries they will receive.</p>
       </a>
       <a class="link-panel" href="./product/onboarding-checklist.html">
@@ -617,8 +617,8 @@ features:
       <p>Best for file-based tasks, reporting outputs, and projects that need downloadable artifacts instead of assuming every result is just text.</p>
     </a>
     <a class="link-panel" href="./product/deliverables.html">
-      <span class="link-panel-label">Deliverables</span>
-      <strong>Deliverables / document entry</strong>
+      <span class="link-panel-label">Customer Delivery Docs &amp; Entry Points</span>
+      <strong>Customer Delivery Docs &amp; Entry Points</strong>
       <p>Spell out the final entry points, instructions, and result artifacts customers receive so delivery and later use stay clear.</p>
     </a>
     <a class="link-panel" href="./product/onboarding-checklist.html">

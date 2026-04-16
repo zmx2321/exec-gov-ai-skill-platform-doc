@@ -215,7 +215,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="./editions.html">
           <span>Roadmap</span>
-          <strong>Editions &amp; Roadmap</strong>
+          <strong>Version Stages &amp; Upgrade Path</strong>
         </a>
         <a class="brand-link-card" href="../contact.html#lead-form">
           <span>Lead</span>

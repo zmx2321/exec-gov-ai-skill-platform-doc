@@ -103,7 +103,7 @@ lastUpdated: false
         </tr>
         <tr>
           <td>Service-package and delivery page</td>
-          <td><a href="./service-packages.html">service-packages</a> + <a href="../product/deliverables.html">Deliverables</a></td>
+          <td><a href="./service-packages.html">service-packages</a> + <a href="../product/deliverables.html">Customer Delivery Docs &amp; Entry Points</a></td>
           <td>How the project starts, how it closes, what is included in delivery, and whether it is ready for formal discussion</td>
           <td>When the conversation enters requirements or budget</td>
         </tr>
@@ -120,7 +120,7 @@ lastUpdated: false
         <ol class="brand-list">
           <li>Start with <a href="./founder-card.html">founder-card</a> to judge the direction and boundary quickly.</li>
           <li>If deeper background verification is needed, continue with <a href="./resume-public.html">resume-public</a>.</li>
-          <li>If the conversation has already become a project discussion, continue with <a href="./service-packages.html">service-packages</a> and the <a href="../product/deliverables.html">Deliverables page</a>.</li>
+          <li>If the conversation has already become a project discussion, continue with <a href="./service-packages.html">service-packages</a> and the <a href="../product/deliverables.html">Customer Delivery Docs &amp; Entry Points page</a>.</li>
         </ol>
       </article>
       <article class="brand-card brand-card--nested">
@@ -135,7 +135,7 @@ lastUpdated: false
         <h3>3. When the project discussion is already real</h3>
         <ol class="brand-list">
           <li>Start with <a href="./service-packages.html">service-packages</a> to confirm the cooperation mode and the phase-one scope.</li>
-          <li>Then read the <a href="../product/deliverables.html">Deliverables page</a> to confirm what is handed over and through which entry points.</li>
+          <li>Then read the <a href="../product/deliverables.html">Customer Delivery Docs &amp; Entry Points page</a> to confirm what is handed over and through which entry points.</li>
           <li>If source-code transfer, private deployment, or licensing boundary is involved, continue with <a href="./source-delivery-boundaries.html">Source Delivery and Licensing Boundary</a>.</li>
         </ol>
       </article>

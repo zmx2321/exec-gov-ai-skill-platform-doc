@@ -153,7 +153,7 @@ lastUpdated: false
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
         <h3>Is the CLI still only conceptual</h3>
-        <p>No. <code>execfabric-cli</code> already supports <code>login</code>, <code>register</code>, <code>list</code>, <code>run</code>, <code>agent describe</code>, and <code>agent start</code>. It is already usable for local onboarding, debugging, and early validation.</p>
+        <p>No. <code>execfabric-cli</code> already supports <code>login</code>, <code>register</code>, <code>list</code>, <code>run</code>, <code>agent describe</code>, <code>agent bind</code>, and <code>agent start</code>. It is already usable for local onboarding, debugging, and early validation.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Is the local Agent already a finished commercial feature</h3>
@@ -165,7 +165,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Are all script types fully supported for remote onboarding already</h3>
-        <p>Web-side upload registration already supports Python and Shell text scripts. CLI-side remote registration still mainly centers on Python today, with more types to follow later.</p>
+        <p>Web-side upload registration already supports Python and Shell text scripts. CLI-side remote registration also already supports Python and Shell today, while richer asset-type coverage still comes later.</p>
       </article>
     </div>
   </section>
@@ -202,7 +202,7 @@ lastUpdated: false
       <div>
         <p class="brand-kicker">Next Read</p>
         <h2>Common next pages after FAQ</h2>
-        <p class="brand-lead">Continue by goal: Product Overview, Customer Flow / Delivery, the CLI Guide, or direct lead routing.</p>
+        <p class="brand-lead">Continue by goal: Product Overview, Customer Delivery &amp; Usage, the CLI &amp; Local Agent Guide, or direct lead routing.</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="../product/index.html">
@@ -211,11 +211,11 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="../product/customer-flow.html">
           <span>Delivery</span>
-          <strong>Customer Flow / Delivery</strong>
+          <strong>Customer Delivery &amp; Usage</strong>
         </a>
         <a class="brand-link-card" href="../product/cli.html">
           <span>CLI</span>
-          <strong>CLI Guide</strong>
+          <strong>CLI &amp; Local Agent Guide</strong>
         </a>
         <a class="brand-link-card" href="../contact.html#lead-form">
           <span>Lead</span>

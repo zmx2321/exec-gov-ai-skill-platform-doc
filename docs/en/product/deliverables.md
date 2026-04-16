@@ -7,8 +7,8 @@ lastUpdated: false
 <div class="brand-page-shell brand-page-shell--deliverables">
   <section class="brand-hero">
     <div>
-      <p class="brand-kicker">Delivery Assets &amp; Entry Points</p>
-      <h1>Deliverables</h1>
+      <p class="brand-kicker">Customer Delivery Docs &amp; Entry Points</p>
+      <h1>Customer Delivery Docs &amp; Entry Points</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Delivery Package</span>
         <strong>Delivery is not just handing over one account. It should explain how the customer keeps using the system, how results are checked, and how future updates continue.</strong>
@@ -28,8 +28,8 @@ lastUpdated: false
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../contact.html#lead-form">Discuss formal delivery</a>
-        <a class="cta-button" href="./customer-flow.html">View customer flow</a>
-        <a class="cta-button" href="./implementation-training.html">View implementation &amp; training</a>
+        <a class="cta-button" href="./customer-flow.html">View Customer Delivery &amp; Usage</a>
+        <a class="cta-button" href="./implementation-training.html">View Implementation &amp; Training Services</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -183,7 +183,7 @@ lastUpdated: false
       <p class="brand-kicker">Implementation Page</p>
       <h2>Continue with training roles, implementation steps, and support boundaries</h2>
       <p>If you are deciding who learns what after go-live and how far support goes, the implementation page is the clearer next step.</p>
-      <p><a href="./implementation-training.html">View implementation &amp; training notes</a></p>
+      <p><a href="./implementation-training.html">View Implementation &amp; Training Services</a></p>
     </article>
   </section>
 
@@ -239,7 +239,7 @@ lastUpdated: false
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./customer-flow.html">
           <span>Flow</span>
-          <strong>Customer Flow / Delivery</strong>
+          <strong>Customer Delivery &amp; Usage</strong>
         </a>
         <a class="brand-link-card" href="./file-results.html">
           <span>Files</span>
@@ -250,12 +250,12 @@ lastUpdated: false
           <strong>Onboarding Checklist</strong>
         </a>
         <a class="brand-link-card" href="./deployment.html">
-          <span>Deployment</span>
-          <strong>Deployment</strong>
+          <span>Deployment &amp; Delivery Boundaries</span>
+          <strong>Deployment &amp; Delivery Boundaries</strong>
         </a>
         <a class="brand-link-card" href="./implementation-training.html">
           <span>Training</span>
-          <strong>Implementation &amp; Training</strong>
+          <strong>Implementation &amp; Training Services</strong>
         </a>
         <a class="brand-link-card" href="../materials/source-delivery-boundaries.html">
           <span>Boundary</span>

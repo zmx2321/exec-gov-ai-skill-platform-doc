@@ -7,8 +7,8 @@ lastUpdated: false
 <div class="brand-page-shell">
   <section class="brand-hero">
     <div>
-      <p class="brand-kicker">Deployment</p>
-      <h1>Deployment</h1>
+      <p class="brand-kicker">Deployment &amp; Delivery Boundaries</p>
+      <h1>Deployment &amp; Delivery Boundaries</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Deployment Thesis</span>
         <strong>The control plane can stay unified, while the execution location does not have to.</strong>
@@ -36,7 +36,7 @@ lastUpdated: false
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../contact.html#lead-form">Discuss deployment options</a>
-        <a class="cta-button" href="./editions.html">View Editions</a>
+        <a class="cta-button" href="./editions.html">View Version Stages &amp; Upgrade Path</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -228,7 +228,7 @@ lastUpdated: false
         <td>06. Local expansion phase</td>
         <td>The task starts depending on local environments, intranet resources, or private data</td>
         <td>Layer local hybrid execution on top of single-tenant delivery or platform governance, with the CLI / Agent path handling the bridge</td>
-        <td>If the next question is which standard product tier this belongs to, continue into <a href="./editions.html">Editions</a></td>
+        <td>If the next question is which standard product tier this belongs to, continue into <a href="./editions.html">Version Stages &amp; Upgrade Path</a></td>
       </tr>
     </tbody>
   </table>
@@ -270,8 +270,8 @@ lastUpdated: false
       <p>If the project depends on input files, batch status, Excel outputs, or exported artifacts, clarify the file flow first before talking about deployment modes.</p>
     </a>
     <a class="brand-link-card" href="./deliverables.html">
-      <span>Deliverables</span>
-      <strong>Deliverables</strong>
+      <span>Customer Delivery Docs &amp; Entry Points</span>
+      <strong>Customer Delivery Docs &amp; Entry Points</strong>
       <p>Formal delivery evaluation usually starts with a concrete definition of which URL, account, instructions, and result entry the customer will finally receive.</p>
     </a>
     <a class="brand-link-card" href="./onboarding-checklist.html">
@@ -335,7 +335,7 @@ lastUpdated: false
       <a class="brand-link-card" href="./customer-flow.html">
         <span>Delivery Ops</span>
         <strong>Customer go-live and post-launch update flow</strong>
-        <p>Go directly to Customer Flow / Delivery to understand the formal delivery package, usage path, hot updates, and acceptance priorities in one view.</p>
+        <p>Go directly to Customer Delivery &amp; Usage to understand the formal delivery package, usage path, hot updates, and acceptance priorities in one view.</p>
       </a>
       <a class="brand-link-card" href="./file-results.html">
         <span>File Flow</span>
@@ -345,7 +345,7 @@ lastUpdated: false
       <a class="brand-link-card" href="./deliverables.html">
         <span>Delivery Kit</span>
         <strong>Formal delivery package and long-term customer entry</strong>
-        <p>Continue into the Deliverables page to define the real instructions and entries the customer will use over time.</p>
+        <p>Continue into the Customer Delivery Docs &amp; Entry Points page to define the real instructions and entries the customer will use over time.</p>
       </a>
       <a class="brand-link-card" href="../contact.html#lead-form">
         <span>Growth Entry</span>
@@ -355,7 +355,7 @@ lastUpdated: false
       <a class="brand-link-card" href="./cli.html">
         <span>CLI Bridge</span>
         <strong>Local environments and intranet execution</strong>
-        <p>Start with the CLI Guide and validate the current boundary of <code>login / register / run / agent</code> before attaching local bridging to the deployment plan.</p>
+        <p>Start with the CLI &amp; Local Agent Guide and validate the current boundary of <code>login / register / run / agent</code> before attaching local bridging to the deployment plan.</p>
       </a>
       <a class="brand-link-card" href="./onboarding-checklist.html">
         <span>Ready First</span>
@@ -365,7 +365,7 @@ lastUpdated: false
       <a class="brand-link-card" href="./editions.html">
         <span>Current Stage</span>
         <strong>Current stage and next priorities</strong>
-        <p>Return to Editions first to confirm what is real today and what still should not be oversold.</p>
+        <p>Return to Version Stages &amp; Upgrade Path first to confirm what is real today and what still should not be oversold.</p>
       </a>
     </div>
   </section>

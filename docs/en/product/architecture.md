@@ -37,7 +37,7 @@ lastUpdated: false
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../contact.html#lead-form">Discuss architecture and onboarding</a>
-        <a class="cta-button" href="./deployment.html">View deployment options</a>
+        <a class="cta-button" href="./deployment.html">View Deployment &amp; Delivery Boundaries</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -273,8 +273,8 @@ lastUpdated: false
         <p>When a project depends on input files, batch status, and result files, this path is part of the architecture in practice rather than just a frontend detail.</p>
       </a>
       <a class="brand-link-card" href="./deliverables.html">
-        <span>Deliverables</span>
-        <strong>Deliverables / Doc Entry</strong>
+        <span>Customer Delivery Docs &amp; Entry Points</span>
+        <strong>Customer Delivery Docs &amp; Entry Points</strong>
         <p>If customers will use the platform continuously, the formal architecture must also carry documentation, result entries, and delivery boundaries instead of stopping at a diagram.</p>
       </a>
       <a class="brand-link-card" href="./onboarding-checklist.html">
@@ -354,16 +354,16 @@ lastUpdated: false
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./deployment.html">
-          <span>Deployment</span>
-          <strong>Deployment</strong>
+          <span>Deployment &amp; Delivery Boundaries</span>
+          <strong>Deployment &amp; Delivery Boundaries</strong>
         </a>
         <a class="brand-link-card" href="./file-results.html">
           <span>Files</span>
           <strong>File Upload &amp; Result Delivery</strong>
         </a>
         <a class="brand-link-card" href="./deliverables.html">
-          <span>Deliverables</span>
-          <strong>Deliverables / Doc Entry</strong>
+          <span>Customer Delivery Docs &amp; Entry Points</span>
+          <strong>Customer Delivery Docs &amp; Entry Points</strong>
         </a>
         <a class="brand-link-card" href="./onboarding-checklist.html">
           <span>Checklist</span>

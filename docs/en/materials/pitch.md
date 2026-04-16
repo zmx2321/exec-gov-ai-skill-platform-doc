@@ -103,7 +103,7 @@ lastUpdated: false
           <td>Customers who need stronger isolation, intranet deployment, or formal project acceptance</td>
           <td>Lead with deployment, delivery boundaries, and the enterprise project rhythm</td>
           <td>Do not keep using the standard membership-page narrative</td>
-          <td><a href="../product/deployment.html">Deployment</a> / <a href="./service-packages.html">Kickoff Options / Service Packages</a></td>
+          <td><a href="../product/deployment.html">Deployment &amp; Delivery Boundaries</a> / <a href="./service-packages.html">Kickoff Options / Service Packages</a></td>
         </tr>
       </tbody>
     </table>
@@ -238,7 +238,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="../product/customer-flow.html">
           <span>Delivery</span>
-          <strong>Customer Flow / Delivery</strong>
+          <strong>Customer Delivery &amp; Usage</strong>
         </a>
         <a class="brand-link-card" href="../product/editions.html">
           <span>Roadmap</span>

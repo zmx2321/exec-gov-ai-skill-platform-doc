@@ -107,13 +107,13 @@ lastUpdated: false
         <tr>
           <td>You are preparing for multi-user collaboration</td>
           <td>Start with the formal tenant entry for the team edition</td>
-          <td>Billing & Membership, Customer Flow / Delivery</td>
+          <td>Billing & Membership, Customer Delivery &amp; Usage</td>
           <td>Do not assume that private deployment is automatically the first step</td>
         </tr>
         <tr>
           <td>You involve intranet constraints, stronger isolation, or formal project acceptance</td>
           <td>Go straight into enterprise-delivery discussion</td>
-          <td>Deployment, Customer Flow / Delivery, Contact</td>
+          <td>Deployment &amp; Delivery Boundaries, Customer Delivery &amp; Usage, Contact</td>
           <td>Do not continue using the personal-entry or standard-membership narrative</td>
         </tr>
       </tbody>
@@ -158,13 +158,13 @@ lastUpdated: false
           <td>It explicitly handles the next step after signup instead of relying only on a success toast.</td>
         </tr>
         <tr>
-          <td>Product docs</td>
+          <td>Product &amp; Delivery Docs</td>
           <td>Already structured as a system</td>
           <td>Product, technical, and presales roles</td>
           <td>Explains what the platform is, how it is delivered, how it is deployed, and how it evolves.</td>
         </tr>
         <tr>
-          <td>CLI docs</td>
+          <td>CLI &amp; Local Agent Docs</td>
           <td>Already structured as a system</td>
           <td>Developers and local-bridge scenarios</td>
           <td>Explains the current command boundary: what is implemented and what is not.</td>
@@ -204,8 +204,8 @@ lastUpdated: false
       <p class="brand-kicker">Delivery</p>
       <h2>Team / customer delivery path</h2>
       <ol class="brand-list">
-        <li>Start with Customer Flow / Delivery to understand real usage and the hot-update path.</li>
-        <li>Then read Deployment to decide whether you need shared SaaS, a single tenant, platform governance, or hybrid execution.</li>
+        <li>Start with Customer Delivery &amp; Usage to understand real usage and the hot-update path.</li>
+        <li>Then read Deployment &amp; Delivery Boundaries to decide whether you need shared SaaS, a single tenant, platform governance, or hybrid execution.</li>
         <li>Confirm the edition and delivery model that actually fits you.</li>
         <li>Finally use the Contact page to determine whether to keep moving through the standard team edition or go straight into enterprise delivery.</li>
       </ol>
@@ -221,7 +221,7 @@ lastUpdated: false
         <li>The current demo on the experience page comes from <code>exec-fabric-ai-skill-platform-script/tenant_1000/experience/</code> and is mapped through the manifest for hot swapping.</li>
         <li>After signup, you enter the personal intelligent execution console and can start onboarding your first script.</li>
         <li>Web upload-based registration already supports <code>.py / .sh / .bash</code>.</li>
-        <li><code>execfabric-cli</code> is also adding Shell support, but the primary examples and default guidance still lean toward Python for now.</li>
+        <li><code>execfabric-cli</code> already supports both Python and Shell onboarding paths today, while the primary examples and default guidance still lean toward Python for now.</li>
         <li>If you are only continuing as an individual user and have not entered multi-user collaboration yet, start with local script-slot expansion instead of jumping to the enterprise path.</li>
         <li>If you only need standard capability and lighter collaboration, evaluate the shared-SaaS tenant path first.</li>
         <li><code>execfabric-cli</code> is already usable and its local-integration capability will continue to get stronger.</li>
@@ -246,7 +246,7 @@ lastUpdated: false
       <div>
         <p class="brand-kicker">Next Read</p>
         <h2>Common entry points after the first-pass decision</h2>
-        <p class="brand-lead">Continue by goal: product overview, customer delivery, CLI docs, or FAQ, without bouncing between all pages.</p>
+        <p class="brand-lead">Continue by goal: Product Overview, Customer Delivery &amp; Usage, the CLI &amp; Local Agent Guide, or FAQ, without bouncing between all pages.</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="../product/index.html">
@@ -255,11 +255,11 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="../product/customer-flow.html">
           <span>Delivery</span>
-          <strong>Customer Flow / Delivery</strong>
+          <strong>Customer Delivery &amp; Usage</strong>
         </a>
         <a class="brand-link-card" href="../product/cli.html">
           <span>CLI</span>
-          <strong>CLI Guide</strong>
+          <strong>CLI &amp; Local Agent Guide</strong>
         </a>
         <a class="brand-link-card" href="./faq.html">
           <span>FAQ</span>

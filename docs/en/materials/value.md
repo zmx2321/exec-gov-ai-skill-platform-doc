@@ -28,7 +28,7 @@ lastUpdated: false
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="./pitch.html">View the Pitch</a>
-        <a class="cta-button" href="../product/customer-flow.html">View Customer Flow / Delivery</a>
+        <a class="cta-button" href="../product/customer-flow.html">View Customer Delivery &amp; Usage</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -110,7 +110,7 @@ lastUpdated: false
           <td>Enterprise / private deployment</td>
           <td>Stronger isolation, intranet access, local bridging, and formal delivery</td>
           <td>Emphasize deployment, governance boundaries, milestones, and acceptance criteria instead of reusing the standard membership narrative</td>
-          <td><a href="../product/deployment.html">Deployment</a> / <a href="./service-packages.html">Kickoff Options / Service Packages</a></td>
+          <td><a href="../product/deployment.html">Deployment &amp; Delivery Boundaries</a> / <a href="./service-packages.html">Kickoff Options / Service Packages</a></td>
         </tr>
       </tbody>
     </table>
@@ -162,7 +162,7 @@ lastUpdated: false
           <td>Business lead</td>
           <td>Can our current workflow really be connected into the platform</td>
           <td>Emphasize the unified entry, AI recommendation, result return, and hot update, and explain when the standard team edition is enough and when enterprise delivery is the better fit</td>
-          <td><a href="../product/customer-flow.html">Customer Flow / Delivery</a></td>
+          <td><a href="../product/customer-flow.html">Customer Delivery &amp; Usage</a></td>
         </tr>
         <tr>
           <td>Technical lead</td>
@@ -174,7 +174,7 @@ lastUpdated: false
           <td>Delivery lead</td>
           <td>How does ongoing update and acceptance work after launch</td>
           <td>Emphasize customer flow, deliverables, hot update, the upgrade rhythm of shared SaaS, and the acceptance focus of enterprise projects</td>
-          <td><a href="../product/customer-flow.html">Customer Flow / Delivery</a></td>
+          <td><a href="../product/customer-flow.html">Customer Delivery &amp; Usage</a></td>
         </tr>
       </tbody>
     </table>
@@ -203,11 +203,11 @@ lastUpdated: false
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="../product/customer-flow.html">
           <span>Delivery</span>
-          <strong>Customer Flow / Delivery</strong>
+          <strong>Customer Delivery &amp; Usage</strong>
         </a>
         <a class="brand-link-card" href="../product/deployment.html">
-          <span>Deployment</span>
-          <strong>Deployment</strong>
+          <span>Deployment &amp; Delivery Boundaries</span>
+          <strong>Deployment &amp; Delivery Boundaries</strong>
         </a>
         <a class="brand-link-card" href="../product/editions.html">
           <span>Roadmap</span>

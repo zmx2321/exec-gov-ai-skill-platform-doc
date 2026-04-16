@@ -40,7 +40,7 @@ lastUpdated: false
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../contact.html#lead-form">Discuss a specific scenario</a>
         <a class="cta-button" href="../product/editions.html">View the edition roadmap</a>
-        <a class="cta-button" href="../product/implementation-training.html">View implementation &amp; training</a>
+        <a class="cta-button" href="../product/implementation-training.html">View Implementation &amp; Training Services</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -264,7 +264,7 @@ lastUpdated: false
         <li>New features, large page redesigns, deep third-party integrations, and resident support should be evaluated separately.</li>
         <li>The current default assumption is a workday support window. Higher response levels should be agreed separately.</li>
       </ul>
-      <p><a href="../product/implementation-training.html">View implementation &amp; training notes</a></p>
+      <p><a href="../product/implementation-training.html">View Implementation &amp; Training Services</a></p>
     </article>
   </section>
 
@@ -309,11 +309,11 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="../product/customer-flow.html">
           <span>Delivery</span>
-          <strong>Customer Flow / Delivery</strong>
+          <strong>Customer Delivery &amp; Usage</strong>
         </a>
         <a class="brand-link-card" href="../product/implementation-training.html">
           <span>Training</span>
-          <strong>Implementation &amp; Training</strong>
+          <strong>Implementation &amp; Training Services</strong>
         </a>
         <a class="brand-link-card" href="./source-delivery-boundaries.html">
           <span>Boundary</span>

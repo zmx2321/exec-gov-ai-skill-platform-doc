@@ -214,7 +214,7 @@ lastUpdated: false
       <a class="brand-link-card" href="./cli.html">
         <span>CLI Fit</span>
         <strong>You already have local scripts and want a lower-cost way to connect them first</strong>
-        <p>The CLI Guide helps you verify whether the current login, registration, execution, and Agent skeleton match the way you want to land the work.</p>
+        <p>The CLI &amp; Local Agent Guide helps you verify whether the current login, registration, execution, and Agent skeleton match the way you want to land the work.</p>
       </a>
     </div>
   </section>
@@ -229,7 +229,7 @@ lastUpdated: false
         <p>If the task works with Excel, CSV, archives, or other input files and needs result files back, the file-path explanation becomes the most direct next page.</p>
       </a>
       <a class="brand-link-card" href="./deliverables.html">
-        <span>Deliverables</span>
+        <span>Customer Delivery Docs &amp; Entry Points</span>
         <strong>How the scenario finally turns into a delivery package</strong>
         <p>Once a scenario is proven, the next question is what entry points, instructions, and result artifacts the customer will actually receive.</p>
       </a>
@@ -251,15 +251,15 @@ lastUpdated: false
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./customer-flow.html">
           <span>Flow</span>
-          <strong>Customer Flow / Delivery</strong>
+          <strong>Customer Delivery &amp; Usage</strong>
         </a>
         <a class="brand-link-card" href="./file-results.html">
           <span>Files</span>
           <strong>Files &amp; Results</strong>
         </a>
         <a class="brand-link-card" href="./deliverables.html">
-          <span>Deliverables</span>
-          <strong>Deliverables</strong>
+          <span>Customer Delivery Docs &amp; Entry Points</span>
+          <strong>Customer Delivery Docs &amp; Entry Points</strong>
         </a>
         <a class="brand-link-card" href="./onboarding-checklist.html">
           <span>Checklist</span>

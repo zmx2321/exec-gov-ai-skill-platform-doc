@@ -27,8 +27,8 @@ lastUpdated: false
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="./service-packages.html">View service packages and kickoff</a>
-        <a class="cta-button" href="../product/deliverables.html">View Deliverables</a>
-        <a class="cta-button" href="../product/customer-flow.html">View Customer Flow / Delivery</a>
+        <a class="cta-button" href="../product/deliverables.html">View customer delivery docs &amp; entry points</a>
+        <a class="cta-button" href="../product/customer-flow.html">View Customer Delivery &amp; Usage</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">

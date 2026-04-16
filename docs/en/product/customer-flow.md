@@ -7,8 +7,8 @@ lastUpdated: false
 <div class="brand-page-shell">
   <section class="brand-hero">
     <div>
-      <p class="brand-kicker">Customer Flow &amp; Delivery</p>
-      <h1>Customer Flow / Delivery</h1>
+      <p class="brand-kicker">Customer Delivery &amp; Usage</p>
+      <h1>Customer Delivery &amp; Usage</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Practical View</span>
         <strong>Delivery is not finished when a page goes live. Delivery is only stable when the customer can keep adding, updating, and using capabilities safely afterward.</strong>
@@ -28,7 +28,7 @@ lastUpdated: false
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../contact.html#lead-form">Discuss team / enterprise delivery</a>
         <a class="cta-button" href="./hot-update.html">View hot-update notes</a>
-        <a class="cta-button" href="./implementation-training.html">View implementation &amp; training</a>
+        <a class="cta-button" href="./implementation-training.html">View Implementation &amp; Training Services</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -196,7 +196,7 @@ lastUpdated: false
           <td>Local hybrid execution</td>
           <td>CLI / Agent is added when needed</td>
           <td>Bridge capability is added according to project needs</td>
-          <td>Not included in every standard delivery by default. See the <a href="./cli.html">CLI Guide</a>.</td>
+          <td>Not included in every standard delivery by default. See the <a href="./cli.html">CLI &amp; Local Agent Guide</a>.</td>
         </tr>
       </tbody>
     </table>
@@ -215,7 +215,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Implementation Page</p>
       <h2>Continue with implementation steps, training targets, and support boundaries</h2>
-      <p><a href="./implementation-training.html">View implementation &amp; training notes</a></p>
+      <p><a href="./implementation-training.html">View Implementation &amp; Training Services</a></p>
     </article>
   </section>
 
@@ -270,7 +270,7 @@ lastUpdated: false
       </tr>
       <tr>
         <td>You want to buy a standard team product directly</td>
-        <td>Evaluate the shared-SaaS tenant path first, then check whether it is sufficient through <a href="./editions.html">Editions</a></td>
+        <td>Evaluate the shared-SaaS tenant path first, then check whether it is sufficient through <a href="./editions.html">Version Stages &amp; Upgrade Path</a></td>
         <td>The shared-tenant skeleton already exists and is still being tightened</td>
         <td>If the need is mostly standard capability and light collaboration, shared SaaS should be tested first. If the work needs dedicated pages, branding, or stronger isolation, then move into single-tenant delivery or private deployment.</td>
       </tr>
@@ -362,7 +362,7 @@ lastUpdated: false
       <p class="brand-kicker">Local Execution</p>
       <h2>What if the script depends on a local environment or intranet resource</h2>
       <p>These scenarios are usually not handled by exposing an intranet directory directly to a web page. They are handled through the CLI / Agent bridge. The platform keeps the entry, planning, permission, and audit logic, while the local environment handles execution.</p>
-      <p><a href="./cli.html">View the CLI Guide</a></p>
+      <p><a href="./cli.html">View the CLI &amp; Local Agent Guide</a></p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Who Owns What</p>
@@ -409,8 +409,8 @@ lastUpdated: false
         <p>Best for tasks that require file upload, report processing, or downloadable output artifacts.</p>
       </a>
       <a class="brand-link-card" href="./deliverables.html">
-        <span>Deliverables</span>
-        <strong>Deliverables</strong>
+        <span>Customer Delivery Docs &amp; Entry Points</span>
+        <strong>Customer Delivery Docs &amp; Entry Points</strong>
         <p>Best when you need to define exactly which URL, account, instructions, and result entry the customer will finally receive.</p>
       </a>
       <a class="brand-link-card" href="./onboarding-checklist.html">
@@ -476,7 +476,7 @@ lastUpdated: false
       <div>
         <p class="brand-kicker">Next Read</p>
         <h2>Continue with platform capabilities, or move directly into a delivery conversation</h2>
-        <p class="brand-lead">Continue with Capabilities, Deployment, and Architecture. If you already have real script capabilities and a real customer scenario, bring the directory structure and requirements directly into the conversation.</p>
+        <p class="brand-lead">Continue with Capabilities, Deployment &amp; Delivery Boundaries, and Architecture. If you already have real script capabilities and a real customer scenario, bring the directory structure and requirements directly into the conversation.</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./capabilities.html">
@@ -488,16 +488,16 @@ lastUpdated: false
           <strong>Files &amp; Results</strong>
         </a>
         <a class="brand-link-card" href="./deliverables.html">
-          <span>Deliverables</span>
-          <strong>Deliverables</strong>
+          <span>Customer Delivery Docs &amp; Entry Points</span>
+          <strong>Customer Delivery Docs &amp; Entry Points</strong>
         </a>
         <a class="brand-link-card" href="./implementation-training.html">
           <span>Training</span>
-          <strong>Implementation &amp; Training</strong>
+          <strong>Implementation &amp; Training Services</strong>
         </a>
         <a class="brand-link-card" href="./deployment.html">
-          <span>Deployment</span>
-          <strong>Deployment</strong>
+          <span>Deployment &amp; Delivery Boundaries</span>
+          <strong>Deployment &amp; Delivery Boundaries</strong>
         </a>
         <a class="brand-link-card" href="../contact.html#lead-form">
           <span>Lead</span>

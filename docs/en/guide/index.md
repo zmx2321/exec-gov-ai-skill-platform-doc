@@ -99,22 +99,22 @@ lastUpdated: false
           <td><a href="./getting-started.html">Getting Started</a></td>
         </tr>
         <tr>
-          <td>Product docs</td>
+          <td>Product &amp; Delivery Docs</td>
           <td>Explains what the platform is, how delivery works, how deployment works, and how it evolves</td>
           <td>Product, presales, and technical leads</td>
           <td><a href="../product/index.html">Product Overview</a></td>
         </tr>
         <tr>
-          <td>CLI docs</td>
+          <td>CLI &amp; Local Agent Docs</td>
           <td>Explains the current boundary of local login, capability registration, execution, and the Agent skeleton</td>
           <td>Developers and local-bridge scenarios</td>
-          <td><a href="../product/cli.html">CLI Guide</a></td>
+          <td><a href="../product/cli.html">CLI &amp; Local Agent Guide</a></td>
         </tr>
         <tr>
-          <td>Customer delivery docs</td>
+          <td>Customer Delivery &amp; Usage Docs</td>
           <td>Explains how customers use the platform, how delivery works, and how script hot updates are handled</td>
           <td>Delivery owners and project owners</td>
-          <td><a href="../product/customer-flow.html">Customer Flow / Delivery</a></td>
+          <td><a href="../product/customer-flow.html">Customer Delivery &amp; Usage</a></td>
         </tr>
         <tr>
           <td>Contact entry</td>
@@ -132,19 +132,19 @@ lastUpdated: false
     <div class="brand-grid brand-grid--four">
       <article class="brand-card brand-card--nested">
         <h3>Individual developers</h3>
-        <p>Start with Getting Started, then the CLI Guide, then decide whether you need a deeper team or enterprise path.</p>
+        <p>Start with Getting Started, then the CLI &amp; Local Agent Guide, then decide whether you need a deeper team or enterprise path.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Small-team owners</h3>
-        <p>Start with Product Overview, Billing & Membership, and Customer Flow / Delivery, then decide whether the standard team edition is enough or whether you need to move up into enterprise delivery.</p>
+        <p>Start with Product Overview, Billing & Membership, and Customer Delivery &amp; Usage, then decide whether the standard team edition is enough or whether you need to move up into enterprise delivery.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Presales / solution roles</h3>
-        <p>Start with the materials, then return to Product Overview, Deployment, and Customer Flow to establish a consistent narrative.</p>
+        <p>Start with the materials, then return to Product Overview, Deployment &amp; Delivery Boundaries, and Customer Delivery &amp; Usage to establish a consistent narrative.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Enterprise customers</h3>
-        <p>Start with Customer Flow / Delivery and Deployment, then confirm tenant isolation, hot-update boundaries, and the follow-up collaboration model.</p>
+        <p>Start with Customer Delivery &amp; Usage and Deployment &amp; Delivery Boundaries, then confirm tenant isolation, hot-update boundaries, and the follow-up collaboration model.</p>
       </article>
     </div>
   </section>
@@ -165,7 +165,7 @@ lastUpdated: false
       </a>
       <a class="brand-link-card" href="../product/customer-flow.html">
         <span>Step 03</span>
-        <strong>Customer Flow / Delivery</strong>
+        <strong>Customer Delivery &amp; Usage</strong>
         <p>See how customers use it, how delivery works, and how script hot updates are currently closed-looped.</p>
       </a>
       <a class="brand-link-card" href="../product/onboarding-checklist.html">
@@ -180,7 +180,7 @@ lastUpdated: false
       </a>
       <a class="brand-link-card" href="../product/cli.html">
         <span>Step 06</span>
-        <strong>CLI Guide</strong>
+        <strong>CLI &amp; Local Agent Guide</strong>
         <p>If you already have a local script directory, this page is more useful than a broad introduction.</p>
       </a>
       <a class="brand-link-card" href="./faq.html">
@@ -201,8 +201,8 @@ lastUpdated: false
     <h2>Common materials for real projects</h2>
     <div class="brand-link-grid brand-link-grid--three">
       <a class="brand-link-card" href="../product/deliverables.html">
-        <span>Deliverables</span>
-        <strong>Deliverables</strong>
+        <span>Customer Delivery Docs &amp; Entry Points</span>
+        <strong>Customer Delivery Docs &amp; Entry Points</strong>
         <p>Clarify what entry points, instructions, and result artifacts the customer will finally receive before the delivery phase gets messy.</p>
       </a>
       <a class="brand-link-card" href="../product/onboarding-checklist.html">
@@ -232,7 +232,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="../product/customer-flow.html">
           <span>Delivery</span>
-          <strong>Customer Flow / Delivery</strong>
+          <strong>Customer Delivery &amp; Usage</strong>
         </a>
         <a class="brand-link-card" href="../product/onboarding-checklist.html">
           <span>Checklist</span>
@@ -240,7 +240,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="../product/cli.html">
           <span>CLI</span>
-          <strong>CLI Guide</strong>
+          <strong>CLI &amp; Local Agent Guide</strong>
         </a>
         <a class="brand-link-card" href="../contact.html#lead-form">
           <span>Lead</span>

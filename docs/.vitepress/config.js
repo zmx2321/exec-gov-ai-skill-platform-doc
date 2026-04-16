@@ -1,6 +1,10 @@
 const docsBase = process.env.EXECFABRIC_DOCS_BASE || "/"
 const normalizedDocsBase = docsBase.endsWith("/") ? docsBase : `${docsBase}/`
 const docsRepoUrl = process.env.EXECFABRIC_DOCS_REPO_URL || "https://github.com/zmx2321/exec-fabric-ai-skill-platform-doc"
+const faviconLightPath = `${normalizedDocsBase}favicon_light.ico`
+const faviconDarkPath = `${normalizedDocsBase}favicon_dark.ico`
+const navbarLogoLightThemePath = faviconDarkPath
+const navbarLogoDarkThemePath = faviconLightPath
 
 const localeText = {
   root: {
@@ -99,17 +103,17 @@ const localeText = {
     navCapabilities: "Capabilities",
     navRiskLevels: "Risk Levels",
     navOrchestration: "Orchestration",
-    navCustomerFlow: "Customer Flow / Delivery",
+    navCustomerFlow: "Customer Delivery & Usage",
     navBilling: "Billing & Membership",
     navHotUpdate: "Hot Update",
     navFiles: "Files & Results",
-    navDeliverables: "Deliverables",
-    navImplementationTraining: "Implementation & Training",
+    navDeliverables: "Customer Delivery Docs & Entry Points",
+    navImplementationTraining: "Implementation & Training Services",
     navChecklist: "Onboarding Checklist",
     navArchitecture: "Architecture",
-    navDeployment: "Deployment",
-    navCli: "CLI Guide",
-    navEditions: "Editions",
+    navDeployment: "Deployment & Delivery Boundaries",
+    navCli: "CLI & Local Agent Guide",
+    navEditions: "Version Stages & Upgrade Path",
     navMaterials: "Materials",
     navMaterialsIndex: "Materials Overview",
     navWhy: "Why I Am Building ExecFabric",
@@ -124,7 +128,7 @@ const localeText = {
     navContact: "Contact",
     navBlog: "Blog",
     sidebarGuide: "Start Here",
-    sidebarProduct: "Product Docs",
+    sidebarProduct: "Product & Delivery Docs",
     sidebarMaterials: "Materials",
     sidebarQuick: "Quick Links",
     sidebarBrand: "Brand",
@@ -356,6 +360,10 @@ const createThemeConfig = (localeKey) => {
 
   return {
     siteTitle: t.siteTitle,
+    logo: {
+      light: navbarLogoLightThemePath,
+      dark: navbarLogoDarkThemePath,
+    },
     outlineTitle: t.outlineTitle,
     nav: createNav(localeKey),
     sidebar: createSidebar(localeKey),
@@ -390,7 +398,7 @@ export default {
   },
   base: normalizedDocsBase,
   head: [
-    ["link", { rel: "icon", href: `${normalizedDocsBase}favicon.ico` }],
+    ["link", { rel: "icon", id: "execfabric-favicon", href: faviconLightPath }],
     ["meta", { name: "theme-color", content: "#edf4f6" }],
     [
       "script",
@@ -399,7 +407,39 @@ export default {
         const siteKey = "execfabric-doc-theme-appearance";
         const globalKey = "vitepress-theme-appearance";
         const migrateKey = "execfabric-doc-theme-default-dark-v1";
+        const faviconId = "execfabric-favicon";
+        const faviconLightHref = ${JSON.stringify(faviconLightPath)};
+        const faviconDarkHref = ${JSON.stringify(faviconDarkPath)};
         const normalize = (value) => (value === "light" || value === "dark" ? value : "dark");
+        const ensureFavicon = () => {
+          const head = document.head || document.getElementsByTagName("head")[0];
+          if (!head) {
+            return null;
+          }
+
+          let favicon = document.getElementById(faviconId);
+
+          if (!favicon) {
+            favicon = document.createElement("link");
+            favicon.id = faviconId;
+            favicon.rel = "icon";
+            head.appendChild(favicon);
+          }
+
+          return favicon;
+        };
+        const applyFavicon = (mode) => {
+          const favicon = ensureFavicon();
+
+          if (!favicon) {
+            return;
+          }
+
+          favicon.href = mode === "light" ? faviconDarkHref : faviconLightHref;
+        };
+        const syncFaviconFromClass = () => {
+          applyFavicon(document.documentElement.classList.contains("dark") ? "dark" : "light");
+        };
 
         try {
           const savedSite = localStorage.getItem(siteKey);
@@ -411,9 +451,19 @@ export default {
           localStorage.setItem(siteKey, normalized);
           localStorage.setItem(globalKey, normalized);
           document.documentElement.classList.toggle("dark", normalized === "dark");
+          applyFavicon(normalized);
         } catch {
           document.documentElement.classList.add("dark");
+          applyFavicon("dark");
         }
+
+        if (typeof MutationObserver !== "undefined") {
+          const observer = new MutationObserver(syncFaviconFromClass);
+          observer.observe(document.documentElement, { attributes: true, attributeFilter: ["class"] });
+        }
+
+        window.addEventListener("pageshow", syncFaviconFromClass);
+        document.addEventListener("visibilitychange", syncFaviconFromClass);
       })();`,
     ],
   ],

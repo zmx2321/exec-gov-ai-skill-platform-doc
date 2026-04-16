@@ -7,8 +7,8 @@ lastUpdated: false
 <div class="brand-page-shell brand-page-shell--editions">
   <section class="brand-hero">
     <div>
-      <p class="brand-kicker">Editions &amp; Roadmap</p>
-      <h1>Editions &amp; Roadmap</h1>
+      <p class="brand-kicker">Version Stages &amp; Upgrade Path</p>
+      <h1>Version Stages &amp; Upgrade Path</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Version Plan</span>
         <strong>The public roadmap still speaks in <code>1.0</code>, <code>1.1</code>, and <code>2.0</code>, but the real usage path has already split into four layers: the free path, local script slots, the standard team edition, and enterprise delivery.</strong>
@@ -63,7 +63,7 @@ lastUpdated: false
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../contact.html#lead-form">Discuss versions and scenarios</a>
-        <a class="cta-button" href="./deployment.html">View deployment options</a>
+        <a class="cta-button" href="./deployment.html">View Deployment &amp; Delivery Boundaries</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -209,13 +209,13 @@ lastUpdated: false
           <td>Standard team edition</td>
           <td>Shared-SaaS formal tenant entry</td>
           <td>Still converging around the <code>1.0</code> delivery base and the <code>1.1</code> upgrade path</td>
-          <td><a href="./customer-flow.html">Customer Flow / Delivery</a></td>
+          <td><a href="./customer-flow.html">Customer Delivery &amp; Usage</a></td>
         </tr>
         <tr>
           <td>Enterprise delivery</td>
           <td>Single-tenant delivery, private deployment, or deeper deployment control</td>
           <td>The most mature formal-delivery mainline under current <code>1.0</code></td>
-          <td><a href="./deployment.html">Deployment</a></td>
+          <td><a href="./deployment.html">Deployment &amp; Delivery Boundaries</a></td>
         </tr>
       </tbody>
     </table>
@@ -281,7 +281,7 @@ lastUpdated: false
         <li>Step three: when they move into multi-user collaboration, let the formal tenant entry of the standard team edition take over first</li>
         <li>Step four: when stronger isolation and formal acceptance are needed, move into enterprise <code>1.0</code> delivery while continuing to stabilize the lower-support loop of <code>1.1</code></li>
       </ul>
-      <p><a href="./deployment.html">Back to Deployment</a></p>
+      <p><a href="./deployment.html">Back to Deployment &amp; Delivery Boundaries</a></p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">What 2.0 Changes</p>
@@ -305,8 +305,8 @@ lastUpdated: false
         <p>Many <code>1.0</code> projects do not return text only. They need to handle input files, batch states, and result files, and this chain deserves its own explanation.</p>
       </a>
       <a class="brand-link-card" href="./deliverables.html">
-        <span>Deliverables</span>
-        <strong>Deliverables</strong>
+        <span>Customer Delivery Docs &amp; Entry Points</span>
+        <strong>Customer Delivery Docs &amp; Entry Points</strong>
         <p>To judge whether <code>1.0</code> is really deliverable, it is more useful to see which entry points, instructions, and result artifacts the customer actually gets than to stare at feature names.</p>
       </a>
       <a class="brand-link-card" href="./onboarding-checklist.html">
@@ -368,16 +368,16 @@ lastUpdated: false
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./deployment.html">
-          <span>Deployment</span>
-          <strong>Deployment</strong>
+          <span>Deployment &amp; Delivery Boundaries</span>
+          <strong>Deployment &amp; Delivery Boundaries</strong>
         </a>
         <a class="brand-link-card" href="./file-results.html">
           <span>Files</span>
           <strong>Files &amp; Results</strong>
         </a>
         <a class="brand-link-card" href="./deliverables.html">
-          <span>Deliverables</span>
-          <strong>Deliverables</strong>
+          <span>Customer Delivery Docs &amp; Entry Points</span>
+          <strong>Customer Delivery Docs &amp; Entry Points</strong>
         </a>
         <a class="brand-link-card" href="./onboarding-checklist.html">
           <span>Checklist</span>

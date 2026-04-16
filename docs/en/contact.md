@@ -151,7 +151,7 @@ lastUpdated: false
           <td>You involve intranet deployment, local bridging, stronger isolation, or formal project acceptance</td>
           <td>Go directly into enterprise / private-deployment discussion</td>
           <td>The key questions here are deployment, delivery boundaries, and governance requirements, not a standard membership page</td>
-          <td><a href="./materials/service-packages.html">Service Packages</a> / <a href="./product/deployment.html">Deployment</a></td>
+          <td><a href="./materials/service-packages.html">Service Packages</a> / <a href="./product/deployment.html">Deployment &amp; Delivery Boundaries</a></td>
         </tr>
       </tbody>
     </table>
@@ -359,7 +359,7 @@ lastUpdated: false
       <div>
         <p class="brand-kicker">Next Read</p>
         <h2>Continue with platform and delivery materials</h2>
-        <p class="brand-lead">Continue with Product Overview, the CLI Guide, Capabilities, and Editions, then enter the conversation with a concrete question.</p>
+        <p class="brand-lead">Continue with Product Overview, the CLI &amp; Local Agent Guide, Capabilities, and Version Stages &amp; Upgrade Path, then enter the conversation with a concrete question.</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./product/">
@@ -368,11 +368,11 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="./product/cli.html">
           <span>CLI</span>
-          <strong>CLI Guide</strong>
+          <strong>CLI &amp; Local Agent Guide</strong>
         </a>
         <a class="brand-link-card" href="./product/customer-flow.html">
           <span>Delivery</span>
-          <strong>Customer Flow / Delivery</strong>
+          <strong>Customer Delivery &amp; Usage</strong>
         </a>
         <a class="brand-link-card" href="./product/capabilities.html">
           <span>Capabilities</span>
@@ -384,7 +384,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="./product/editions.html">
           <span>Roadmap</span>
-          <strong>Editions</strong>
+          <strong>Version Stages &amp; Upgrade Path</strong>
         </a>
       </div>
     </div>

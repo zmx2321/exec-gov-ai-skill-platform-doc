@@ -7,8 +7,8 @@ lastUpdated: false
 <div class="brand-page-shell">
   <section class="brand-hero">
     <div>
-      <p class="brand-kicker">Implementation &amp; Training</p>
-      <h1>Implementation &amp; Training Notes</h1>
+      <p class="brand-kicker">Implementation &amp; Training Services</p>
+      <h1>Implementation &amp; Training Services Services</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Implementation Scope</span>
         <strong>ExecFabric does not only provide a software opening. The current delivery path also includes scoped configuration, role-based training, and handoff support within the agreed project range.</strong>
@@ -186,12 +186,12 @@ lastUpdated: false
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./deliverables.html">
-          <span>Deliverables</span>
-          <strong>Deliverables</strong>
+          <span>Customer Delivery Docs &amp; Entry Points</span>
+          <strong>Customer Delivery Docs &amp; Entry Points</strong>
         </a>
         <a class="brand-link-card" href="./deployment.html">
-          <span>Deployment</span>
-          <strong>Deployment</strong>
+          <span>Deployment &amp; Delivery Boundaries</span>
+          <strong>Deployment &amp; Delivery Boundaries</strong>
         </a>
         <a class="brand-link-card" href="../materials/service-packages.html">
           <span>Packages</span>

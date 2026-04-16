@@ -183,7 +183,7 @@ lastUpdated: false
           <td>04. Enterprise delivery</td>
           <td>Customers that need stronger isolation, intranet access, private deployment, or formal project delivery</td>
           <td>Do not use the standard membership framing. Discuss scenario, deployment, and delivery boundary directly.</td>
-          <td><a href="./service-packages.html">Kickoff Options / Service Packages</a> / <a href="../product/deployment.html">Deployment</a></td>
+          <td><a href="./service-packages.html">Kickoff Options / Service Packages</a> / <a href="../product/deployment.html">Deployment &amp; Delivery Boundaries</a></td>
         </tr>
       </tbody>
     </table>

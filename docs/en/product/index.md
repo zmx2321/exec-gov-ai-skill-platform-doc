@@ -67,6 +67,7 @@ lastUpdated: false
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../guide/getting-started.html">Try it for free now</a>
         <a class="cta-button" href="./scenarios.html">View scenarios</a>
+        <a class="cta-button" href="./script-risk-levels.html">View risk levels</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -202,13 +203,13 @@ lastUpdated: false
           <td>Standard team edition</td>
           <td>Teams entering multi-user collaboration</td>
           <td>Currently carried by the shared-SaaS formal tenant entry instead of cloning a new frontend project by default</td>
-          <td><a href="./customer-flow.html">Customer Flow / Delivery</a></td>
+          <td><a href="./customer-flow.html">Customer Delivery &amp; Usage</a></td>
         </tr>
         <tr>
           <td>Enterprise delivery</td>
           <td>Customers that need stronger isolation, intranet access, or formal project acceptance</td>
           <td>Continue through single-tenant delivery, private deployment, or deeper deployment control</td>
-          <td><a href="./deployment.html">Deployment</a></td>
+          <td><a href="./deployment.html">Deployment &amp; Delivery Boundaries</a></td>
         </tr>
       </tbody>
     </table>
@@ -371,7 +372,7 @@ lastUpdated: false
       </a>
       <a class="brand-link-card" href="./customer-flow.html">
         <span>Step 03</span>
-        <strong>Customer Flow / Delivery</strong>
+        <strong>Customer Delivery &amp; Usage</strong>
         <p>Look directly at how customers use it, how delivery works, and how script hot updates currently close the loop.</p>
       </a>
       <a class="brand-link-card" href="./personal-billing-membership.html">
@@ -386,12 +387,12 @@ lastUpdated: false
       </a>
       <a class="brand-link-card" href="./cli.html">
         <span>Step 06</span>
-        <strong>CLI Guide</strong>
+        <strong>CLI &amp; Local Agent Guide</strong>
         <p>Look directly at the current landed boundary of <code>login / register / list / run / agent</code>.</p>
       </a>
       <a class="brand-link-card" href="./deployment.html">
         <span>Step 07</span>
-        <strong>Deployment</strong>
+        <strong>Deployment &amp; Delivery Boundaries</strong>
         <p>See how the platform covers shared SaaS, single-tenant delivery, platform governance, the free public entry, and local hybrid execution.</p>
       </a>
       <a class="brand-link-card" href="./editions.html">
@@ -412,8 +413,8 @@ lastUpdated: false
         <p>Best for file-driven tasks, report artifacts, and scenarios that need batch-state visibility. Start by making the input-file and result-file chain explicit.</p>
       </a>
       <a class="brand-link-card" href="./deliverables.html">
-        <span>Deliverables</span>
-        <strong>Deliverables</strong>
+        <span>Customer Delivery Docs &amp; Entry Points</span>
+        <strong>Customer Delivery Docs &amp; Entry Points</strong>
         <p>Best for formal delivery discussion, where the customer needs to know which entry points, instructions, and result artifacts will actually be handed over.</p>
       </a>
       <a class="brand-link-card" href="./onboarding-checklist.html">
@@ -460,11 +461,11 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="./cli.html">
           <span>CLI</span>
-          <strong>CLI Guide</strong>
+          <strong>CLI &amp; Local Agent Guide</strong>
         </a>
         <a class="brand-link-card" href="./customer-flow.html">
           <span>Delivery</span>
-          <strong>Customer Flow / Delivery</strong>
+          <strong>Customer Delivery &amp; Usage</strong>
         </a>
         <a class="brand-link-card" href="./personal-billing-membership.html">
           <span>Billing</span>

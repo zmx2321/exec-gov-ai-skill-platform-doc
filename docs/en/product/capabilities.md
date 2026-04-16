@@ -145,6 +145,7 @@ lastUpdated: false
       <p class="brand-kicker">06</p>
       <h2>Execution safety boundaries</h2>
       <ul class="brand-list">
+        <li>Script / Skill risk levels currently stay fixed at <code>low / medium / high</code>. The public standard is described in <a href="./script-risk-levels.html">script risk levels</a>.</li>
         <li>High-risk actions still require manual confirmation</li>
         <li>HTTP write operations are denied by default and must be whitelisted explicitly</li>
         <li>Tenant-side users do not see platform-governance pages. They only see authorized execution and read-only entries.</li>
@@ -156,8 +157,9 @@ lastUpdated: false
       <h2>CLI and local onboarding</h2>
       <ul class="brand-list">
         <li><code>login</code> / <code>register</code> / <code>list</code> / <code>run</code></li>
-        <li><code>agent describe</code> / <code>agent start</code></li>
+        <li><code>agent describe</code> / <code>agent bind</code> / <code>agent start</code></li>
         <li>The significance is not command-line packaging. It is the bridge between the platform control plane and the local environment.</li>
+        <li>Cloud upload registration and <code>local-register</code> local-path onboarding already both exist today.</li>
       </ul>
     </article>
   </section>
@@ -253,7 +255,7 @@ lastUpdated: false
         <p>Without a clear tenant boundary, the platform cannot enter formal customer scenarios or explain its governance story convincingly.</p>
       </a>
       <a class="brand-link-card" href="./deployment.html">
-        <span>Deployment</span>
+        <span>Deployment &amp; Delivery Boundaries</span>
         <strong>Local bridging determines whether the platform can enter real environments</strong>
         <p>Many high-value tasks depend on intranets, file systems, and local data, so the story cannot stop at a cloud page.</p>
       </a>
@@ -265,7 +267,7 @@ lastUpdated: false
       <a class="brand-link-card" href="./customer-flow.html">
         <span>Delivery</span>
         <strong>Capabilities must turn into real delivery and update flows</strong>
-        <p>The Customer Flow / Delivery page explains how customers use the platform, how the platform delivers it, and how hot updates enter the formal chain.</p>
+        <p>The Customer Delivery &amp; Usage page explains how customers use the platform, how the platform delivers it, and how hot updates enter the formal chain.</p>
       </a>
       <a class="brand-link-card" href="./file-results.html">
         <span>Files</span>
@@ -273,9 +275,9 @@ lastUpdated: false
         <p>Many real scenarios do not just return text. They take files in, process them, and return result files under delivery boundaries.</p>
       </a>
       <a class="brand-link-card" href="./deliverables.html">
-        <span>Deliverables</span>
+        <span>Customer Delivery Docs &amp; Entry Points</span>
         <strong>What the customer finally receives determines whether a capability is really deliverable</strong>
-        <p>The Deliverables page expands what the customer gets beyond the execution capability itself, including instructions, entries, and long-term usage points.</p>
+        <p>The Customer Delivery Docs &amp; Entry Points page expands what the customer gets beyond the execution capability itself, including instructions, entries, and long-term usage points.</p>
       </a>
       <a class="brand-link-card" href="./cli.html">
         <span>CLI</span>

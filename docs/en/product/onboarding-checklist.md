@@ -28,7 +28,7 @@ lastUpdated: false
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../contact.html#lead-form">Bring the checklist into the discussion</a>
-        <a class="cta-button" href="./customer-flow.html">View customer flow / delivery</a>
+        <a class="cta-button" href="./customer-flow.html">View Customer Delivery &amp; Usage</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -207,7 +207,7 @@ lastUpdated: false
         </tr>
         <tr>
           <td>You are already preparing for a customer or a real project</td>
-          <td><a href="./customer-flow.html">Customer Flow / Delivery</a></td>
+          <td><a href="./customer-flow.html">Customer Delivery &amp; Usage</a></td>
           <td>Understand the formal delivery path and hot-update flow first</td>
           <td>This fits joint review by presales, delivery, and the customer.</td>
         </tr>
@@ -219,7 +219,7 @@ lastUpdated: false
         </tr>
         <tr>
           <td>The script depends on a local environment or intranet resources</td>
-          <td><a href="./cli.html">CLI Guide</a></td>
+          <td><a href="./cli.html">CLI &amp; Local Agent Guide</a></td>
           <td>Local bridging is more likely to be needed</td>
           <td>These scenarios are usually not solved only through a browser page.</td>
         </tr>
@@ -237,19 +237,19 @@ lastUpdated: false
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./customer-flow.html">
           <span>Flow</span>
-          <strong>Customer Flow / Delivery</strong>
+          <strong>Customer Delivery &amp; Usage</strong>
         </a>
         <a class="brand-link-card" href="./file-results.html">
           <span>Files</span>
           <strong>File Upload &amp; Result Delivery</strong>
         </a>
         <a class="brand-link-card" href="./deliverables.html">
-          <span>Deliverables</span>
-          <strong>Deliverables / Doc Entry</strong>
+          <span>Customer Delivery Docs &amp; Entry Points</span>
+          <strong>Customer Delivery Docs &amp; Entry Points</strong>
         </a>
         <a class="brand-link-card" href="./cli.html">
           <span>CLI</span>
-          <strong>CLI Guide</strong>
+          <strong>CLI &amp; Local Agent Guide</strong>
         </a>
       </div>
     </div>

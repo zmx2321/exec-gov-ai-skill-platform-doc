@@ -107,7 +107,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>02. Delivery mode</h3>
-        <p><a href="../product/customer-flow.html">Customer Flow / Delivery</a></p>
+        <p><a href="../product/customer-flow.html">Customer Delivery &amp; Usage</a></p>
         <p>Then continue with customer onboarding, delivery process, and the formal landing path.</p>
       </article>
       <article class="brand-card brand-card--nested">

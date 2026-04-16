@@ -150,7 +150,7 @@ lastUpdated: false
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
         <h3>CLI 现在是不是概念功能</h3>
-        <p>不是。<code>execfabric-cli</code> 已支持 <code>login</code>、<code>register</code>、<code>list</code>、<code>run</code>、<code>agent describe</code> 和 <code>agent start</code>，适合本地接入、调试和前期验证。</p>
+        <p>不是。<code>execfabric-cli</code> 已支持 <code>login</code>、<code>register</code>、<code>list</code>、<code>run</code>、<code>agent describe</code>、<code>agent bind</code> 和 <code>agent start</code>，适合本地接入、调试和前期验证。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>本地 Agent 是不是已经正式商用</h3>
@@ -162,7 +162,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>是不是所有脚本类型都已经完整支持远程入库</h3>
-        <p>网页端上传注册现在已经支持 Python / Shell 文本脚本；但 CLI 远程注册目前仍主要围绕 Python，更多类型会继续扩展。</p>
+        <p>网页端上传注册现在已经支持 Python / Shell 文本脚本；CLI 远程注册当前也已经支持 Python / Shell，更多资产类型会继续扩展。</p>
       </article>
     </div>
   </section>
