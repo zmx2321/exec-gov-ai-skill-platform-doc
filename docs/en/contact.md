@@ -133,7 +133,7 @@ async function submitLeadForm() {
         <span class="brand-chip">Free-path evaluation</span>
         <span class="brand-chip">Beta application</span>
         <span class="brand-chip">Local script-slot expansion</span>
-        <span class="brand-chip">Team edition monthly / yearly</span>
+        <span class="brand-chip">Team-edition entry</span>
         <span class="brand-chip">Enterprise / private deployment</span>
         <span class="brand-chip">Local scripts, CLI, and templates</span>
       </div>
@@ -262,8 +262,8 @@ async function submitLeadForm() {
         </tr>
         <tr>
           <td>You are preparing for multi-user collaboration, formal accounts, and a steadier usage cycle</td>
-          <td>Move into the formal tenant entry for the team edition first</td>
-          <td>The current standard team edition is handled through the shared-SaaS frontend, so the standard path should be validated before anything custom</td>
+          <td>Move into the team-edition monthly or annual entry first</td>
+          <td>The current standard team edition is handled through the shared-SaaS frontend, so the standard path and onboarding mode should be validated before anything custom</td>
           <td><a href="./product/personal-billing-membership.html">Billing & Membership</a></td>
         </tr>
         <tr>
@@ -393,7 +393,7 @@ async function submitLeadForm() {
     <article class="brand-card">
       <p class="brand-kicker">Path 03</p>
       <h2>Team-edition SaaS</h2>
-      <p>This path takes multi-user collaboration, shared execution capability, approval, permission control, and a more stable subscription model. It currently goes first through the standard SaaS formal-tenant entry handled by the shared-SaaS frontend. Stronger isolation or deeper customization can later move into enterprise / private deployment.</p>
+      <p>This path takes multi-user collaboration, shared execution capability, approval, permission control, and a more stable formal-team model. It currently goes first through the standard SaaS formal-tenant entry for registration or demo handled by the shared-SaaS frontend. Stronger isolation or deeper customization can later move into enterprise / private deployment.</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Path 04</p>

@@ -11,14 +11,14 @@ lastUpdated: false
       <h1>Payment and Membership for the Personal Free Edition</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Payment Status</span>
-        <strong>Two payment paths can now be described clearly in public: self-serve local script-slot expansion for the personal free edition, and the monthly or annual registration path that moves from the personal free edition into the formal standard-SaaS tenant entry.</strong>
-        <p>This page answers four things: how the personal free page handles payment, how monthly or annual membership is registered, what users get after upgrading, and which parts are finished versus still unfinished.</p>
+        <strong>Two paths can now be described clearly in public: self-serve local script-slot expansion for the personal free edition, and the monthly or annual team-plan entry that moves from the personal free edition into the formal standard-SaaS tenant entry.</strong>
+        <p>This page answers four things: how the personal free page handles payment, how the monthly or annual team-plan entry works, what users get after upgrading, and which parts are finished versus still unfinished.</p>
       </div>
       <p class="brand-lead">
         If you are still exploring individually, prioritize
         <strong>personal billing and script slots</strong>.
         If you are preparing to enter formal collaboration, prioritize the
-        <strong>monthly or annual team-edition</strong>
+        <strong>monthly or annual team-plan entry</strong>
         entry instead of keeping formal billing and formal usage inside the hidden personal-free tenant.
       </p>
       <div class="brand-chip-list">
@@ -43,7 +43,7 @@ lastUpdated: false
             <li>The personal free edition already supports self-serve order creation for local script slots, checkout-session creation, mock-payment success, and auto-activation after callback.</li>
             <li>The billing page can already show the current order, lifecycle summary, reconciliation summary, and recent payment callbacks.</li>
             <li>The <code>public</code> super-admin side already supports order creation, payment confirmation, callback activation, renewal reminders, expiry shutdown, and recovery.</li>
-            <li>The free path already exposes monthly and annual team-edition registration entries, while formal payment and formal tenant usage continue on the target tenant side.</li>
+            <li>The free path already exposes monthly and annual team-plan entries, while the onboarding mode on the target tenant side follows the current commercial configuration.</li>
           </ul>
         </article>
         <article class="brand-hero__panel">
@@ -52,7 +52,7 @@ lastUpdated: false
           <ul class="brand-list">
             <li>The personal free page should not be described as a complete general payment center.</li>
             <li>The current payment line should not be described as already fully connected to formal third-party gateways.</li>
-            <li>The free path should not be described as already closing the full registration, payment, activation, and renewal loop for formal team tenants by itself.</li>
+            <li>The free path should not be described as already closing the full registration, public online payment, activation, and renewal loop for formal team tenants by itself.</li>
             <li>The monthly or annual price of formal tenants should not be fixed on this page, because final pricing and payment handling should follow the target tenant registration page itself.</li>
           </ul>
         </article>
@@ -73,11 +73,11 @@ lastUpdated: false
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Path 02</p>
-      <h2>Registering monthly or annual team-edition membership</h2>
+      <h2>Monthly or annual team-plan entry</h2>
       <ul class="brand-list">
         <li><strong>Monthly team edition</strong>: best when you want to start formal collaboration first and decide the longer cycle later.</li>
         <li><strong>Annual team edition</strong>: best for teams already sure they will use ExecFabric long term, and currently the default recommendation.</li>
-        <li>Both paths jump into the formal standard-SaaS tenant registration page, which is currently carried by the shared-tenant frontend instead of remaining inside the hidden personal-free tenant.</li>
+        <li>Both paths jump into the formal standard-SaaS tenant registration page, which is currently carried by the shared-tenant frontend as an onboarding or demo entry instead of remaining inside the hidden personal-free tenant.</li>
       </ul>
     </article>
     <article class="brand-card">
@@ -85,7 +85,7 @@ lastUpdated: false
       <h2>Which page is authoritative for pricing and payment</h2>
       <ul class="brand-list">
         <li>The local script-slot prices in the personal free edition follow the three fixed packages above.</li>
-        <li>The final price, payment page, and formal service cycle of monthly or annual team plans should follow the target formal-tenant registration page.</li>
+        <li>The final price, whether public online payment is open, and the formal service cycle of monthly or annual team plans should follow the current target formal-tenant page.</li>
         <li>If you need an enterprise edition, private deployment, or custom delivery, it is still better to discuss the scenario directly than to go through this standard page.</li>
       </ul>
     </article>
@@ -134,12 +134,12 @@ lastUpdated: false
 
   <section class="brand-card">
     <p class="brand-kicker">Monthly / Annual</p>
-    <h2>How monthly or annual membership registration works</h2>
+    <h2>How the monthly or annual team-plan entry works</h2>
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
         <h3>How the monthly route works</h3>
         <ul class="brand-list">
-          <li>From the Upgrade to Formal Version page in the personal free edition, click <strong>Go to Monthly Activation</strong>.</li>
+          <li>From the Upgrade to Formal Version page in the personal free edition, click <strong>View the Monthly Plan Entry</strong>.</li>
           <li>The system jumps to the formal standard-SaaS tenant registration page carrying <code>source=personal_free_upgrade</code> plus the monthly plan parameters.</li>
           <li>This path is best when a team wants to verify one month of real collaboration first before deciding on a longer cycle.</li>
           <li>Later the user can still renew or shift into a more stable annual rhythm.</li>
@@ -148,7 +148,7 @@ lastUpdated: false
       <article class="brand-card brand-card--nested">
         <h3>How the annual route works</h3>
         <ul class="brand-list">
-          <li>From the same page, click <strong>Go to Annual Activation</strong>.</li>
+          <li>From the same page, click <strong>View the Annual Plan Entry</strong>.</li>
           <li>The system jumps to the same formal standard-SaaS tenant registration page, but with annual plan parameters instead.</li>
           <li>This is best for teams already sure they will use ExecFabric for the long term.</li>
           <li>The advantage is a more stable formal service cycle and fewer repeated monthly renewal operations.</li>
@@ -168,7 +168,7 @@ lastUpdated: false
         <h3>What matters right now</h3>
         <ul class="brand-list">
           <li>This page explains how registration works and why an upgrade makes sense. It does not promise fixed monthly or annual pricing.</li>
-          <li>The real formal payment page, price, and service cycle should follow the target tenant registration page itself.</li>
+          <li>Whether formal online payment is open, as well as price and service cycle, should follow the current target tenant page itself.</li>
           <li>If you are already an enterprise customer, direct discussion around delivery and deployment boundaries is usually more appropriate than the standard monthly path.</li>
         </ul>
       </article>
@@ -193,11 +193,11 @@ lastUpdated: false
     <h2>How the payment line should be described publicly today</h2>
     <ul class="brand-list">
       <li>It is accurate to say that local script-slot payment in the personal free edition has completed its smallest closed loop, and the <code>public</code> super-admin order lifecycle has also completed its smallest closed loop.</li>
-      <li>It is accurate to say that the free path already exposes monthly and annual team-edition registration entries and clearly routes users into the formal standard-SaaS tenant entry.</li>
+      <li>It is accurate to say that the free path already exposes monthly and annual team-plan entries and clearly routes users into the formal standard-SaaS tenant entry.</li>
       <li>It is not accurate to say that the whole system already has a complete general self-service subscription center.</li>
       <li>It is not accurate to say that all payments are already connected to formal third-party gateways.</li>
       <li>It is not accurate to say that the free path has already closed the full registration, payment, activation, and renewal loop for formal team tenants internally.</li>
-      <li>The more accurate public framing is this: <strong>the first version of the personal billing center plus the formal-tenant registration upgrade path already exists, while the complete general billing center is still being converged.</strong></li>
+      <li>The more accurate public framing is this: <strong>the first version of the personal billing center plus the formal team-plan entry already exists, while public online payment is still being confirmed against the current commercial setup.</strong></li>
     </ul>
   </section>
 

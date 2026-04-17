@@ -645,7 +645,7 @@ features:
     <a class="link-panel" href="./product/personal-billing-membership.html">
       <span class="link-panel-label">Billing</span>
       <strong>支付与会员</strong>
-      <p>单独看个人免费页怎么付款、团队版月租 / 年租怎么注册，以及当前支付这条线已经完成到哪。</p>
+      <p>单独看个人免费页已公开的脚本位增购、团队版月租 / 年租方案入口怎么分流，以及当前支付这条线真实落到哪。</p>
     </a>
     <a class="link-panel" href="./product/file-results.html">
       <span class="link-panel-label">Files</span>

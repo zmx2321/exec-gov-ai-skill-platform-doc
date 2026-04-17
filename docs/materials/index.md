@@ -43,6 +43,9 @@ lastUpdated: false
       <a class="cta-button" href="./value.html">看价值说明</a>
       <a class="cta-button" href="./membership-benefits-pricing.html">看会员权益与价格说明</a>
       <a class="cta-button" href="./service-packages.html">看启动方式</a>
+      <!-- 1.3 预留：GIS 能力演示入口等 1.0 上线后再开放
+      <a class="cta-button" href="./gis-capability-showcase.html">看 GIS 能力演示</a>
+      -->
     </div>
   </div>
   <div class="brand-hero__media brand-hero__media--compact">
@@ -140,6 +143,13 @@ lastUpdated: false
       <h2>项目与履历</h2>
       <p>提供更标准的技能栈、项目经历、代表项目和公开联系方式，适合需要进一步核实背景的人查看。</p>
     </article>
+    <!-- 1.3 预留：GIS 能力演示入口等 1.0 上线后再开放
+    <article class="brand-card">
+      <p class="brand-kicker">GIS Demo</p>
+      <h2>GIS 能力演示</h2>
+      <p>汇总 OpenLayers、Cesium、高德、轨迹热力和地图 + 中后台联动等精选 GIS 样板。</p>
+    </article>
+    -->
     <article class="brand-card">
       <p class="brand-kicker">Boundary</p>
       <h2>源码交付与授权边界</h2>

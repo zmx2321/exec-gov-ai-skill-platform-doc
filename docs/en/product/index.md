@@ -378,7 +378,7 @@ lastUpdated: false
       <a class="brand-link-card" href="./personal-billing-membership.html">
         <span>Step 04</span>
         <strong>Billing &amp; Membership</strong>
-        <p>See separately how the personal free page handles payment, how monthly or annual team registration works, and how complete the payment line really is today.</p>
+        <p>See separately how the personal free page handles public billing, how the monthly or annual team-plan entry works, and how complete the payment line really is today.</p>
       </a>
       <a class="brand-link-card" href="./architecture.html">
         <span>Step 05</span>

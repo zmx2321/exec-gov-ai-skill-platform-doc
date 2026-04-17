@@ -661,7 +661,7 @@ features:
     <a class="link-panel" href="./product/personal-billing-membership.html">
       <span class="link-panel-label">Billing</span>
       <strong>Billing and membership</strong>
-      <p>See how the personal free path pays, how the formal team monthly or annual registration path works, and how far the payment line has already landed.</p>
+      <p>See the public personal free billing path, how the team monthly or annual plan entry is routed, and how far the payment line has actually landed today.</p>
     </a>
     <a class="link-panel" href="./product/file-results.html">
       <span class="link-panel-label">Files</span>

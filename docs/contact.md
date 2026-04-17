@@ -133,7 +133,7 @@ async function submitLeadForm() {
         <span class="brand-chip">免费线判断</span>
         <span class="brand-chip">内测资格申请</span>
         <span class="brand-chip">本地脚本位增购</span>
-        <span class="brand-chip">团队版月租 / 年租</span>
+        <span class="brand-chip">团队版方案入口</span>
         <span class="brand-chip">小型私有化咨询</span>
         <span class="brand-chip">脚本治理 / 文件处理</span>
       </div>
@@ -263,8 +263,8 @@ async function submitLeadForm() {
         </tr>
         <tr>
           <td>准备进入多人协作、正式账号和更稳定周期</td>
-          <td>先走团队版月租 / 年租正式租户入口</td>
-          <td>当前标准团队版由共享 SaaS 前端承接，先验证标准路径是否够用</td>
+          <td>先走团队版月租 / 年租方案入口</td>
+          <td>当前标准团队版由共享 SaaS 前端承接，先判断标准路径和开通方式是否够用</td>
           <td><a href="./product/personal-billing-membership.html">支付与会员说明</a></td>
         </tr>
         <tr>

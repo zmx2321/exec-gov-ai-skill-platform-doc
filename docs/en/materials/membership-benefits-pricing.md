@@ -12,7 +12,7 @@ lastUpdated: false
       <div class="brand-hero__panel">
         <span class="brand-pill">Pricing Narrative</span>
         <strong>This page is for sales explanation, free-path guidance, and first pricing conversations. The core goal is not to explain every feature. It is to explain clearly which closed loop the customer should enter now.</strong>
-        <p>The most stable commercial path today is: individual users start from the free path, people who keep using it personally but have not entered formal collaboration expand local script slots, formal teams move into the monthly or annual team-tenant path, and enterprise or private deployment is evaluated separately by scenario.</p>
+        <p>The most stable commercial path today is: individual users start from the free path, people who keep using it personally but have not entered formal collaboration expand local script slots; formal teams move into the monthly or annual team-plan entry, while whether public online payment is open follows the later commercial setup; and enterprise or private deployment is evaluated separately by scenario.</p>
       </div>
       <p class="brand-lead">
         If you are deciding how to introduce ExecFabric right now,
@@ -44,7 +44,7 @@ lastUpdated: false
           <strong>Three things you can already say externally with confidence</strong>
           <ul class="brand-list">
             <li>The personal free edition already supports self-service local script-slot expansion, and the fixed packages and prices are defined.</li>
-            <li>The team monthly and annual upgrade path already exists and routes users to the standard shared-SaaS formal tenant registration page.</li>
+            <li>The team monthly and annual plan entry already exists and routes users to the standard shared-SaaS formal tenant registration or demo page.</li>
             <li>The <code>public</code> super-admin order lifecycle already runs a minimal real loop. Payment, activation, renewal reminders, and expiry recovery are not only demo pages.</li>
           </ul>
         </article>
@@ -54,7 +54,7 @@ lastUpdated: false
           <ul class="brand-list">
             <li>Do not describe the personal free path as a complete general-purpose billing center.</li>
             <li>Do not say that every payment line is already fully connected to mature third-party payment gateways.</li>
-            <li>Do not hardcode team monthly or annual pricing on the materials page because the final price, payment page, and service term should be read from the actual formal-tenant registration page.</li>
+            <li>Do not turn the team monthly or annual materials page into a public online-subscription promise, because the final price, whether online payment is open, and the service term should be read from the current target formal-tenant page.</li>
           </ul>
         </article>
       </div>
@@ -82,7 +82,7 @@ lastUpdated: false
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Path 03</p>
-      <h2>Formal team / monthly or annual subscription</h2>
+      <h2>Formal team / monthly or annual plan entry</h2>
       <ul class="brand-list">
         <li>Best for teams that have already entered multi-user collaboration and need a formal tenant with a more stable usage cycle.</li>
         <li>They should not keep staying inside the hidden personal free tenant. They move into the standard shared-SaaS formal tenant registration path instead.</li>
@@ -151,8 +151,8 @@ lastUpdated: false
         <tr>
           <td>Team monthly / annual subscription</td>
           <td>Do not hardcode on the materials page</td>
-          <td>Route from the upgrade page into the standard shared-SaaS formal tenant registration page</td>
-          <td>The final price, payment page, and service term should be read from the target registration page</td>
+          <td>Route from the upgrade page into the standard shared-SaaS formal tenant registration or demo page</td>
+          <td>The final price, whether online payment is open, and the service term should be read from the current target page</td>
         </tr>
         <tr>
           <td>Enterprise / private deployment</td>
@@ -172,7 +172,7 @@ lastUpdated: false
 | --- | --- | --- | --- |
 | Personal free experience | Free-path trial, individual exploration, first-time visitors | First contact with the product position, entry structure, personal console, and platform value | Default script slots are limited and it is not meant to be the formal team collaboration space |
 | Local script-slot expansion | People who already keep onboarding scripts in their personal space | Immediate expansion of local script slots after payment | This is lightweight expansion, not the formal team-edition membership |
-| Team monthly subscription | Teams that want to validate formal collaboration first | Formal tenant registration path and a better multi-user workflow | Price and payment authority come from the registration page |
+| Team monthly subscription | Teams that want to validate formal collaboration first | Formal tenant plan entry and a better multi-user workflow | Price, whether online payment is open, and service-term authority come from the current target page |
 | Team annual subscription | Teams already committed to long-term use | A more stable service cycle with less monthly renewal friction | It is still not the default path for private deployment or deeper delivery boundaries |
 | Enterprise / private deployment | Customers with intranet, compliance, approval, or formal-delivery requirements | A path based on project boundary, deployment mode, and governance requirements | This does not use the standard membership narrative and needs separate evaluation |
 
@@ -205,7 +205,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">FAQ 01</p>
       <h2>Why does the team monthly or annual subscription not show a fixed price here</h2>
-      <p>Because the current product truth is that the team upgrade path routes into the standard shared-SaaS formal tenant registration page, and the final price, payment page, and service term should be read from that live entry. Hardcoding it on the materials page would be more likely to drift from reality.</p>
+      <p>Because the current product truth is that the team upgrade path routes into the standard shared-SaaS formal tenant registration or demo page, and the final price, whether online payment is open, and the service term should be read from that live entry and its current setup. Hardcoding it on the materials page would be more likely to drift from reality.</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">FAQ 02</p>

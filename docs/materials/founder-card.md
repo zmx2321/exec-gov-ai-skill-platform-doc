@@ -31,6 +31,9 @@ lastUpdated: false
         <a class="cta-button cta-button--brand" href="/contact.html#lead-form">沟通真实场景</a>
         <a class="cta-button" href="./resume-public.html">看项目与履历</a>
         <a class="cta-button" href="./service-packages.html">看启动方式</a>
+        <!-- 1.3 预留：GIS 能力演示入口等 1.0 上线后再开放
+        <a class="cta-button" href="./gis-capability-showcase.html">看 GIS 能力演示</a>
+        -->
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -168,6 +171,12 @@ lastUpdated: false
           <span>Resume</span>
           <strong>项目与履历</strong>
         </a>
+        <!-- 1.3 预留：GIS 能力演示入口等 1.0 上线后再开放
+        <a class="brand-link-card" href="./gis-capability-showcase.html">
+          <span>GIS Demo</span>
+          <strong>GIS 能力演示</strong>
+        </a>
+        -->
         <a class="brand-link-card" href="./founder-profile.html">
           <span>Background</span>
           <strong>交付背景与项目经历</strong>

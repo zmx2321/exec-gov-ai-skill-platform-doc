@@ -29,6 +29,9 @@ lastUpdated: false
         <a class="cta-button cta-button--brand" href="/contact.html#lead-form">沟通真实场景</a>
         <a class="cta-button" href="./founder-card.html">看背景概览</a>
         <a class="cta-button" href="https://github.com/zmx2321" target="_blank" rel="noreferrer">查看 GitHub</a>
+        <!-- 1.3 预留：GIS 能力演示入口等 1.0 上线后再开放
+        <a class="cta-button" href="./gis-capability-showcase.html">看 GIS 能力演示</a>
+        -->
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -216,6 +219,12 @@ lastUpdated: false
           <span>Background</span>
           <strong>交付背景与项目经历</strong>
         </a>
+        <!-- 1.3 预留：GIS 能力演示入口等 1.0 上线后再开放
+        <a class="brand-link-card" href="./gis-capability-showcase.html">
+          <span>GIS Demo</span>
+          <strong>GIS 能力演示</strong>
+        </a>
+        -->
         <a class="brand-link-card" href="/contact.html#lead-form">
           <span>Lead</span>
           <strong>沟通真实场景</strong>
