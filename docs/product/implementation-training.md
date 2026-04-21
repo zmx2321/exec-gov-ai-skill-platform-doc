@@ -111,7 +111,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Role 03</p>
       <h2>普通使用人员</h2>
-      <p>重点讲如何通过页面或智能助手触发能力、查看结果、上传文件和下载产物。</p>
+      <p>重点讲如何通过页面或对话执行触发能力、查看结果、上传文件和下载产物。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Role 04</p>

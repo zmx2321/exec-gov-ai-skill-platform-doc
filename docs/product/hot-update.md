@@ -149,7 +149,7 @@ lastUpdated: false
         <tr>
           <td>是否允许 AI 调用</td>
           <td>建议提供</td>
-          <td>决定智能大脑是否可推荐该能力</td>
+          <td>决定对话执行是否可推荐该能力</td>
           <td>不是所有脚本都默认进入 AI 推荐范围</td>
         </tr>
         <tr>

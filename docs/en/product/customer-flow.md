@@ -325,7 +325,7 @@ lastUpdated: false
       <p class="brand-kicker">AI Assisted</p>
       <h2>AI-assisted execution flow</h2>
       <ol class="brand-list">
-        <li>Describe the request in the intelligent-brain page</li>
+        <li>Describe the request on the dialog execution page</li>
         <li>The platform recommends available capabilities inside the current tenant and permission boundary</li>
         <li>If confirmation is required, manual confirmation happens first</li>
         <li>After confirmation, the platform executes the capability</li>

@@ -105,6 +105,10 @@ lastUpdated: false
         <h3>Can AI recommend capabilities from another tenant</h3>
         <p>No. The recommendation scope is constrained by both tenant boundary and permission boundary. It is not a model that can recommend whatever it happens to think of.</p>
       </article>
+      <article class="brand-card brand-card--nested">
+        <h3>Is the dialog-execution model URL and token always one global setting</h3>
+        <p>No. The platform can maintain a default upstream configuration, and a formal tenant can also maintain its own local configuration. If the tenant-local configuration is incomplete, runtime falls back to the platform default. To avoid sideways exposure of secrets, the full token value is shown only to the configuring side and the other side sees a masked preview.</p>
+      </article>
     </div>
   </section>
 

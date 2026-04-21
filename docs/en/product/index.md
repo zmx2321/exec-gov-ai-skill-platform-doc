@@ -319,7 +319,7 @@ lastUpdated: false
         <h3>Individual explorers</h3>
         <ul class="brand-list">
           <li>Start from the no-login experience page and feel one real execution chain quickly.</li>
-          <li>After signup, users first go through the separate result page and then enter the personal path. The current valid menu set continues through My Skill Library, Script Upload, Intelligent Assistant, Execution History, Personal Space, Announcement Center, Community Plaza, and Upgrade to Formal Version, while keeping extension entries such as the HTTP read-only ledger.</li>
+          <li>After signup, users first go through the separate result page and then enter the personal path. The current valid menu set continues through My Skill Library, Script Upload, Dialog Execution, Execution History, Personal Space, Announcement Center, Community Plaza, and Upgrade to Formal Version, while keeping extension entries such as the HTTP read-only ledger.</li>
           <li>If the goal is still individual continuous usage, prioritize lightweight local script-slot expansion instead of jumping straight into enterprise-delivery framing.</li>
           <li>This is the right place to verify whether AI can really schedule scripts for me.</li>
         </ul>

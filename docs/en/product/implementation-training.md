@@ -111,7 +111,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Role 03</p>
       <h2>General users</h2>
-      <p>Training focuses on how to trigger capabilities through pages or the intelligent assistant, view results, upload files, and download output artifacts.</p>
+      <p>Training focuses on how to trigger capabilities through pages or the dialog execution, view results, upload files, and download output artifacts.</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Role 04</p>

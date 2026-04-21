@@ -116,7 +116,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>04. 客户开始使用</h3>
-        <p>客户通过页面手动执行，或在智能大脑中输入需求，由平台在当前租户范围内推荐能力。</p>
+        <p>客户通过页面手动执行，或在对话执行中输入需求，由平台在当前租户范围内推荐能力。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>05. 运行中持续反馈</h3>
@@ -303,7 +303,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>3. 选择手动执行或 AI 对话执行</h3>
-        <p>客户可以直接手动执行，也可以通过智能大脑输入自然语言，让平台在当前租户和权限范围内推荐能力。</p>
+        <p>客户可以直接手动执行，也可以通过对话执行输入自然语言，让平台在当前租户和权限范围内推荐能力。</p>
       </article>
     </div>
   </section>
@@ -325,7 +325,7 @@ lastUpdated: false
       <p class="brand-kicker">AI Assisted</p>
       <h2>AI 对话执行的基本流程</h2>
       <ol class="brand-list">
-        <li>在智能大脑页面输入需求</li>
+        <li>在对话执行页面输入需求</li>
         <li>平台在当前租户和当前权限范围内推荐可用能力</li>
         <li>若能力需要确认，则先人工确认</li>
         <li>确认后平台执行对应脚本</li>

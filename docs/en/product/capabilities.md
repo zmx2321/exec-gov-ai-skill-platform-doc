@@ -76,6 +76,8 @@ lastUpdated: false
         <li>Plan generation</li>
         <li>Manual confirmation</li>
         <li>Capability execution, result callback, audit trail, and reviewability</li>
+        <li>Dialog execution can use either a platform-default upstream model config or a tenant-local config</li>
+        <li>The full value of a sensitive token is shown only to the side that configured it; the other side sees a masked preview</li>
       </ul>
     </article>
   </section>
@@ -171,11 +173,11 @@ lastUpdated: false
       <ul class="brand-list">
         <li>Login and account usage</li>
         <li>A list of customer-specific capabilities instead of raw script source paths</li>
-        <li>The intelligent-brain conversation entry and the manual execution entry</li>
+        <li>The dialog-execution entry and the manual execution entry</li>
         <li>AI-assisted recommendation with confirmation, execution-result view, file upload, and result download</li>
         <li>Platform and tenant announcements</li>
         <li>When the user is authorized for HTTP-type Skills, they can view resource summaries, authentication style, and write boundaries in read-only mode</li>
-        <li>The personal free entry has already formed a continuous usage chain: signup result page, capability library, intelligent assistant, announcement center, community square, personal space, formal-upgrade entry, script upload, read-only HTTP ledger, and lightweight local script-slot expansion</li>
+        <li>The personal free entry has already formed a continuous usage chain: signup result page, capability library, dialog execution, announcement center, community square, personal space, formal-upgrade entry, script upload, read-only HTTP ledger, and lightweight local script-slot expansion</li>
       </ul>
     </article>
     <article class="brand-card">
