@@ -12,7 +12,7 @@ lastUpdated: false
       <div class="brand-hero__panel">
         <span class="brand-pill">Builder Profile</span>
         <strong>The long-term mainline is eight years of frontend delivery, with two years of continued reinforcement in Python automation and small full-stack closure. The work is still being advanced in a way one person can maintain, so it is a better fit for projects that turn scripts, data flows, and business pages into governed capabilities.</strong>
-        <p>The backend reinforcement is not limited to Python. Earlier there was one year of self-taught web crawling, in-company script writing, and also one year of Java full-stack work on the Ruoyi framework.</p>
+        <p>The backend reinforcement is not limited to Python. Earlier there was one year of self-taught web crawling, in-company script writing, and also one year of Java full-stack work on an enterprise admin framework.</p>
         <p>The real value is not one isolated tech label. It is the boundary awareness, release awareness, and reuse awareness accumulated through long-term delivery work.</p>
       </div>
       <p class="brand-lead">
@@ -29,7 +29,7 @@ lastUpdated: false
         <span class="brand-chip">GIS visualization</span>
         <span class="brand-chip">Vue admin frontend</span>
         <span class="brand-chip">Python automation</span>
-        <span class="brand-chip">Java / Ruoyi</span>
+        <span class="brand-chip">Java / Admin Backend</span>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -109,7 +109,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Track 02</p>
       <h2>Two years of reinforcement in automation and closure</h2>
-      <p>Over the past two years the work has continued to reinforce Python automation, data handling, warehousing, report generation, and small to medium backend support. Earlier there was also one year of Java full-stack work on the Ruoyi framework, plus self-written company scripts, so backend reinforcement is not limited to Python alone.</p>
+      <p>Over the past two years the work has continued to reinforce Python automation, data handling, warehousing, report generation, and small to medium backend support. Earlier there was also one year of Java full-stack work on an enterprise admin framework, plus self-written company scripts, so backend reinforcement is not limited to Python alone.</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Track 03</p>
@@ -216,7 +216,7 @@ lastUpdated: false
           <td>2015 - 2019</td>
           <td>Earlier experience</td>
           <td>E-commerce, official accounts, mini programs, admin systems, full-stack reinforcement</td>
-          <td>Continued accumulation of frontend basics, API integration, compatibility handling, official-account and mini-program work, and admin-system delivery. During this period there was also one year of self-taught web crawling, one year of Java full-stack work on the Ruoyi framework, and self-written scripts inside company scenarios.</td>
+          <td>Continued accumulation of frontend basics, API integration, compatibility handling, official-account and mini-program work, and admin-system delivery. During this period there was also one year of self-taught web crawling, one year of Java full-stack work on an enterprise admin framework, and self-written scripts inside company scenarios.</td>
         </tr>
       </tbody>
     </table>
@@ -239,9 +239,9 @@ lastUpdated: false
       <h2>Cooperation scenarios worth starting first</h2>
       <ul class="brand-list">
         <li>GIS visualization, map business pages, and public-sector or enterprise visualization support work.</li>
-        <li>Vue admin systems, Ruoyi-style back offices, inherited legacy projects, and frontend joint debugging and maintenance.</li>
+        <li>Vue admin systems, inherited back offices, inherited legacy projects, and frontend joint debugging and maintenance.</li>
         <li>Reports, files, data capture, export, internal company scripts, and Python automation-process closure.</li>
-        <li>Frontend-led small full-stack closure, including Ruoyi-style Java backend and automation reinforcement.</li>
+        <li>Frontend-led small full-stack closure, including Java admin-backend reinforcement and automation support.</li>
         <li>Turning local scripts, page entry points, and execution traces into a more controlled smallest closure.</li>
       </ul>
     </article>
@@ -253,7 +253,7 @@ lastUpdated: false
       <h2>How this background maps to ExecFabric</h2>
       <ul class="brand-list">
         <li>GIS and admin-frontend experience means the platform entry must be visible, operable, and reviewable instead of staying only in a command line or script directory.</li>
-        <li>Automation and data-handling experience maps directly to the platform's most mature execution asset today, Python scripts. Experience in Java and Ruoyi-style backend reinforcement also keeps the platform design from being trapped by one language perspective.</li>
+        <li>Automation and data-handling experience maps directly to the platform's most mature execution asset today, Python scripts. Experience in Java and admin-backend reinforcement also keeps the platform design from being trapped by one language perspective.</li>
         <li>Public-sector and enterprise delivery experience naturally pushes permissions, confirmation, traces, gray release, handover, and responsibility boundaries up in the design priority.</li>
         <li>Long-term project delivery work also makes it clearer that platform capabilities have to be abstracted from real workflows instead of starting from concepts first.</li>
       </ul>

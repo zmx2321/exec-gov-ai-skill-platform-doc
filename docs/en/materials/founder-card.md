@@ -101,7 +101,7 @@ lastUpdated: false
       <h2>Scenarios worth connecting first</h2>
       <ul class="brand-list">
         <li>GIS visualization, map business pages, and public-sector or enterprise visualization support work.</li>
-        <li>Vue admin systems, Ruoyi-style back offices, inherited legacy projects, and frontend joint debugging and maintenance.</li>
+        <li>Vue admin systems, inherited back offices, legacy projects, and frontend joint debugging and maintenance.</li>
         <li>Data dashboards, log displays, and real-time data pages.</li>
         <li>Reports, files, data capture, export flows, and Python automation processes.</li>
       </ul>

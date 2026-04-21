@@ -12,7 +12,7 @@ lastUpdated: false
       <div class="brand-hero__panel">
         <span class="brand-pill">Builder Profile</span>
         <strong>长期主线是 8 年前端交付，近 2 年持续补强 Python 自动化与小型全栈闭环；当前按单人可维护方式推进，更适合把脚本、数据流程和业务页面收成可治理能力的项目。</strong>
-        <p>后端补位不只限于 Python：早期自学过 1 年爬虫，在公司场景里自己写过脚本，也做过 1 年 Java（若依框架）全栈开发。</p>
+        <p>后端补位不只限于 Python：早期自学过 1 年爬虫，在公司场景里自己写过脚本，也做过 1 年 Java 中后台全栈开发。</p>
         <p>重点不是单一技术标签，而是长期真实交付里沉淀下来的边界意识、上线意识和复用意识。</p>
       </div>
       <p class="brand-lead">
@@ -27,7 +27,7 @@ lastUpdated: false
         <span class="brand-chip">GIS 可视化</span>
         <span class="brand-chip">Vue 中后台</span>
         <span class="brand-chip">Python 自动化</span>
-        <span class="brand-chip">Java / 若依</span>
+        <span class="brand-chip">Java / 中后台</span>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -107,7 +107,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Track 02</p>
       <h2>近 2 年补强自动化与闭环</h2>
-      <p>近两年持续补强 Python 自动化、数据处理、入库、报表生成和中小型后台支撑；更早也做过 1 年 Java（若依框架）全栈开发，并在公司里自己写过脚本，后端补位不只停留在 Python。</p>
+      <p>近两年持续补强 Python 自动化、数据处理、入库、报表生成和中小型后台支撑；更早也做过 1 年 Java 中后台全栈开发，并在公司里自己写过脚本，后端补位不只停留在 Python。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Track 03</p>
@@ -214,7 +214,7 @@ lastUpdated: false
           <td>2015 - 2019</td>
           <td>更早期经历</td>
           <td>电商、公众号、小程序、后台系统、全栈补位</td>
-          <td>持续积累前端基础能力、接口联调、兼容性处理、公众号 / 小程序和后台管理系统交付经验；期间自学过 1 年爬虫，也做过 1 年 Java（若依框架）全栈开发，并在公司场景里自己写过脚本。</td>
+          <td>持续积累前端基础能力、接口联调、兼容性处理、公众号 / 小程序和后台管理系统交付经验；期间自学过 1 年爬虫，也做过 1 年 Java 中后台全栈开发，并在公司场景里自己写过脚本。</td>
         </tr>
       </tbody>
     </table>
@@ -237,9 +237,9 @@ lastUpdated: false
       <h2>适合优先启动的合作场景</h2>
       <ul class="brand-list">
         <li>GIS 可视化、地图业务页和政企可视化项目补位。</li>
-        <li>Vue 中后台、若依类后台、老项目接手和页面联调维护。</li>
+        <li>Vue 中后台、企业后台、老项目接手和页面联调维护。</li>
         <li>报表、文件、数据抓取、导出、公司内部脚本和 Python 自动化流程收口。</li>
-        <li>前端主导的小型全栈收口，包含若依类 Java 后台与自动化补位。</li>
+        <li>前端主导的小型全栈收口，包含 Java 中后台与自动化补位。</li>
         <li>把本地脚本、页面入口和执行留痕接成一个更可控的最小闭环。</li>
       </ul>
     </article>
@@ -251,7 +251,7 @@ lastUpdated: false
       <h2>这些经历如何映射到 璇络(ExecFabric)</h2>
       <ul class="brand-list">
         <li>GIS 和中后台经验，决定了平台入口必须可见、可操作、可复盘，而不是只停留在命令行或脚本目录。</li>
-        <li>自动化和数据处理经验，直接对应 璇络(ExecFabric) 当前最成熟的一类执行资产，也就是 Python 脚本能力；而做过 Java / 若依类后台补位，也让平台设计不会被单一语言视角绑住。</li>
+        <li>自动化和数据处理经验，直接对应 璇络(ExecFabric) 当前最成熟的一类执行资产，也就是 Python 脚本能力；而做过 Java 中后台补位，也让平台设计不会被单一语言视角绑住。</li>
         <li>政企交付经验，会天然把权限、确认、留痕、灰度、上线交接和责任边界放到设计优先级里。</li>
         <li>长期做项目交付，也更清楚平台能力必须从真实流程抽象出来，而不是从概念先行。</li>
       </ul>

@@ -16,7 +16,7 @@ lastUpdated: false
       </div>
       <p class="brand-lead">
         核心定位可以概括为：
-        <strong>8 年前端 / GIS / 可视化交付经验，近 2 年补强 Python 自动化与中小型后台支撑，也做过 1 年 Java（若依框架）全栈开发。</strong>
+        <strong>8 年前端 / GIS / 可视化交付经验，近 2 年补强 Python 自动化与中小型后台支撑，也做过 1 年 Java 中后台全栈开发。</strong>
         适合需要把页面、流程和脚本能力打通成可交付结果的项目。
       </p>
       <div class="brand-chip-list">
@@ -69,7 +69,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Scope</p>
       <h2>当前可交付范围</h2>
-      <p>地图页面、数据可视化、后台模块、报表流程，以及以 Python 为主、兼顾 Java / 若依补位的小型闭环，是当前最有把握快速落地的范围。</p>
+      <p>地图页面、数据可视化、后台模块、报表流程，以及以 Python 为主、兼顾 Java 中后台补位的小型闭环，是当前最有把握快速落地的范围。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Contact</p>
@@ -116,7 +116,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Value 03</p>
       <h2>自动化补全闭环</h2>
-      <p>近两年持续做 Python 自动化、数据处理、报表生成和中小型 Django / DRF 支撑；后端不只限于 Python，也有 1 年 Java（若依框架）全栈开发经历。</p>
+      <p>近两年持续做 Python 自动化、数据处理、报表生成和中小型 Django / DRF 支撑；后端不只限于 Python，也有 1 年 Java 中后台全栈开发经历。</p>
     </article>
   </section>
 
@@ -137,7 +137,7 @@ lastUpdated: false
       <article class="brand-card brand-card--nested">
         <h3>Python / Java / 后端 / 自动化</h3>
         <p>Python / Django / DRF / APScheduler / Pandas / PostgreSQL / MySQL / PostGIS</p>
-        <p>当前以后端补位与自动化为主，也有 1 年 Java（若依框架）全栈开发经历，可承接数据采集、清洗、入库、报表生成、接口开发、定时任务和中小型后台支撑。</p>
+        <p>当前以后端补位与自动化为主，也有 1 年 Java 中后台全栈开发经历，可承接数据采集、清洗、入库、报表生成、接口开发、定时任务和中小型后台支撑。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>工程化 / AI 工具</h3>
@@ -174,7 +174,7 @@ lastUpdated: false
       <article class="brand-card brand-card--nested">
         <h3>2015 - 2019</h3>
         <p><strong>更早期经历</strong></p>
-        <p>电商、公众号、小程序和后台管理系统开发，积累前端基础能力、兼容性处理、接口联调与上线交付经验；期间自学过 1 年爬虫，也做过 1 年 Java（若依框架）全栈开发，并在公司场景里自己写过脚本。</p>
+        <p>电商、公众号、小程序和后台管理系统开发，积累前端基础能力、兼容性处理、接口联调与上线交付经验；期间自学过 1 年爬虫，也做过 1 年 Java 中后台全栈开发，并在公司场景里自己写过脚本。</p>
       </article>
     </div>
   </section>
@@ -196,7 +196,7 @@ lastUpdated: false
       <h2>更适合优先对接的工作</h2>
       <ul class="brand-list">
         <li>GIS 可视化、地图业务页和可视化项目补位。</li>
-        <li>Vue 中后台、若依类后台、老项目接手维护。</li>
+        <li>Vue 中后台、企业后台、老项目接手维护。</li>
         <li>数据大屏、日志展示、实时数据页面。</li>
         <li>报表、文件、抓数、导出、公司内部脚本和 Python 自动化。</li>
       </ul>

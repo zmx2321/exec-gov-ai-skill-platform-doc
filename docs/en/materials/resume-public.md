@@ -16,7 +16,7 @@ lastUpdated: false
       </div>
       <p class="brand-lead">
         The core positioning can be summarized this way:
-        <strong>eight years of frontend, GIS, and visualization delivery, two recent years reinforcing Python automation and small to medium backend support, plus one year of Java full-stack work on the Ruoyi framework.</strong>
+        <strong>eight years of frontend, GIS, and visualization delivery, two recent years reinforcing Python automation and small to medium backend support, plus one year of Java full-stack work on an enterprise admin framework.</strong>
         It is a good fit for projects that need pages, workflows, and script capabilities turned into a deliverable result.
       </p>
       <div class="brand-chip-list">
@@ -66,7 +66,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Scope</p>
       <h2>Current deliverable scope</h2>
-      <p>Map pages, data visualization, admin modules, report flows, and small closures led by Python with Java or Ruoyi reinforcement are the areas most likely to land quickly right now.</p>
+      <p>Map pages, data visualization, admin modules, report flows, and small closures led by Python with Java admin-backend reinforcement are the areas most likely to land quickly right now.</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Contact</p>
@@ -113,7 +113,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Value 03</p>
       <h2>Automation closes the loop</h2>
-      <p>The last two years have included continuous Python automation, data handling, report generation, and small Django or DRF support. Backend reinforcement is not limited to Python either, because there is also one year of Java full-stack work on the Ruoyi framework.</p>
+      <p>The last two years have included continuous Python automation, data handling, report generation, and small Django or DRF support. Backend reinforcement is not limited to Python either, because there is also one year of Java full-stack work on an enterprise admin framework.</p>
     </article>
   </section>
 
@@ -134,7 +134,7 @@ lastUpdated: false
       <article class="brand-card brand-card--nested">
         <h3>Python / Java / backend / automation</h3>
         <p>Python / Django / DRF / APScheduler / Pandas / PostgreSQL / MySQL / PostGIS</p>
-        <p>Currently focused on backend reinforcement and automation, with one year of Java full-stack work on the Ruoyi framework as well. That makes it possible to carry data collection, cleaning, warehousing, report generation, API development, scheduled jobs, and small backend support.</p>
+        <p>Currently focused on backend reinforcement and automation, with one year of Java full-stack work on an enterprise admin framework as well. That makes it possible to carry data collection, cleaning, warehousing, report generation, API development, scheduled jobs, and small backend support.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Engineering / AI tooling</h3>
@@ -171,7 +171,7 @@ lastUpdated: false
       <article class="brand-card brand-card--nested">
         <h3>2015 - 2019</h3>
         <p><strong>Earlier experience</strong></p>
-        <p>E-commerce, official-account, mini-program, and admin-system development, with accumulated frontend basics, compatibility handling, API integration, release delivery, one year of self-taught crawling, one year of Java full-stack work on the Ruoyi framework, and self-written scripts inside company scenarios.</p>
+        <p>E-commerce, official-account, mini-program, and admin-system development, with accumulated frontend basics, compatibility handling, API integration, release delivery, one year of self-taught crawling, one year of Java full-stack work on an enterprise admin framework, and self-written scripts inside company scenarios.</p>
       </article>
     </div>
   </section>
@@ -193,7 +193,7 @@ lastUpdated: false
       <h2>Work that fits better for an early start</h2>
       <ul class="brand-list">
         <li>GIS visualization, map business pages, and visualization project reinforcement.</li>
-        <li>Vue admin systems, Ruoyi-style back offices, and inherited project maintenance.</li>
+        <li>Vue admin systems, inherited back offices, and legacy-project maintenance.</li>
         <li>Large dashboards, log displays, and real-time data pages.</li>
         <li>Reports, files, data capture, export, internal company scripts, and Python automation.</li>
       </ul>
