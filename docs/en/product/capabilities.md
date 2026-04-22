@@ -78,6 +78,7 @@ lastUpdated: false
         <li>Capability execution, result callback, audit trail, and reviewability</li>
         <li>Dialog execution can use either a platform-default upstream model config or a tenant-local config</li>
         <li>The full value of a sensitive token is shown only to the side that configured it; the other side sees a masked preview</li>
+        <li>The session model now participates in Skill-gate checks instead of blindly following only a default model</li>
       </ul>
     </article>
   </section>
@@ -148,6 +149,9 @@ lastUpdated: false
       <h2>Execution safety boundaries</h2>
       <ul class="brand-list">
         <li>Script / Skill risk levels currently stay fixed at <code>low / medium / high</code>. The public standard is described in <a href="./script-risk-levels.html">script risk levels</a>.</li>
+        <li>The governance domain can maintain a model registry with reliability ratings (<code>economy / standard / high</code>).</li>
+        <li>Each Skill can define a minimum model reliability gate (<code>all / standard / high</code>).</li>
+        <li>If a model is unrated, disabled, or below the Skill gate, runtime rejects execution and prompts switching to a more reliable model.</li>
         <li>High-risk actions still require manual confirmation</li>
         <li>HTTP write operations are denied by default and must be whitelisted explicitly</li>
         <li>Tenant-side users do not see platform-governance pages. They only see authorized execution and read-only entries.</li>

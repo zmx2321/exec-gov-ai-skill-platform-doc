@@ -147,6 +147,7 @@ lastUpdated: false
         <li>订单中心与租户生命周期治理</li>
         <li>平台审计</li>
         <li>HTTP 资源接入、凭据治理与写边界控制</li>
+        <li>模型注册表与模型可靠性评级治理</li>
         <li>模板分发治理</li>
       </ul>
     </article>
@@ -164,7 +165,7 @@ lastUpdated: false
     </article>
   </section>
 
-  <section class="brand-grid brand-grid--three">
+  <section class="brand-grid brand-grid--four">
     <article class="brand-card">
       <p class="brand-kicker">Concept 01</p>
       <h2>Skill 是能力单元</h2>
@@ -179,6 +180,11 @@ lastUpdated: false
       <p class="brand-kicker">Concept 03</p>
       <h2>执行器负责运行时适配</h2>
       <p>执行器决定不同资产类型怎么被调用、怎么校验输入输出、怎么把结果统一回到平台审计链路里。当前运行时已经不再只写死脚本判断。</p>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">Concept 04</p>
+      <h2>Skill 受模型可靠性门槛约束</h2>
+      <p>Skill 现在可以声明最低模型可靠性要求。运行时会校验当前会话模型评级；如果模型未评级、已停用或等级不足，会拒绝执行并提示切换更高可靠模型。</p>
     </article>
   </section>
 

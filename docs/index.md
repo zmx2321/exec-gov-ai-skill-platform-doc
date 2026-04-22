@@ -25,7 +25,7 @@ features:
   - title: 记录留得清楚
     details: 谁执行、何时执行、执行了什么、结果如何，都能完整留痕并回看。
   - title: 风险边界可控
-    details: 高风险动作先确认，租户与角色按边界隔离，不让脚本越权运行。
+    details: 高风险动作先确认，租户与角色按边界隔离；Skill 还可设置模型可靠性门槛，不满足就拒绝执行。
   - title: 本地能力可接入
     details: 不必暴露核心资产，也能把本地脚本、内网 API 与云端控制面接起来。
 ---
@@ -153,6 +153,9 @@ features:
         <p class="landing-lead">
           同时，璇络标准 SaaS 共享租户前端骨架也已经建立：进入<strong>标准 SaaS 共享租户号段</strong>后，标准 SaaS 客户不再默认一客户复制一套前端工程，
           而是优先走共享租户前端。它当前已经能承接正式租户入口，但品牌化、初始化和更细菜单边界仍在继续收口。
+        </p>
+        <p class="landing-lead">
+          当前统一口径：私有化部署测试页面可在 <code>private-test.execfabric.cn</code> 查看。
         </p>
         <div class="landing-brand__chips">
           <span>脚本治理</span>

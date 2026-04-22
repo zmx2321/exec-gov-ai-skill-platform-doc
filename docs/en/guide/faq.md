@@ -121,6 +121,10 @@ lastUpdated: false
         <p>No. Standard team collaboration can usually start through the shared-SaaS formal tenant entry. Private deployment or enterprise delivery only becomes the better path when stronger isolation, intranet access, local bridging, or formal project acceptance is actually required.</p>
       </article>
       <article class="brand-card brand-card--nested">
+        <h3>Where can we view the private-deployment test page</h3>
+        <p>Unified wording: the private-deployment test page is available at <code>private-test.execfabric.cn</code>.</p>
+      </article>
+      <article class="brand-card brand-card--nested">
         <h3>Does a hot update require redeploying the whole platform</h3>
         <p>No. Once the customer script passes review, sync, registration, and authorization, it can take effect inside the current tenant without redeploying the whole platform.</p>
       </article>

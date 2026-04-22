@@ -27,6 +27,9 @@ lastUpdated: false
         <strong>企业单租户 / 私有化交付</strong>，
         再按需要叠加本地混合执行。
       </p>
+      <p class="brand-lead">
+        当前统一口径：私有化部署测试页面可在 <code>private-test.execfabric.cn</code> 查看。
+      </p>
       <div class="brand-chip-list">
         <span class="brand-chip">单租户交付</span>
         <span class="brand-chip">平台治理</span>

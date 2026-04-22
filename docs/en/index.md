@@ -25,7 +25,7 @@ features:
   - title: Keep records reviewable
     details: You can trace who executed what, when it happened, and what the result was.
   - title: Make risk boundaries explicit
-    details: High-risk actions require confirmation, and tenant and role boundaries stay isolated.
+    details: High-risk actions require confirmation, tenant and role boundaries stay isolated, and Skill model-reliability gates can block unsafe execution.
   - title: Connect local capability
     details: Local scripts, intranet APIs, and private resources can join the cloud control plane without being fully exposed.
 ---
@@ -154,6 +154,9 @@ features:
           Once customers enter the <strong>standard shared-SaaS tenant range</strong>, they no longer default to cloning a dedicated frontend project per customer.
           They first enter the shared tenant frontend instead.
           It can already carry formal tenant entry, while branding, initialization, and finer menu boundaries are still being tightened.
+        </p>
+        <p class="landing-lead">
+          Unified wording: the private-deployment test page is available at <code>private-test.execfabric.cn</code>.
         </p>
         <div class="landing-brand__chips">
           <span>Script governance</span>

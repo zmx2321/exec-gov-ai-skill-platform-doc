@@ -162,6 +162,7 @@ lastUpdated: false
         <li>Order center and tenant lifecycle governance</li>
         <li>Platform audit</li>
         <li>HTTP resource access, credential governance, and write-boundary control</li>
+        <li>Model registry and model-reliability rating governance</li>
         <li>Template distribution governance</li>
       </ul>
     </article>
@@ -179,7 +180,7 @@ lastUpdated: false
     </article>
   </section>
 
-  <section class="brand-grid brand-grid--three">
+  <section class="brand-grid brand-grid--four">
     <article class="brand-card">
       <p class="brand-kicker">Concept 01</p>
       <h2>A Skill is the capability unit</h2>
@@ -194,6 +195,11 @@ lastUpdated: false
       <p class="brand-kicker">Concept 03</p>
       <h2>The executor owns runtime adaptation</h2>
       <p>The executor decides how different asset types are called, how input and output are validated, and how results return into one audit chain. Runtime is no longer hard-coded only around scripts.</p>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">Concept 04</p>
+      <h2>Each Skill is gated by model reliability</h2>
+      <p>Skills can now declare a minimum model-reliability requirement. Runtime checks the current session model rating and blocks execution when the model is unrated, disabled, or below the required reliability level.</p>
     </article>
   </section>
 

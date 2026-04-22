@@ -122,6 +122,10 @@ lastUpdated: false
         <p>不一定。标准团队协作当前可以先走共享 SaaS 正式租户入口；只有涉及更强隔离、内网、本地桥接或正式项目验收时，才更适合继续走企业交付或私有化。</p>
       </article>
       <article class="brand-card brand-card--nested">
+        <h3>私有化部署测试页面在哪里看</h3>
+        <p>当前统一口径是：私有化部署测试页面可在 <code>private-test.execfabric.cn</code> 查看。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
         <h3>热更新是不是要重部署整个平台</h3>
         <p>不是。客户脚本通过审核、同步、注册和授权后，可以在当前租户内生效，不需要整个平台重新部署。</p>
       </article>

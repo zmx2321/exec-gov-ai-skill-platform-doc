@@ -28,6 +28,9 @@ lastUpdated: false
         <strong>enterprise single-tenant / private delivery</strong>,
         with local hybrid execution layered on top when needed.
       </p>
+      <p class="brand-lead">
+        Unified wording: the private-deployment test page is available at <code>private-test.execfabric.cn</code>.
+      </p>
       <div class="brand-chip-list">
         <span class="brand-chip">Single-tenant delivery</span>
         <span class="brand-chip">Platform governance</span>
