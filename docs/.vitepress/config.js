@@ -2,10 +2,10 @@ const docsBase = process.env.EXECFABRIC_DOCS_BASE || "/"
 const normalizedDocsBase = docsBase.endsWith("/") ? docsBase : `${docsBase}/`
 const docsRepoUrl = process.env.EXECFABRIC_DOCS_REPO_URL || "https://github.com/zmx2321/exec-fabric-ai-skill-platform-doc"
 const execfabricWebBase = (process.env.EXECFABRIC_WEB_BASE || "https://execfabric.cn").replace(/\/$/, "")
-const execfabricLoginUrl = `${execfabricWebBase}/#/login`
-const execfabricRegisterUrl = `${execfabricWebBase}/#/register`
+const execfabricLoginUrl = execfabricWebBase
+const execfabricRegisterUrl = execfabricWebBase
 const execfabricExperienceUrl = `${execfabricWebBase}/#/experience`
-const execfabricBetaUrl = `${execfabricWebBase}/#/experience?intent=beta`
+const execfabricBetaUrl = execfabricExperienceUrl
 const faviconLightPath = `${normalizedDocsBase}favicon_light.ico`
 const faviconDarkPath = `${normalizedDocsBase}favicon_dark.ico`
 const navbarLogoLightThemePath = faviconDarkPath

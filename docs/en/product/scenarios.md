@@ -57,7 +57,7 @@ lastUpdated: false
     </div>
   </section>
 
-  <section class="brand-card">
+  <section id="priority-segments" class="brand-card">
     <p class="brand-kicker">Priority Segments</p>
     <h2>The three customer groups most worth prioritizing right now</h2>
     <div class="brand-grid brand-grid--three">

@@ -56,7 +56,7 @@ lastUpdated: false
     </div>
   </section>
 
-  <section class="brand-card">
+  <section id="priority-segments" class="brand-card">
     <p class="brand-kicker">Priority Segments</p>
     <h2>当前最值得优先深耕的三类客户</h2>
     <div class="brand-grid brand-grid--three">
@@ -124,6 +124,7 @@ lastUpdated: false
       <h2>超管治理与模板分发</h2>
       <ul class="brand-list">
         <li>模板分发</li>
+        <li>平台模板分发是租户级安装；受控演示能力分发是用户级授权，当前公开示例是 POI 测试脚本包</li>
         <li>公告投放</li>
         <li>客户与租户治理</li>
         <li>平台审计、版本回滚和运营台账</li>

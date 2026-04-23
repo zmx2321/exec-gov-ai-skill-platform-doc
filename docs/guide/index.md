@@ -94,7 +94,7 @@ lastUpdated: false
       <tbody>
         <tr>
           <td>公开体验链路</td>
-          <td>现在可以直接从 <code>/experience</code>、<code>/login</code>、<code>/register</code> 进入体验和注册流程</td>
+          <td>现在公开入口统一为 <code>https://execfabric.cn/</code> 登录 / 注册入口，以及 <code>https://execfabric.cn/#/experience</code> 体验入口</td>
           <td>第一次接触平台的人</td>
           <td><a href="https://execfabric.cn/">快速开始</a></td>
         </tr>

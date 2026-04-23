@@ -111,8 +111,8 @@ lastUpdated: false
       <p class="brand-kicker">Web Entry</p>
       <h2>CLI 与 Web 入口如何配合</h2>
       <ul class="brand-list">
-        <li>网页端已经提供 <code>/experience</code>、<code>/login</code>、<code>/register</code> 三个正式入口。</li>
-        <li>注册成功当前会先进入 <code>/register/result</code> 结果页，再回到登录与个人主链路。</li>
+        <li>网页端当前正式公开的是 <code>https://execfabric.cn/#/experience</code> 体验入口，以及 <code>https://execfabric.cn/</code> 登录 / 注册统一入口。</li>
+        <li>注册成功当前会先进入结果承接页，再回到登录与个人主链路。</li>
         <li>体验页用于先感受执行链路；当前左侧是 Python 示例 <code>task_brief_demo.py</code>，右侧是 Shell 示例 <code>clean_log_demo.sh</code>。</li>
         <li>网页端上传注册已经支持 <code>.py</code>、<code>.sh</code>、<code>.bash</code>、<code>.bat</code>、<code>.cmd</code>、<code>.js</code>。</li>
         <li>网页入口更适合可见的单文件接入；CLI 负责可重复的单文件 / 目录登记、本机路径登记和 Local Agent 执行桥接。</li>

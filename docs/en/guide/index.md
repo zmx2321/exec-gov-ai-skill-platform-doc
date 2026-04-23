@@ -94,7 +94,7 @@ lastUpdated: false
       <tbody>
         <tr>
           <td>Public experience flow</td>
-          <td>You can now enter from <code>/experience</code>, <code>/login</code>, and <code>/register</code> directly for the experience and signup flow</td>
+          <td>The public web entry is now split into the login / signup entry at <code>https://execfabric.cn/</code> and the experience entry at <code>https://execfabric.cn/#/experience</code></td>
           <td>People touching the platform for the first time</td>
           <td><a href="https://execfabric.cn/">Getting Started</a></td>
         </tr>

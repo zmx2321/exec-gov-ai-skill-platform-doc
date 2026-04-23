@@ -113,8 +113,8 @@ lastUpdated: false
       <p class="brand-kicker">Web Entry</p>
       <h2>How the CLI works with the web entry</h2>
       <ul class="brand-list">
-        <li>The web side already exposes three formal entry points: <code>/experience</code>, <code>/login</code>, and <code>/register</code>.</li>
-        <li>After signup succeeds, the current flow still goes through <code>/register/result</code> before returning to login and the personal mainline.</li>
+        <li>The formal public web entry is now split between the experience entry at <code>https://execfabric.cn/#/experience</code> and the unified login / signup entry at <code>https://execfabric.cn/</code>.</li>
+        <li>After signup succeeds, the current flow still goes through a dedicated handoff page before returning to login and the personal mainline.</li>
         <li>The experience page is for feeling the execution chain first. The left panel currently shows the Python demo <code>task_brief_demo.py</code>, while the right panel shows the Shell demo <code>clean_log_demo.sh</code>.</li>
         <li>Web-side upload registration already supports <code>.py</code>, <code>.sh</code>, and <code>.bash</code>.</li>
         <li>The web path fits visible single-file onboarding best. The CLI takes over when you need repeatable single-file or folder registration, local-path registration, or Local Agent execution.</li>

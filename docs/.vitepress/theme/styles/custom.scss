@@ -4742,3 +4742,56 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
     grid-template-columns: 1fr;
   }
 }
+
+.execfabric-icp-record {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 6px 12px calc(6px + env(safe-area-inset-bottom));
+  background: rgba(2, 10, 8, 0.86);
+  border-top: 1px solid var(--execfabric-line-strong);
+  box-shadow: 0 -6px 20px rgba(2, 10, 8, 0.16);
+}
+
+.execfabric-icp-record__links {
+  display: flex;
+  gap: 8px;
+}
+
+.execfabric-icp-record a {
+  padding: 4px 10px;
+  border: 1px solid var(--execfabric-line-strong);
+  border-radius: 999px;
+  font-size: 12px;
+  line-height: 1;
+  color: var(--execfabric-title);
+  text-decoration: none;
+  background: var(--execfabric-panel-strong);
+  box-shadow: var(--execfabric-shadow-soft);
+  backdrop-filter: blur(4px);
+}
+
+.execfabric-icp-record a:hover {
+  color: var(--vp-c-brand-1);
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .execfabric-icp-record {
+    margin-top: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+
+  .execfabric-icp-record__links {
+    gap: 6px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .execfabric-icp-record a {
+    font-size: 11px;
+  }
+}

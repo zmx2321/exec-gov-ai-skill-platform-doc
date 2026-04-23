@@ -134,28 +134,22 @@ lastUpdated: false
       </thead>
       <tbody>
         <tr>
-          <td><code>/experience</code></td>
+          <td><code>https://execfabric.cn/#/experience</code></td>
           <td>The current formal public experience page</td>
           <td>People trying it for the first time</td>
           <td>This is a real entry point, not a screenshot placeholder. The left side currently shows Python <code>task_brief_demo.py</code>, the right side shows Shell <code>clean_log_demo.sh</code>, and the experience scripts come from the formal free-experience asset directory.</td>
         </tr>
         <tr>
-          <td><code>/login</code></td>
-          <td>The current formal login page</td>
-          <td>People who already have an account</td>
-          <td>Used to enter the personal free edition or later a formal tenant space.</td>
+          <td><code>https://execfabric.cn/</code></td>
+          <td>The current formal unified login / signup entry</td>
+          <td>People who already have an account, or want to create one</td>
+          <td>It carries both login and signup and leads into the personal free edition or a later formal tenant space.</td>
         </tr>
         <tr>
-          <td><code>/register</code></td>
-          <td>The current formal signup page</td>
-          <td>People who do not have an account yet</td>
-          <td>After registration succeeds, the current flow enters a dedicated result page before returning to login and the personal mainline.</td>
-        </tr>
-        <tr>
-          <td><code>/register/result</code></td>
-          <td>The current formal result page</td>
+          <td><code>Automatic after signup</code></td>
+          <td>The current formal post-signup handoff page</td>
           <td>People who just completed signup</td>
-          <td>It explicitly handles the next step after signup instead of relying only on a success toast.</td>
+          <td>It handles the next step after signup before returning to login and the personal mainline, instead of relying only on a success toast.</td>
         </tr>
         <tr>
           <td>Product &amp; Delivery Docs</td>

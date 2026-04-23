@@ -134,28 +134,22 @@ lastUpdated: false
       </thead>
       <tbody>
         <tr>
-          <td><code>/experience</code></td>
+          <td><code>https://execfabric.cn/#/experience</code></td>
           <td>当前正式公开体验页</td>
           <td>第一次体验的人</td>
           <td>它是真实入口，不是只用于截图展示的占位页；当前左侧是 Python `task_brief_demo.py`，右侧是 Shell `clean_log_demo.sh`，体验脚本来自正式的免费线体验脚本目录。</td>
         </tr>
         <tr>
-          <td><code>/login</code></td>
-          <td>当前正式登录页</td>
-          <td>已有账号的人</td>
-          <td>用于进入璇络个人免费版或后续正式租户空间。</td>
+          <td><code>https://execfabric.cn/</code></td>
+          <td>当前正式登录 / 注册统一入口</td>
+          <td>已有账号的人，或准备注册的人</td>
+          <td>统一承接登录与注册流程，用于进入璇络个人免费版或后续正式租户空间。</td>
         </tr>
         <tr>
-          <td><code>/register</code></td>
-          <td>当前正式注册页</td>
-          <td>还没有账号的人</td>
-          <td>注册成功后当前会进入独立结果页，再回到登录与个人主链路。</td>
-        </tr>
-        <tr>
-          <td><code>/register/result</code></td>
-          <td>当前正式结果页</td>
+          <td><code>注册成功后自动进入</code></td>
+          <td>当前正式结果承接页</td>
           <td>刚注册完成的人</td>
-          <td>专门承接注册成功后的下一步，不再只靠成功提示框。</td>
+          <td>专门承接注册成功后的下一步，再回到登录与个人主链路，不再只靠成功提示框。</td>
         </tr>
         <tr>
           <td>产品文档</td>

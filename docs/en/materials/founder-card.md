@@ -5,7 +5,7 @@ lastUpdated: false
 ---
 
 <div class="brand-page-shell brand-page-shell--founder-card">
-  <section class="brand-hero">
+  <section id="builder-overview" class="brand-hero">
     <div>
       <p class="brand-kicker">Background Overview</p>
       <h1>Background Overview</h1>

@@ -4,6 +4,13 @@ import { computed, h, nextTick, onBeforeUnmount, onMounted, watch } from "vue"
 
 import "./styles/custom.scss"
 
+const ICP_RECORD_LINKS = [
+  {
+    label: "浙ICP备2026025818号-1",
+    href: "https://beian.miit.gov.cn",
+  },
+]
+
 const normalizePath = (pathname = "/") => pathname.replace(/\/index\.html$/, "/").replace(/\.html$/, "").replace(/\/+$/, "") || "/"
 
 const resolveLocaleKey = (path = "/") => (path.startsWith("/en/") ? "en" : "root")
@@ -303,12 +310,35 @@ const HomeHeroAfter = {
   },
 }
 
+const IcpRecordBar = {
+  name: "IcpRecordBar",
+  setup() {
+    return () => {
+      const links = ICP_RECORD_LINKS.map((record) =>
+        h(
+          "a",
+          {
+            href: record.href,
+            target: "_blank",
+            rel: "noopener noreferrer",
+          },
+          record.label
+        )
+      )
+
+      return h("div", { class: "execfabric-icp-record", role: "contentinfo", "aria-label": "网站备案信息" }, [
+        h("div", { class: "execfabric-icp-record__links" }, links),
+      ])
+    }
+  },
+}
+
 export default {
   ...DefaultTheme,
   Layout: () =>
     h(DefaultTheme.Layout, null, {
       "home-hero-image": () => h(HomeHeroCode),
       "home-hero-after": () => h(HomeHeroAfter),
-      "layout-bottom": () => h(ThemeStateSync),
+      "layout-bottom": () => [h(ThemeStateSync), h(IcpRecordBar)],
     }),
 }
