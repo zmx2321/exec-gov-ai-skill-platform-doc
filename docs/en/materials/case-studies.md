@@ -26,7 +26,7 @@ lastUpdated: false
         <span class="brand-chip">lightweight and demo-ready</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="http://execfabric.cn/#/experience">Start from the experience entry</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience">Start from the experience entry</a>
         <a class="cta-button" href="../product/index.html">View Product Overview</a>
       </div>
     </div>
@@ -243,7 +243,7 @@ lastUpdated: false
     <div class="brand-actions">
       <a
         class="cta-button cta-button--brand"
-        href="http://execfabric.cn/#/experience?demo=csv_profile_demo"
+        href="https://execfabric.cn/#/experience?demo=csv_profile_demo"
         target="_blank"
         rel="noreferrer"
       >

@@ -201,7 +201,7 @@ lastUpdated: false
       <tbody>
         <tr>
           <td>You are only learning the platform for the first time</td>
-          <td><a href="http://execfabric.cn/">Getting Started</a></td>
+          <td><a href="https://execfabric.cn/">Getting Started</a></td>
           <td>Start by judging the platform position and the real entry points</td>
           <td>You do not need a full delivery checklist on day one.</td>
         </tr>

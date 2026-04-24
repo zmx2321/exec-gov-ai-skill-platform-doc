@@ -60,7 +60,7 @@ lastUpdated: false
         <span class="brand-chip">共享 SaaS</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="http://execfabric.cn/#/experience">立即免费体验</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience">立即免费体验</a>
         <a class="cta-button" href="../contact.html#lead-form">申请内测资格</a>
         <a class="cta-button" href="./scenarios.html">查看应用场景</a>
         <a class="cta-button" href="./script-risk-levels.html">查看风险分级</a>
@@ -187,7 +187,7 @@ lastUpdated: false
           <td>免费线</td>
           <td>第一次接触平台的人</td>
           <td>先感知产品定位、执行链路和个人入口价值</td>
-          <td><a href="http://execfabric.cn/">快速开始</a></td>
+          <td><a href="https://execfabric.cn/">快速开始</a></td>
         </tr>
         <tr>
           <td>本地脚本位增购</td>

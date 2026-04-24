@@ -113,7 +113,7 @@ lastUpdated: false
       <p class="brand-kicker">Web Entry</p>
       <h2>How the CLI works with the web entry</h2>
       <ul class="brand-list">
-        <li>The formal public web entry is now split between the experience entry at <code>http://execfabric.cn/#/experience</code> and the unified login / signup entry at <code>http://execfabric.cn/</code>.</li>
+        <li>The formal public web entry is now split between the experience entry at <code>https://execfabric.cn/#/experience</code> and the unified login / signup entry at <code>https://execfabric.cn/</code>.</li>
         <li>After signup succeeds, the current flow still goes through a dedicated handoff page before returning to login and the personal mainline.</li>
         <li>The experience page is for feeling the execution chain first. The left panel currently shows the Python demo <code>task_brief_demo.py</code>, while the right panel shows the Shell demo <code>clean_log_demo.sh</code>.</li>
         <li>Web-side upload registration already supports <code>.py</code>, <code>.sh</code>, and <code>.bash</code>.</li>
@@ -196,8 +196,8 @@ execfabric-cli --help</code></pre>
         <h3>2. Save the login configuration</h3>
         <pre><code class="language-bash">execfabric-cli login \
   --token YOUR_API_TOKEN \
-  --api-base http://execfabric.cn/prod-api \
-  --web-base http://execfabric.cn</code></pre>
+  --api-base https://execfabric.cn/prod-api \
+  --web-base https://execfabric.cn</code></pre>
         <p>The default config file is <code>~/.execfabric/config.json</code>. Free developers should normally point to the personal-free tenant domain. Enterprise users should point to their own tenant domain. <code>public</code> is not the default ordinary CLI user entry.</p>
       </article>
       <article class="brand-card brand-card--nested">

@@ -27,7 +27,7 @@ lastUpdated: false
         <span class="brand-chip">当前边界已写清</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="http://execfabric.cn/">先看快速开始</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/">先看快速开始</a>
         <a class="cta-button" href="./team-tenant-payment.html">看标准租户支付说明</a>
         <a class="cta-button" href="./editions.html">查看版本阶段与升级路径</a>
         <a class="cta-button" href="/contact.html#lead-form">沟通分流 / 升级</a>

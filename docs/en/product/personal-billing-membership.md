@@ -29,7 +29,7 @@ lastUpdated: false
         <span class="brand-chip">Current boundary is explicit</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="http://execfabric.cn/">Read Getting Started first</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/">Read Getting Started first</a>
         <a class="cta-button" href="./team-tenant-payment.html">Read the tenant payment guide</a>
         <a class="cta-button" href="./editions.html">View the roadmap</a>
         <a class="cta-button" href="/en/contact.html#lead-form">Discuss routing or upgrade</a>

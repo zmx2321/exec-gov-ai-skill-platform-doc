@@ -26,7 +26,7 @@ lastUpdated: false
       <span class="brand-chip">Enterprise delivery</span>
     </div>
     <div class="brand-actions">
-      <a class="cta-button cta-button--brand" href="http://execfabric.cn/">Open Getting Started</a>
+      <a class="cta-button cta-button--brand" href="https://execfabric.cn/">Open Getting Started</a>
       <a class="cta-button" href="./faq.html">Open FAQ</a>
     </div>
   </div>
@@ -94,9 +94,9 @@ lastUpdated: false
       <tbody>
         <tr>
           <td>Public experience flow</td>
-          <td>The public web entry is now split into the login / signup entry at <code>http://execfabric.cn/</code> and the experience entry at <code>http://execfabric.cn/#/experience</code></td>
+          <td>The public web entry is now split into the login / signup entry at <code>https://execfabric.cn/</code> and the experience entry at <code>https://execfabric.cn/#/experience</code></td>
           <td>People touching the platform for the first time</td>
-          <td><a href="http://execfabric.cn/">Getting Started</a></td>
+          <td><a href="https://execfabric.cn/">Getting Started</a></td>
         </tr>
         <tr>
           <td>Product &amp; Delivery Docs</td>
@@ -153,7 +153,7 @@ lastUpdated: false
     <p class="brand-kicker">Reading Order</p>
     <h2>Enter by goal</h2>
     <div class="brand-link-grid">
-      <a class="brand-link-card" href="http://execfabric.cn/">
+      <a class="brand-link-card" href="https://execfabric.cn/">
         <span>Step 01</span>
         <strong>Getting Started</strong>
         <p>First confirm the public entry points, experience path, and current capability boundary.</p>
@@ -226,7 +226,7 @@ lastUpdated: false
         <p class="brand-lead">The free path, local script slots, the standard team edition, and enterprise delivery all exist, but they should not be mixed together.</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
-        <a class="brand-link-card" href="http://execfabric.cn/">
+        <a class="brand-link-card" href="https://execfabric.cn/">
           <span>Guide</span>
           <strong>Getting Started</strong>
         </a>

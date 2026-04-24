@@ -246,7 +246,7 @@ async function submitLeadForm() {
           <td>You are touching the platform for the first time and only want to sense the product</td>
           <td>Start with the free path</td>
           <td>First confirm whether this is even worth understanding further. There is no need to jump into project discussion immediately.</td>
-          <td><a href="http://execfabric.cn/">Getting Started</a></td>
+          <td><a href="https://execfabric.cn/">Getting Started</a></td>
         </tr>
         <tr>
           <td>You already have one very specific automation problem and want to validate it first</td>
@@ -373,8 +373,8 @@ async function submitLeadForm() {
         This official-site form now writes directly into our backend public lead database with page source and scenario fields attached.
       </p>
       <div class="brand-actions">
-        <a class="cta-button" href="http://execfabric.cn/#/experience">Try the free experience page</a>
-        <a class="cta-button" href="http://execfabric.cn/">Open the login / register entry</a>
+        <a class="cta-button" href="https://execfabric.cn/#/experience">Try the free experience page</a>
+        <a class="cta-button" href="https://execfabric.cn/">Open the login / register entry</a>
       </div>
     </article>
   </section>
@@ -454,7 +454,7 @@ async function submitLeadForm() {
     <p class="brand-kicker">Channels</p>
     <h2>Backup contact channels and public entry points</h2>
     <div class="brand-link-grid">
-      <a class="brand-link-card" href="http://execfabric.cn/">
+      <a class="brand-link-card" href="https://execfabric.cn/">
         <span>Product Entry</span>
         <strong>execfabric.cn</strong>
         <p>Use the login / register entry or the free experience page to submit the demand directly into the shared database flow.</p>

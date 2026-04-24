@@ -28,7 +28,7 @@ lastUpdated: false
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="/contact.html#lead-form">打开官网内测表单</a>
-        <a class="cta-button" href="http://execfabric.cn/#/experience">先走免费体验</a>
+        <a class="cta-button" href="https://execfabric.cn/#/experience">先走免费体验</a>
         <a class="cta-button" href="/contact.html#lead-form">沟通正式合作</a>
       </div>
     </div>
@@ -120,7 +120,7 @@ lastUpdated: false
           <td>第一次接触平台，只想先看产品值不值得继续了解</td>
           <td>免费体验</td>
           <td>先感知入口和执行方式，不急着提交深度需求</td>
-          <td><a href="http://execfabric.cn/">快速开始</a></td>
+          <td><a href="https://execfabric.cn/">快速开始</a></td>
         </tr>
         <tr>
           <td>已经有一个非常具体的自动化问题，想判断是否适合共建</td>
@@ -132,7 +132,7 @@ lastUpdated: false
           <td>已经准备进入正式团队协作、标准 SaaS 或企业交付</td>
           <td>正式合作线索</td>
           <td>这时重点是交付边界、部署方式和预算，不只是需求收集</td>
-          <td><a href="http://execfabric.cn/">登录 / 注册入口</a></td>
+          <td><a href="https://execfabric.cn/">登录 / 注册入口</a></td>
         </tr>
       </tbody>
     </table>
@@ -150,8 +150,8 @@ lastUpdated: false
       </p>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="/contact.html#lead-form">去官网联系页填表</a>
-        <a class="cta-button" href="http://execfabric.cn/#/experience">先走免费线体验</a>
-        <a class="cta-button" href="http://execfabric.cn/">进入登录 / 注册页</a>
+        <a class="cta-button" href="https://execfabric.cn/#/experience">先走免费线体验</a>
+        <a class="cta-button" href="https://execfabric.cn/">进入登录 / 注册页</a>
       </div>
       <p class="lead-form-note">
         当前真正收集的字段仍然是：公司 / 角色、1 个最具体的问题、常用脚本语言、每周耗时，以及至少一种联系方式。

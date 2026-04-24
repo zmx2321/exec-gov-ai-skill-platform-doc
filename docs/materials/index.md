@@ -174,7 +174,7 @@ lastUpdated: false
           <td>01. 免费线</td>
           <td>第一次接触平台的人</td>
           <td>先感知价值，不急着报价，不急着讲复杂交付</td>
-          <td><a href="http://execfabric.cn/">快速开始</a> / <a href="../product/index.html">产品概览</a></td>
+          <td><a href="https://execfabric.cn/">快速开始</a> / <a href="../product/index.html">产品概览</a></td>
         </tr>
         <tr>
           <td>02. 轻量增购</td>

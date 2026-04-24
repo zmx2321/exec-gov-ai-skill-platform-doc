@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 立即免费体验（免登录）
-      link: http://execfabric.cn/#/experience
+      link: https://execfabric.cn/#/experience
     - theme: alt
       text: 申请内测资格
       link: /contact.html#lead-form
@@ -98,7 +98,7 @@ features:
     </div>
     <div class="brand-actions">
       <a class="cta-button cta-button--brand" href="./contact.html#lead-form">去填内测表单</a>
-      <a class="cta-button" href="http://execfabric.cn/#/experience">先看免费线体验</a>
+      <a class="cta-button" href="https://execfabric.cn/#/experience">先看免费线体验</a>
       <a class="cta-button" href="./contact.html#lead-form">沟通正式合作</a>
     </div>
   </section>
@@ -330,7 +330,7 @@ features:
       </article>
     </div>
     <div class="landing-inline-links">
-      <a href="http://execfabric.cn/#/experience">立即免费体验（免登录）</a>
+      <a href="https://execfabric.cn/#/experience">立即免费体验（免登录）</a>
       <a href="./contact.html#lead-form">沟通真实场景</a>
       <a href="./product/index.html">查看产品概览</a>
       <a href="./product/editions.html">看当前阶段</a>
@@ -366,7 +366,7 @@ features:
     </div>
     <div class="landing-inline-links">
       <a href="./materials/case-studies.html">查看完整演示案例</a>
-      <a href="http://execfabric.cn/#/experience">先走体验入口</a>
+      <a href="https://execfabric.cn/#/experience">先走体验入口</a>
     </div>
   </section>
 
@@ -618,7 +618,7 @@ features:
       <strong>开始使用</strong>
       <p>先把入口、角色和阅读路径对齐，避免一开始就在各页之间来回跳转。</p>
     </a>
-    <a class="link-panel" href="http://execfabric.cn/">
+    <a class="link-panel" href="https://execfabric.cn/">
       <span class="link-panel-label">Quick Start</span>
       <strong>快速开始</strong>
       <p>用最短时间看懂如何从免费线开始、如何接脚本，以及何时该走团队版或企业路径。</p>
@@ -687,7 +687,7 @@ features:
         </p>
       </div>
       <div class="cta-actions">
-        <a class="cta-button cta-button--brand" href="http://execfabric.cn/#/experience">立即免费体验</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience">立即免费体验</a>
         <a class="cta-button" href="./contact.html#lead-form">沟通具体场景</a>
         <a class="cta-button" href="./contact.html#lead-form">咨询交付方案</a>
       </div>

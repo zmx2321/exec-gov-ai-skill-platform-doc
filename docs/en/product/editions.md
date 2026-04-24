@@ -197,7 +197,7 @@ lastUpdated: false
           <td>Free path</td>
           <td>Public experience, login and signup, personal entry</td>
           <td>Part of the already-established customer-acquisition and experience entry of <code>1.0</code></td>
-          <td><a href="http://execfabric.cn/">Getting Started</a></td>
+          <td><a href="https://execfabric.cn/">Getting Started</a></td>
         </tr>
         <tr>
           <td>Local script-slot expansion</td>

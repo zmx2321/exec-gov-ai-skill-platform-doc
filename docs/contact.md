@@ -247,7 +247,7 @@ async function submitLeadForm() {
           <td>第一次接触平台，只想先感知产品</td>
           <td>先走免费线</td>
           <td>先确认这是不是值得继续了解的平台，不急着进入项目沟通</td>
-          <td><a href="http://execfabric.cn/">快速开始</a></td>
+          <td><a href="https://execfabric.cn/">快速开始</a></td>
         </tr>
         <tr>
           <td>已经有一个非常具体的自动化问题，愿意先做首轮验证</td>
@@ -374,8 +374,8 @@ async function submitLeadForm() {
         当前官网表单提交后会直接写入我们的后台 public 库，并带上来源页与场景字段，后续跟进不再要求你配置邮件客户端。
       </p>
       <div class="brand-actions">
-        <a class="cta-button" href="http://execfabric.cn/#/experience">先看免费线体验</a>
-        <a class="cta-button" href="http://execfabric.cn/">进入个人免费入口</a>
+        <a class="cta-button" href="https://execfabric.cn/#/experience">先看免费线体验</a>
+        <a class="cta-button" href="https://execfabric.cn/">进入个人免费入口</a>
       </div>
     </article>
   </section>
@@ -455,7 +455,7 @@ async function submitLeadForm() {
     <p class="brand-kicker">Channels</p>
     <h2>备用联系方式与公开入口</h2>
     <div class="brand-link-grid">
-      <a class="brand-link-card" href="http://execfabric.cn/">
+      <a class="brand-link-card" href="https://execfabric.cn/">
         <span>产品入口</span>
         <strong>execfabric.cn</strong>
         <p>现在优先从登录 / 注册页或免费线体验页提交需求，直接入库。</p>

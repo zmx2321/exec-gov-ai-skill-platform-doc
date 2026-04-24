@@ -15,7 +15,7 @@ lastUpdated: false
         <p>The next step is a manual review of how concrete, frequent, and suitable the problem is for the current phase.</p>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="http://execfabric.cn/#/experience">Try the free entry</a>
+        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience">Try the free entry</a>
         <a class="cta-button" href="/en/contact.html#lead-form">Submit another application</a>
         <a class="cta-button" href="/en/contact.html#lead-form">Move to formal contact</a>
       </div>

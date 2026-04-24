@@ -92,7 +92,7 @@ lastUpdated: false
           <td>Free path</td>
           <td>Low-friction first contact with the platform value</td>
           <td>Prove first that this is not a generic chat page, but a platform that can bring scripts and automation into one governed entry</td>
-          <td><a href="http://execfabric.cn/">Getting Started</a></td>
+          <td><a href="https://execfabric.cn/">Getting Started</a></td>
         </tr>
         <tr>
           <td>Local script-slot expansion</td>

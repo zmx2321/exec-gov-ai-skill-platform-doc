@@ -165,7 +165,7 @@ lastUpdated: false
           <td>01. Free path</td>
           <td>People touching the platform for the first time</td>
           <td>Let them feel the value first. Do not rush into pricing or complex delivery too early.</td>
-          <td><a href="http://execfabric.cn/">Getting Started</a> / <a href="../product/index.html">Product Overview</a></td>
+          <td><a href="https://execfabric.cn/">Getting Started</a> / <a href="../product/index.html">Product Overview</a></td>
         </tr>
         <tr>
           <td>02. Lightweight expansion</td>
