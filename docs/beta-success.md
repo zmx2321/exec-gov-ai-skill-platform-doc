@@ -21,7 +21,7 @@ lastUpdated: false
         的申请。
       </p>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience">先看免费线体验</a>
+        <a class="cta-button cta-button--brand" href="http://execfabric.cn/#/experience">先看免费线体验</a>
         <a class="cta-button" href="/contact.html#lead-form">再提交一份申请</a>
         <a class="cta-button" href="/contact.html#lead-form">改走合作线索</a>
       </div>

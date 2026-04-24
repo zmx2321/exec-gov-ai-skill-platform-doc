@@ -28,7 +28,7 @@ lastUpdated: false
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="/en/contact.html#lead-form">Open the official beta form</a>
-        <a class="cta-button" href="https://execfabric.cn/#/experience">Try the free entry first</a>
+        <a class="cta-button" href="http://execfabric.cn/#/experience">Try the free entry first</a>
         <a class="cta-button" href="/en/contact.html#lead-form">Talk about formal cooperation</a>
       </div>
     </div>
@@ -91,8 +91,8 @@ lastUpdated: false
       </p>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="/en/contact.html#lead-form">Open the official contact form</a>
-        <a class="cta-button" href="https://execfabric.cn/#/experience">Use the free experience page</a>
-        <a class="cta-button" href="https://execfabric.cn/">Use the login / register entry</a>
+        <a class="cta-button" href="http://execfabric.cn/#/experience">Use the free experience page</a>
+        <a class="cta-button" href="http://execfabric.cn/">Use the login / register entry</a>
       </div>
       <p class="lead-form-note">
         The collected fields are still the same: company / role, one specific problem, common scripting language, weekly time cost, and at least one contact method.

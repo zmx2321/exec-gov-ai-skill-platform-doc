@@ -107,7 +107,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Is the dialog-execution model URL and token always one global setting</h3>
-        <p>No. The platform can maintain a default upstream configuration, and a formal tenant can also maintain its own local configuration. If the tenant-local configuration is incomplete, runtime falls back to the platform default. To avoid sideways exposure of secrets, the full token value is shown only to the configuring side and the other side sees a masked preview.</p>
+        <p>No. The platform can maintain a default upstream configuration, and a formal tenant can also maintain its own local configuration. If the tenant-local configuration is incomplete, runtime falls back to the platform default. There is now another public-facing layer on top of that: both the platform super-admin side and tenant-admin side can maintain their own model lists, and public models can be authorized to tenants or specific users. A model appears in the current user's dialog-execution selector only after the user confirms the announcement. To avoid sideways exposure of secrets, the full token value is shown only to the configuring side and the other side sees a masked preview.</p>
       </article>
     </div>
   </section>

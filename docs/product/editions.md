@@ -189,7 +189,7 @@ lastUpdated: false
         <td>免费线</td>
         <td>公开体验、登录 / 注册、个人入口</td>
         <td>属于 1.0 已成立的获客与体验入口</td>
-        <td><a href="https://execfabric.cn/">快速开始</a></td>
+        <td><a href="http://execfabric.cn/">快速开始</a></td>
       </tr>
       <tr>
         <td>本地脚本位增购</td>

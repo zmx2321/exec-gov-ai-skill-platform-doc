@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Try for Free
-      link: https://execfabric.cn/#/experience
+      link: http://execfabric.cn/#/experience
     - theme: alt
       text: Apply for Beta
       link: /en/contact.html#lead-form
@@ -96,7 +96,7 @@ features:
     </div>
     <div class="brand-actions">
       <a class="cta-button cta-button--brand" href="/en/contact.html#lead-form">Open the beta form</a>
-      <a class="cta-button" href="https://execfabric.cn/#/experience">Try the free entry</a>
+      <a class="cta-button" href="http://execfabric.cn/#/experience">Try the free entry</a>
       <a class="cta-button" href="/en/contact.html#lead-form">Discuss formal cooperation</a>
     </div>
   </section>
@@ -338,7 +338,7 @@ features:
       </article>
     </div>
     <div class="landing-inline-links">
-      <a href="https://execfabric.cn/#/experience">Try for free</a>
+      <a href="http://execfabric.cn/#/experience">Try for free</a>
       <a href="/en/contact.html#lead-form">Discuss your scenario</a>
       <a href="./materials/why-execfabric.html">Why I Am Building ExecFabric</a>
       <a href="./product/editions.html">See the current stage</a>
@@ -631,7 +631,7 @@ features:
       <strong>Start here</strong>
       <p>Align the entry paths, roles, and reading order first so you do not keep bouncing between pages without a frame.</p>
     </a>
-    <a class="link-panel" href="https://execfabric.cn/">
+    <a class="link-panel" href="http://execfabric.cn/">
       <span class="link-panel-label">Quick Start</span>
       <strong>Getting Started</strong>
       <p>Understand as quickly as possible how to begin from the free path, how script onboarding works, and when the team or enterprise path is the better fit.</p>
@@ -701,7 +701,7 @@ features:
         </p>
       </div>
       <div class="cta-actions">
-        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience">Try for free now</a>
+        <a class="cta-button cta-button--brand" href="http://execfabric.cn/#/experience">Try for free now</a>
         <a class="cta-button" href="/en/contact.html#lead-form">Discuss a specific scenario</a>
         <a class="cta-button" href="/en/contact.html#lead-form">Ask about delivery</a>
       </div>

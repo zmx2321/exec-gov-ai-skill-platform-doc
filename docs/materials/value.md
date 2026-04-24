@@ -91,7 +91,7 @@ lastUpdated: false
           <td>免费线</td>
           <td>低门槛先感知平台价值</td>
           <td>先证明这不是普通聊天页，而是能把脚本和自动化收口的平台</td>
-          <td><a href="https://execfabric.cn/">快速开始</a></td>
+          <td><a href="http://execfabric.cn/">快速开始</a></td>
         </tr>
         <tr>
           <td>本地脚本位增购</td>

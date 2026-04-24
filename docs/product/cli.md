@@ -111,7 +111,7 @@ lastUpdated: false
       <p class="brand-kicker">Web Entry</p>
       <h2>CLI 与 Web 入口如何配合</h2>
       <ul class="brand-list">
-        <li>网页端当前正式公开的是 <code>https://execfabric.cn/#/experience</code> 体验入口，以及 <code>https://execfabric.cn/</code> 登录 / 注册统一入口。</li>
+        <li>网页端当前正式公开的是 <code>http://execfabric.cn/#/experience</code> 体验入口，以及 <code>http://execfabric.cn/</code> 登录 / 注册统一入口。</li>
         <li>注册成功当前会先进入结果承接页，再回到登录与个人主链路。</li>
         <li>体验页用于先感受执行链路；当前左侧是 Python 示例 <code>task_brief_demo.py</code>，右侧是 Shell 示例 <code>clean_log_demo.sh</code>。</li>
         <li>网页端上传注册已经支持 <code>.py</code>、<code>.sh</code>、<code>.bash</code>、<code>.bat</code>、<code>.cmd</code>、<code>.js</code>。</li>
@@ -194,8 +194,8 @@ execfabric-cli --help</code></pre>
         <h3>2. 保存登录配置</h3>
         <pre><code class="language-bash">execfabric-cli login \
   --token YOUR_API_TOKEN \
-  --api-base https://execfabric.cn/prod-api \
-  --web-base https://execfabric.cn</code></pre>
+  --api-base http://execfabric.cn/prod-api \
+  --web-base http://execfabric.cn</code></pre>
         <p>默认配置文件是 <code>~/.execfabric/config.json</code>。免费开发者默认应指向璇络个人免费版域名；企业客户则指向各自租户域名。<code>public</code> 不是普通 CLI 用户的默认入口。</p>
       </article>
       <article class="brand-card brand-card--nested">

@@ -77,7 +77,10 @@ lastUpdated: false
         <li>Manual confirmation</li>
         <li>Capability execution, result callback, audit trail, and reviewability</li>
         <li>Dialog execution can use either a platform-default upstream model config or a tenant-local config</li>
+        <li>Both the platform super-admin side and tenant-admin side can now maintain their own model lists</li>
+        <li>Public models can be granted to tenants or specific users, and the user sees the model in dialog execution only after confirming the announcement</li>
         <li>The full value of a sensitive token is shown only to the side that configured it; the other side sees a masked preview</li>
+        <li>Personal-free regular users do not need a separate model-list page in order to switch among the models already authorized to them inside dialog execution</li>
         <li>The session model now participates in Skill-gate checks instead of blindly following only a default model</li>
       </ul>
     </article>

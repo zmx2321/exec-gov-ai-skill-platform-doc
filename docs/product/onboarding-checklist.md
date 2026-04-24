@@ -200,7 +200,7 @@ lastUpdated: false
       <tbody>
         <tr>
           <td>只是第一次了解平台</td>
-          <td><a href="https://execfabric.cn/">快速开始</a></td>
+          <td><a href="http://execfabric.cn/">快速开始</a></td>
           <td>先判断平台定位和真实入口</td>
           <td>不必一开始就准备完整交付清单。</td>
         </tr>

@@ -134,13 +134,13 @@ lastUpdated: false
       </thead>
       <tbody>
         <tr>
-          <td><code>https://execfabric.cn/#/experience</code></td>
+          <td><code>http://execfabric.cn/#/experience</code></td>
           <td>当前正式公开体验页</td>
           <td>第一次体验的人</td>
           <td>它是真实入口，不是只用于截图展示的占位页；当前左侧是 Python `task_brief_demo.py`，右侧是 Shell `clean_log_demo.sh`，体验脚本来自正式的免费线体验脚本目录。</td>
         </tr>
         <tr>
-          <td><code>https://execfabric.cn/</code></td>
+          <td><code>http://execfabric.cn/</code></td>
           <td>当前正式登录 / 注册统一入口</td>
           <td>已有账号的人，或准备注册的人</td>
           <td>统一承接登录与注册流程，用于进入璇络个人免费版或后续正式租户空间。</td>

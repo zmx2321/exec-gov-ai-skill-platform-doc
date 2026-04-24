@@ -26,7 +26,7 @@ lastUpdated: false
       <span class="brand-chip">企业交付</span>
     </div>
     <div class="brand-actions">
-      <a class="cta-button cta-button--brand" href="https://execfabric.cn/">看快速开始</a>
+      <a class="cta-button cta-button--brand" href="http://execfabric.cn/">看快速开始</a>
       <a class="cta-button" href="./faq.html">看常见问题</a>
     </div>
   </div>
@@ -94,9 +94,9 @@ lastUpdated: false
       <tbody>
         <tr>
           <td>公开体验链路</td>
-          <td>现在公开入口统一为 <code>https://execfabric.cn/</code> 登录 / 注册入口，以及 <code>https://execfabric.cn/#/experience</code> 体验入口</td>
+          <td>现在公开入口统一为 <code>http://execfabric.cn/</code> 登录 / 注册入口，以及 <code>http://execfabric.cn/#/experience</code> 体验入口</td>
           <td>第一次接触平台的人</td>
-          <td><a href="https://execfabric.cn/">快速开始</a></td>
+          <td><a href="http://execfabric.cn/">快速开始</a></td>
         </tr>
         <tr>
           <td>产品文档</td>
@@ -153,7 +153,7 @@ lastUpdated: false
     <p class="brand-kicker">Reading Order</p>
     <h2>按目标进入</h2>
     <div class="brand-link-grid">
-      <a class="brand-link-card" href="https://execfabric.cn/">
+      <a class="brand-link-card" href="http://execfabric.cn/">
         <span>Step 01</span>
         <strong>快速开始</strong>
         <p>先确认现在公开的正式入口、体验路径和当前可用的能力边界。</p>
@@ -226,7 +226,7 @@ lastUpdated: false
         <p class="brand-lead">免费线、本地脚本位、标准团队版和企业交付都成立，但建议不要混着看。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
-        <a class="brand-link-card" href="https://execfabric.cn/">
+        <a class="brand-link-card" href="http://execfabric.cn/">
           <span>Guide</span>
           <strong>快速开始</strong>
         </a>

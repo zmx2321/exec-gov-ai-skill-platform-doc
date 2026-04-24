@@ -85,7 +85,7 @@ lastUpdated: false
           <td>People touching the platform for the first time</td>
           <td>Lead with the platform position, the pain point, and the value of the free experience</td>
           <td>Do not start with enterprise delivery or heavy customization</td>
-          <td><a href="https://execfabric.cn/">Getting Started</a></td>
+          <td><a href="http://execfabric.cn/">Getting Started</a></td>
         </tr>
         <tr>
           <td>People already using scripts continuously in their personal space</td>
