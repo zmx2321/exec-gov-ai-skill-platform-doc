@@ -70,7 +70,7 @@ lastUpdated: false
         <li><code>agent describe</code>、<code>agent bind</code>、<code>agent start</code></li>
         <li>sidecar JSON 覆盖，以及注释 / docstring / 文件名元数据提取</li>
         <li><code>.execfabric-manifest.json</code> 生成</li>
-        <li><code>register --execution-mode cloud</code> 调用后端 <code>upload-register</code>，完成 Python / Shell / Bat(Cmd) / Node.js 云端注册</li>
+        <li><code>register --execution-mode cloud</code> 调用后端 <code>upload-register</code>，完成 Python / Shell / Bat(Cmd) / Node.js 云端注册；多文件目录会先打包并按 manifest / 入口配置声明实际入口文件</li>
         <li><code>register --execution-mode local-agent</code> 调用后端 <code>local-register</code>，完成单文件或目录的本机路径登记</li>
         <li><code>agent start</code> 会在当前机器轮询、领取、执行并回传 Local Agent 作业</li>
       </ul>
@@ -201,7 +201,7 @@ execfabric-cli --help</code></pre>
       <article class="brand-card brand-card--nested">
         <h3>3. 以云端模式登记脚本目录</h3>
         <pre><code class="language-bash">execfabric-cli register ./examples/scripts</code></pre>
-        <p>命令会扫描目录、生成 <code>.execfabric-manifest.json</code>，并调用后端 <code>upload-register</code>。Python、Shell、Bat(Cmd) 和 Node.js 当前都已经走真实的云端注册链路；其中 <code>bat / cmd</code> 在线执行依赖 Windows 运行时。</p>
+        <p>命令会扫描目录、生成 <code>.execfabric-manifest.json</code>，并调用后端 <code>upload-register</code>。多文件目录会按 manifest / 入口配置声明入口文件，等价于网页上传 zip 后填写 <code>entryFile</code>。Python、Shell、Bat(Cmd) 和 Node.js 当前都已经走真实的云端注册链路；其中 <code>bat / cmd</code> 在线执行依赖 Windows 运行时。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>4. 登记本地脚本并启动 Local Agent</h3>

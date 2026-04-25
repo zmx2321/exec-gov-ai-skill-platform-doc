@@ -214,8 +214,8 @@ lastUpdated: false
         <li>The public experience page is meant to demonstrate the execution chain first. It does not take real business writes.</li>
         <li>The current demo on the experience page comes from the formal free-experience asset directory and is mapped through the manifest for hot swapping.</li>
         <li>After signup, you enter the personal intelligent execution console and can start onboarding your first script.</li>
-        <li>Web upload-based registration already supports <code>.py / .sh / .bash / .bat / .cmd / .js</code>.</li>
-        <li>The current Web upload flow already accepts <code>.py / .sh / .bash / .bat / .cmd / .js</code> and auto-detects whether <code>bat / cmd</code> should be enabled on the current cloud runtime.</li>
+        <li>The current Web upload flow already supports single-file <code>.py / .sh / .bash / .bat / .cmd / .js</code> uploads and multi-file <code>zip</code> packages.</li>
+        <li>When you upload a <code>zip</code> package, you need to declare the entry file inside the package, such as <code>main.py</code> or <code>src/main.py</code>. The page derives the script language from that entry file and auto-detects whether <code>bat / cmd</code> should be enabled on the current cloud runtime.</li>
         <li><code>execfabric-cli</code> already supports both <code>cloud</code> and <code>local-agent</code> onboarding paths today. CLI <code>cloud</code> already supports Python, Shell, Bat(Cmd), and Node.js for remote upload, but <code>bat / cmd</code> cloud execution still requires a Windows runtime. The primary examples and default guidance still lean toward Python for now.</li>
         <li>If you are only continuing as an individual user and have not entered multi-user collaboration yet, start with local script-slot expansion instead of jumping to the enterprise path.</li>
         <li>If you only need standard capability and lighter collaboration, evaluate the shared-SaaS tenant path first.</li>

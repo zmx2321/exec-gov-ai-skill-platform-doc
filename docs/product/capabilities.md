@@ -92,7 +92,8 @@ lastUpdated: false
     <p class="brand-kicker">03</p>
     <h2>能力接入与 Skill 编排</h2>
     <ul class="brand-list">
-      <li>当前以 Python 脚本接入为主</li>
+      <li>当前以 Python 脚本接入为主，同时已支持 Python / Shell / Bat(Cmd) / Node.js 的云端注册</li>
+      <li>网页上传既支持单文件脚本，也支持多文件 zip 压缩包；上传 zip 时需要显式填写包内入口文件</li>
       <li>Skill 可视化查看与编辑</li>
       <li>这里的 Skill 是受控能力单元，不是单纯“命中词”，也不是市面上那种只靠提示词包装的技能卡片</li>
       <li>脚本接入时可以自动生成最小 Skill，但后续会进入独立 Skill 列表继续维护，不再混在上传弹窗里顺带填写</li>

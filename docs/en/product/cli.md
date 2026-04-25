@@ -72,7 +72,7 @@ lastUpdated: false
         <li><code>agent describe</code>, <code>agent bind</code>, and <code>agent start</code></li>
         <li>sidecar JSON overrides and metadata extraction from comments, docstrings, and file names</li>
         <li><code>.execfabric-manifest.json</code> generation</li>
-        <li><code>register --execution-mode cloud</code> calling backend <code>upload-register</code> for Python, Shell, Bat(Cmd), and Node.js upload registration</li>
+        <li><code>register --execution-mode cloud</code> calling backend <code>upload-register</code> for Python, Shell, Bat(Cmd), and Node.js upload registration; multi-file workspaces are packaged and registered with an explicit entry file</li>
         <li><code>register --execution-mode local-agent</code> calling backend <code>local-register</code> for single-file or folder local-path registration</li>
         <li><code>agent start</code> polling, claiming, executing, and completing Local Agent jobs on the current machine</li>
       </ul>
@@ -203,7 +203,7 @@ execfabric-cli --help</code></pre>
       <article class="brand-card brand-card--nested">
         <h3>3. Register a workspace in cloud mode</h3>
         <pre><code class="language-bash">execfabric-cli register ./examples/scripts</code></pre>
-        <p>The command scans the folder, generates <code>.execfabric-manifest.json</code>, and calls backend <code>upload-register</code>. Python, Shell, Bat(Cmd), and Node.js already go through the real cloud-registration path. Cloud execution of <code>bat / cmd</code> still requires a Windows runtime.</p>
+        <p>The command scans the folder, generates <code>.execfabric-manifest.json</code>, and calls backend <code>upload-register</code>. Multi-file workspaces declare an explicit entry file in the manifest, which is equivalent to choosing a <code>zip</code> package in the Web UI and filling <code>entryFile</code>. Python, Shell, Bat(Cmd), and Node.js already go through the real cloud-registration path. Cloud execution of <code>bat / cmd</code> still requires a Windows runtime.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>4. Register local scripts and start the Local Agent</h3>
