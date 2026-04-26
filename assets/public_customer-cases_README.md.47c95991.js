@@ -1,0 +1,13 @@
+import { _ as _export_sfc, o as openBlock, c as createElementBlock, O as createStaticVNode } from "./chunks/framework.95052327.js";
+const __pageData = JSON.parse('{"title":"Customer Cases Assets","description":"","frontmatter":{},"headers":[],"relativePath":"public/customer-cases/README.md","filePath":"public/customer-cases/README.md","lastUpdated":1776420391000}');
+const _sfc_main = { name: "public/customer-cases/README.md" };
+function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
+  return openBlock(), createElementBlock("div", null, _cache[0] || (_cache[0] = [
+    createStaticVNode('<h1 id="customer-cases-assets" tabindex="-1">Customer Cases Assets <a class="header-anchor" href="#customer-cases-assets" aria-label="Permalink to &quot;Customer Cases Assets&quot;">​</a></h1><p>这个目录专门给官网 <code>客户案例</code> 页面放公开素材。</p><p>当前规则：</p><ul><li>官网只放公开版素材</li><li>原始截图先做重命名</li><li>有地址栏、IP、住户信息、设备编号、坐标等内容时，先脱敏再上站</li></ul><h2 id="目录说明" tabindex="-1">目录说明 <a class="header-anchor" href="#目录说明" aria-label="Permalink to &quot;目录说明&quot;">​</a></h2><ul><li><code>screenshots/</code>：放截图</li><li><code>videos/</code>：放视频</li></ul><h2 id="当前命名规则" tabindex="-1">当前命名规则 <a class="header-anchor" href="#当前命名规则" aria-label="Permalink to &quot;当前命名规则&quot;">​</a></h2><ul><li>截图：<code>case-01-*.png</code>、<code>case-03-*.jpg</code></li><li>视频：<code>case-01-demo.mp4</code></li></ul><h2 id="当前案例分组" tabindex="-1">当前案例分组 <a class="header-anchor" href="#当前案例分组" aria-label="Permalink to &quot;当前案例分组&quot;">​</a></h2><ul><li><code>case-01-*</code>：无线网络质量评估</li><li><code>case-02-*</code>：运维监控与服务器管理</li><li><code>case-03-*</code>：数字孪生与楼宇可视化</li><li><code>case-04-*</code>：园区应急指挥</li></ul><h2 id="页面引用方式" tabindex="-1">页面引用方式 <a class="header-anchor" href="#页面引用方式" aria-label="Permalink to &quot;页面引用方式&quot;">​</a></h2><ul><li>截图访问路径：<code>/customer-cases/screenshots/文件名</code></li><li>视频访问路径：<code>/customer-cases/videos/文件名</code></li></ul><p>当前页面入口：</p><ul><li>中文：<code>docs/customer-cases/index.md</code></li><li>英文：<code>docs/en/customer-cases/index.md</code></li></ul>', 14)
+  ]));
+}
+const README = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render]]);
+export {
+  __pageData,
+  README as default
+};
