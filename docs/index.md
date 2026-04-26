@@ -55,6 +55,37 @@ features:
 
   <section class="landing-band landing-band--overview">
     <div class="landing-section-head">
+      <p class="landing-kicker">Live Access</p>
+      <h2>当前线上正式入口已经分层整理，可以直接发给别人</h2>
+      <p class="landing-lead">
+        如果你现在要介绍项目，不必再手动解释每个域名分别是干什么的。
+        当前官网已经单独整理了
+        <strong>个人免费版、超管后台、标准客户样板、标准 SaaS 共享租户和私有化测试入口</strong>，
+        其中 <strong>private-test.execfabric.cn</strong> 也已经明确为
+        <strong>对应可直接交付运行的私有化部署形态</strong>。
+      </p>
+    </div>
+    <div class="brand-link-grid brand-link-grid--three">
+      <a class="brand-link-card" href="./product/live-entry-points.html">
+        <span>LIVE</span>
+        <strong>线上入口清单</strong>
+        <p>把当前所有正式线上入口、角色说明和推荐介绍方式集中看清楚。</p>
+      </a>
+      <a class="brand-link-card" href="https://execfabric.cn/">
+        <span>FREE</span>
+        <strong>产品主入口</strong>
+        <p>第一次接触项目的人，优先先看个人免费版和公开体验路径。</p>
+      </a>
+      <a class="brand-link-card" href="https://private-test.execfabric.cn/">
+        <span>PRIVATE</span>
+        <strong>私有化测试环境</strong>
+        <p>它不只是演示页，也对应可直接交付运行的私有化部署包形态。</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="landing-band landing-band--overview">
+    <div class="landing-section-head">
       <p class="landing-kicker">Beta Intake</p>
       <h2>先把官网变成需求收集器，再继续堆更多概念页</h2>
       <p class="landing-lead">
