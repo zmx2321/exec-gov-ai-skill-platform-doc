@@ -20,12 +20,11 @@ lastUpdated: false
         平台的目标不是强迫所有用户走同一条路径，而是用同一套治理逻辑覆盖不同落地形态。
       </p>
       <p class="brand-lead">
-        对公开口径来说，当前更稳的路径是：
-        <strong>免费线</strong>、
-        <strong>本地脚本位轻量扩容</strong>、
-        <strong>共享 SaaS 正式团队版</strong>、
-        <strong>企业单租户 / 私有化交付</strong>，
-        再按需要叠加本地混合执行。
+        对当前公开口径来说，最稳的正式合作路径已经收口为
+        <strong>私有化部署包</strong>
+        与
+        <strong>企业交付</strong>；
+        公开演示入口继续保留，但主要承担前置说明和场景判断，不再作为当前售卖版本。
       </p>
       <p class="brand-lead">
         当前统一口径：私有化部署测试页面可在 <code>private-test.execfabric.cn</code> 查看。
@@ -33,11 +32,11 @@ lastUpdated: false
       <div class="brand-chip-list">
         <span class="brand-chip">单租户交付</span>
         <span class="brand-chip">平台治理</span>
-        <span class="brand-chip">免费入口</span>
+        <span class="brand-chip">公开演示</span>
         <span class="brand-chip">本地混合执行</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="/contact.html#lead-form">沟通部署方案</a>
+        <a class="cta-button cta-button--brand" href="/contact.html#lead-form">沟通私有化部署包</a>
         <a class="cta-button" href="./editions.html">查看版本阶段与升级路径</a>
       </div>
     </div>
@@ -114,21 +113,9 @@ lastUpdated: false
     <tbody>
       <tr>
         <td>免费线</td>
-        <td>先用公开体验、登录 / 注册和个人入口理解平台</td>
+        <td>先用公开体验和产品文档理解平台</td>
         <td>先确认执行链路、产品定位和入口体验是否成立</td>
-        <td>如果开始持续使用，就进入个人入口或继续看本地脚本位</td>
-      </tr>
-      <tr>
-        <td>本地脚本位增购</td>
-        <td>个人空间轻量扩容，不改变整体部署形态</td>
-        <td>解决个人持续接脚本的问题，不等于正式团队交付</td>
-        <td>如果开始多人协作，就进入标准团队版评估</td>
-      </tr>
-      <tr>
-        <td>标准团队版</td>
-        <td>优先共享 SaaS 正式租户入口</td>
-        <td>适合标准能力、较轻协作和不需要深度前端定制的团队</td>
-        <td>如果需要更强隔离、专属页面或正式验收，再转企业交付</td>
+        <td>如果开始推进真实接入，就直接进入私有化部署包评估</td>
       </tr>
       <tr>
         <td>企业交付</td>
@@ -190,28 +177,8 @@ lastUpdated: false
 </section>
 
 <section class="brand-card">
-  <p class="brand-kicker">Shared SaaS</p>
-  <h2>璇络标准 SaaS 共享租户模式</h2>
-  <div class="brand-grid brand-grid--two">
-    <article class="brand-card brand-card--nested">
-      <h3>当前怎么运行</h3>
-      <p>进入标准 SaaS 共享租户号段后，标准 SaaS 客户会优先进入共享租户前端骨架。运行时按访问 Host 绑定 schema，所以仍然是租户隔离，不是把所有客户塞进同一个后台账号里混用。</p>
-    </article>
-    <article class="brand-card brand-card--nested">
-      <h3>适合什么场景</h3>
-      <p>更适合标准能力、较轻团队协作和不需要深度前端定制的场景。如果客户需要更重的隔离、专属页面、专属品牌或更深部署控制，再继续走单租户交付或私有化。</p>
-    </article>
-  </div>
-  <ul class="brand-list">
-    <li>共享的是前端工程与正式发版节奏，不共享租户数据、账号和权限</li>
-    <li>标准 SaaS 客户仍然按自己的租户空间使用能力、菜单、公告和结果</li>
-    <li>当前共享租户前端已经建立，但按租户动态品牌化和更细部署参数还在继续收口</li>
-  </ul>
-</section>
-
-<section class="brand-card">
   <p class="brand-kicker">Upgrade Path</p>
-  <h2>从免费入口到正式交付，当前更真实的升级路径</h2>
+  <h2>从公开演示到正式交付，当前更真实的升级路径</h2>
   <table>
     <thead>
       <tr>
@@ -224,36 +191,18 @@ lastUpdated: false
     <tbody>
       <tr>
         <td>01. 公开体验期</td>
-        <td>先看公开体验页、登录页、注册页和公开文档</td>
+        <td>先看公开体验页和公开文档</td>
         <td>这时重点不是一开始就谈私有化，而是先确认执行链路、产品定位和入口体验是否成立</td>
-        <td>如果要反复使用，就进入个人入口或继续看本地脚本位 / 团队路径</td>
+        <td>如果要推进真实接入，就进入私有化部署包评估</td>
       </tr>
       <tr>
-        <td>02. 个人免费入口期</td>
-        <td>用户已经进入免费入口，开始理解智能执行台、AI 执行和基础使用路径</td>
-        <td>这时更接近产品体验与增长入口，不等于已经进入正式团队 / 企业交付</td>
-        <td>如果只是个人持续接脚本，就先看本地脚本位；如果开始关心多人协作，再进入团队评估期</td>
-      </tr>
-      <tr>
-        <td>03. 个人扩容期</td>
-        <td>已经在个人空间持续接脚本，但还没进入多人协作</td>
-        <td>这时重点是个人空间扩容和本地接入，不需要先切到企业部署口径</td>
-        <td>如果开始多人协作、权限控制和正式账号管理，再进入标准团队版</td>
-      </tr>
-      <tr>
-        <td>04. 标准团队期</td>
-        <td>开始带着真实协作、真实权限问题和标准菜单需求来判断是否够用</td>
-        <td>这时优先评估共享 SaaS 正式租户入口，而不是默认上来就单租户或私有化</td>
-        <td>如果需要独立网址、专属页面和正式验收，就进入企业交付</td>
-      </tr>
-      <tr>
-        <td>05. 正式交付期</td>
+        <td>02. 正式交付期</td>
         <td>客户要拿到自己的访问地址、自己的能力边界和正式交付包</td>
-        <td>当前有两条更现实的路径：璇络标准 SaaS 共享租户，或企业单租户交付。前者偏标准化，后者偏更强隔离与更深定制。</td>
-        <td>如果只是标准协作与标准菜单，优先共享 SaaS；如果需要专属环境和更深定制，再走单租户交付</td>
+        <td>当前更现实的路径是私有化部署包或企业单租户交付，重点是更强隔离与更深定制。</td>
+        <td>如果需要专属环境、更强隔离和正式验收，就继续走企业交付</td>
       </tr>
       <tr>
-        <td>06. 本地扩展期</td>
+        <td>03. 本地扩展期</td>
         <td>任务开始依赖本地环境、内网资源或私有数据</td>
         <td>在单租户交付或平台治理之上叠加本地混合执行，由 CLI / Agent 承接桥接</td>
         <td>如果还要进一步走标准化梯度，就看 <a href="./editions.html">版本阶段与升级路径</a></td>
@@ -279,11 +228,10 @@ lastUpdated: false
     <h2>常见升级路径</h2>
     <ul class="brand-list">
       <li>免费入口适合先体验平台与执行链路</li>
-      <li>如果只是个人持续使用，先走本地脚本位轻量扩容</li>
-      <li>标准团队版适合需要多人协作、正式租户和更稳定周期的场景</li>
+      <li>如果需要正式合作，当前优先直接走私有化部署包评估</li>
       <li>正式交付适合需要独立网址、租户隔离和长期使用的场景</li>
-      <li>标准化小团队方案和更完整的套餐能力会继续扩展</li>
-      <li>常见路径是先走免费线，再按本地脚本位、团队版或企业交付逐步上探</li>
+      <li>标准化小团队方案会继续演进，但不是当前官网主售卖口径</li>
+      <li>常见路径是先走公开演示，再按私有化部署包或企业交付逐步上探</li>
     </ul>
   </article>
 </section>

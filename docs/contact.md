@@ -123,18 +123,17 @@ async function submitLeadForm() {
       <div class="brand-hero__panel">
         <span class="brand-pill">Founder Signal</span>
         <strong>提交线索前，先判断你当前更像免费线体验、内测资格申请、正式团队协作，还是企业项目交付。</strong>
-        <p>如果你已经有一个最具体的自动化问题，优先走内测资格页；如果你已经要谈交付边界、部署方式和预算，再走合作线索页。</p>
+        <p>如果你已经有一个最具体的自动化问题，优先走需求页；如果你已经要谈交付边界、部署方式和预算，当前默认直接按私有化部署包沟通。</p>
       </div>
       <p class="brand-lead">
-        面向高频重复流程自动化、已有脚本治理、文件与数据处理、小型正式交付和选择性私有化场景，
-        当前承接免费线判断、本地脚本位增购判断、团队版路径判断和企业版咨询。
+        面向高频重复流程自动化、已有脚本治理、文件与数据处理和正式交付场景，
+        当前承接公开演示后的需求判断与私有化部署包咨询。
       </p>
       <div class="brand-chip-list">
-        <span class="brand-chip">免费线判断</span>
+        <span class="brand-chip">公开演示判断</span>
         <span class="brand-chip">内测资格申请</span>
-        <span class="brand-chip">本地脚本位增购</span>
-        <span class="brand-chip">团队版方案入口</span>
-        <span class="brand-chip">小型私有化咨询</span>
+        <span class="brand-chip">私有化部署包</span>
+        <span class="brand-chip">部署边界沟通</span>
         <span class="brand-chip">脚本治理 / 文件处理</span>
       </div>
       <div class="brand-actions">
@@ -154,7 +153,7 @@ async function submitLeadForm() {
         </article>
         <article class="brand-hero__panel contact-node-card">
           <span class="link-panel-label">What You Get</span>
-          <strong>沟通后会更快判断该先走免费线、先扩容、先走标准团队版，还是直接进入企业交付</strong>
+          <strong>沟通后会更快判断演示是否匹配，以及私有化部署包该怎么落地</strong>
           <p>重点是尽快明确下一步入口、准备材料和第一阶段怎么启动。</p>
         </article>
       </div>
@@ -170,7 +169,7 @@ async function submitLeadForm() {
           <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
           <div class="matrix-panel__stack">
-            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">leadEntry</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'free_line'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'local_slots'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'team_saas'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'enterprise_delivery'</span><span class="matrix-panel__punct">]</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">leadEntry</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'public_demo'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'private_package'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'enterprise_delivery'</span><span class="matrix-panel__punct">]</span></span>
             <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">contactMail</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__string">'zmx2321@163.com'</span></span>
             <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">focus</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'delivery'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'product'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'private deployment'</span><span class="matrix-panel__punct">]</span></span>
           </div>
@@ -185,8 +184,8 @@ async function submitLeadForm() {
       <div class="contact-node-grid">
         <article class="brand-hero__panel contact-node-card">
           <span class="link-panel-label">Reply Path</span>
-          <strong>先留场景，再进入四层对应跟进</strong>
-          <p>会按免费线判断、本地脚本位、团队版路径判断和企业咨询四个方向继续跟进，不会在第一轮就把问题谈得过宽。</p>
+          <strong>先留场景，再进入演示判断或私有化交付跟进</strong>
+          <p>会按公开演示是否匹配、私有化部署边界和企业交付准备度继续跟进，不会在第一轮就把问题谈得过宽。</p>
         </article>
         <article class="brand-hero__panel contact-node-card">
           <span class="link-panel-label">Before Send</span>
@@ -213,9 +212,9 @@ async function submitLeadForm() {
       <h2>公开体验入口后的下一步</h2>
       <ul class="brand-list">
         <li>你已经可以先运行公开体验入口，快速感受一次“AI 调度脚本”的完整链路。</li>
-        <li>如果你想继续自己接脚本，下一步直接注册进入个人智能执行台。</li>
-        <li>如果只是个人持续使用但还没进入正式协作，优先判断是否只需要本地脚本位扩容。</li>
-        <li>如果你更关心多人协作、权限审计或本地接入，先判断是标准团队版还是企业交付，再进入沟通。</li>
+        <li>当前公开环境不开放注册，演示后如果要继续推进，下一步直接沟通私有化部署包。</li>
+        <li>如果你更关心权限审计、本地接入或正式交付，直接进入部署边界沟通会更高效。</li>
+        <li>如果当前只是想理解产品，先跑演示再决定是否值得进入正式合作。</li>
       </ul>
     </article>
     <article class="brand-card">
@@ -225,7 +224,7 @@ async function submitLeadForm() {
         <li>你想让 AI 调度哪类脚本、流程或数据任务。</li>
         <li>是否需要多人协作、审批、权限控制或执行审计。</li>
         <li>是否涉及本地环境、内网资源或私有化部署要求。</li>
-        <li>你更希望先走免费线、先扩容个人空间、先走团队版，还是直接沟通企业方案。</li>
+        <li>你更希望先看公开演示，还是已经可以直接沟通私有化部署包与企业方案。</li>
       </ul>
     </article>
   </section>
@@ -245,7 +244,7 @@ async function submitLeadForm() {
       <tbody>
         <tr>
           <td>第一次接触平台，只想先感知产品</td>
-          <td>先走免费线</td>
+          <td>先走公开演示</td>
           <td>先确认这是不是值得继续了解的平台，不急着进入项目沟通</td>
           <td><a href="https://execfabric.cn/">快速开始</a></td>
         </tr>
@@ -254,18 +253,6 @@ async function submitLeadForm() {
           <td>先申请内测资格</td>
           <td>结构化收集会比泛化咨询更容易判断适配度、优先级和第一步</td>
           <td><a href="#lead-form">申请内测资格</a></td>
-        </tr>
-        <tr>
-          <td>已经在个人空间持续接脚本，但还没进入多人协作</td>
-          <td>先判断本地脚本位是否需要扩容</td>
-          <td>这属于个人轻量增购，不等于正式团队租户</td>
-          <td><a href="./materials/membership-benefits-pricing.html">会员权益与价格说明</a></td>
-        </tr>
-        <tr>
-          <td>准备进入多人协作、正式账号和更稳定周期</td>
-          <td>先走团队版月租 / 年租方案入口</td>
-          <td>当前标准团队版由共享 SaaS 前端承接，先判断标准路径和开通方式是否够用</td>
-          <td><a href="./product/personal-billing-membership.html">支付与会员说明</a> / <a href="./product/team-tenant-payment.html">标准租户支付说明</a></td>
         </tr>
         <tr>
           <td>涉及内网、本地桥接、更强隔离或正式项目验收</td>
@@ -346,10 +333,10 @@ async function submitLeadForm() {
       <p class="brand-kicker">Route Guide</p>
       <h2>从官网进入后，会怎样分流</h2>
       <ul class="brand-list">
-        <li>只想先感受产品：可以继续去免费线体验页。</li>
+        <li>只想先感受产品：可以继续去公开演示页。</li>
         <li>已经有一个明确问题：直接在当前页提交内测 / 需求表单。</li>
         <li>已经接近正式合作：也先用当前表单把场景收口，再继续沟通交付边界。</li>
-        <li>需要脚本治理、本地接入、团队协作或企业交付：都可以先从这个表单统一入库。</li>
+        <li>需要脚本治理、本地接入或企业交付：都可以先从这个表单统一入库。</li>
       </ul>
       <p class="brand-kicker">What To Prepare</p>
       <ul class="brand-list">
@@ -374,8 +361,8 @@ async function submitLeadForm() {
         当前官网表单提交后会直接写入我们的后台 public 库，并带上来源页与场景字段，后续跟进不再要求你配置邮件客户端。
       </p>
       <div class="brand-actions">
-        <a class="cta-button" href="https://execfabric.cn/#/experience">先看免费线体验</a>
-        <a class="cta-button" href="https://execfabric.cn/">进入个人免费入口</a>
+        <a class="cta-button" href="https://execfabric.cn/#/experience">先看公开演示</a>
+        <a class="cta-button" href="./product/deployment.html">查看私有化部署包</a>
       </div>
     </article>
   </section>
@@ -383,18 +370,18 @@ async function submitLeadForm() {
   <section class="brand-grid brand-grid--four contact-path-grid">
     <article class="brand-card">
       <p class="brand-kicker">Path 01</p>
-      <h2>个人体验 / 智能执行台</h2>
-      <p>先让开发者和个体用户以更低门槛感知价值，再决定是否把自己的脚本正式接入执行台。</p>
+      <h2>公开演示</h2>
+      <p>先让客户和团队以更低门槛感知一次执行链路，再决定是否值得进入正式交付沟通。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Path 02</p>
-      <h2>个人继续使用 / 本地脚本位</h2>
-      <p>适合已经在个人空间持续接脚本，但还没有进入多人正式协作的人。重点是扩容个人脚本位，不把它讲成正式团队版。</p>
+      <h2>需求收口</h2>
+      <p>把最具体的问题、脚本语言、执行边界和预期结果讲清楚，后续才好快速判断是否值得启动。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Path 03</p>
-      <h2>团队版 SaaS</h2>
-      <p>承接多人协作、共享执行能力、审批、权限控制和更稳定的产品订阅。当前优先走标准 SaaS 正式租户入口，由共享 SaaS 前端承接；如果需要更强隔离或更深定制，再转企业版 / 私有化。</p>
+      <h2>私有化部署包</h2>
+      <p>当前正式售卖默认走私有化部署包，重点沟通部署边界、账号体系、本地接入和交付内容。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Path 04</p>
@@ -410,8 +397,8 @@ async function submitLeadForm() {
       <ul class="brand-list">
         <li>先把一个重复流程做成最小自动化交付</li>
         <li>把已有 Python 脚本或 Skill 接入统一执行入口</li>
-        <li>承接团队版 / 企业版试点、正式交付和私有轻部署</li>
-        <li>帮助判断是先走共享 SaaS 正式租户路径，还是直接进入企业交付</li>
+        <li>承接私有化部署包、正式交付和私有轻部署</li>
+        <li>帮助判断是否适合直接进入企业交付，而不是继续停留在演示阶段</li>
         <li>本地脚本、CLI、本地环境桥接和受控执行方案</li>
       </ul>
       <p><a href="./materials/service-packages.html">查看合作方式 / 标准服务包</a></p>

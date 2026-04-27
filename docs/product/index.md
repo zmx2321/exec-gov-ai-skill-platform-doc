@@ -18,6 +18,9 @@ lastUpdated: false
         <strong>当前更适合这样理解 璇络(ExecFabric)：它先把 Python 作为第一种成熟执行资产做实，并把 Python / Shell / Bat(Cmd) / Node.js 脚本、文件处理和本地自动化流程收成统一入口，让执行、确认和结果回传都可追踪。</strong>
       </p>
       <p class="brand-lead">
+        <strong>当前官网对外销售口径已经收口为私有化部署包；公开演示入口继续保留，但不再把个人注册、团队版 SaaS 或自助订阅当成当前主售卖路径。</strong>
+      </p>
+      <p class="brand-lead">
         <strong>璇络(ExecFabric)底层仍然是一套以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行底座。</strong>
       </p>
       <p class="brand-lead">
@@ -54,14 +57,14 @@ lastUpdated: false
       <div class="brand-chip-list">
         <span class="brand-chip">多租户治理</span>
         <span class="brand-chip">可信执行</span>
-        <span class="brand-chip">免费线入口</span>
+        <span class="brand-chip">公开演示入口</span>
         <span class="brand-chip">CLI / Agent 路线</span>
         <span class="brand-chip">HTTP 样板已落地</span>
-        <span class="brand-chip">共享 SaaS</span>
+        <span class="brand-chip">私有化部署包</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="https://execfabric.cn/#/experience">立即免费体验</a>
-        <a class="cta-button" href="../contact.html#lead-form">申请内测资格</a>
+        <a class="cta-button cta-button--brand" href="./deployment.html">查看私有化部署包</a>
+        <a class="cta-button" href="../contact.html#lead-form">沟通私有化方案</a>
         <a class="cta-button" href="./scenarios.html">查看应用场景</a>
         <a class="cta-button" href="./script-risk-levels.html">查看风险分级</a>
       </div>
@@ -122,8 +125,8 @@ lastUpdated: false
               <strong>1.1 的订单、开通、续费和停开骨架已先落第一段</strong>
             </div>
             <div class="product-signal-check">
-              <span>标准团队路径</span>
-              <strong>璇络标准 SaaS 共享租户前端已经建立，不再默认复制新前端工程</strong>
+              <span>当前销售路径</span>
+              <strong>官网当前主推私有化部署包，公开演示只承担前置说明与演示职责</strong>
             </div>
           </div>
         </article>
@@ -138,7 +141,7 @@ lastUpdated: false
       <ul class="brand-list">
         <li>先看它如何把脚本、文件处理和本地流程收成统一入口。</li>
         <li>先看当前已经落地的执行、审计、权限边界和结果回传。</li>
-        <li>再看它如何扩到团队协作、共享 SaaS 和私有化交付。</li>
+        <li>再看它如何扩到正式交付、本地接入和私有化部署包。</li>
         <li>先用真实场景判断适配度，再决定实施路径和版本选择。</li>
       </ul>
     </article>
@@ -148,7 +151,7 @@ lastUpdated: false
       <ul class="brand-list">
         <li>不要把还在继续补齐的支付和完整 SaaS 自助链路理解成已经全部成熟。</li>
         <li>不要忽略 HTTP 能力样板当前仍主要放在平台治理域这一事实。</li>
-        <li>不要把共享 SaaS、单租户交付和私有化部署混成同一种交付方式。</li>
+        <li>不要把公开演示、单租户交付和私有化部署混成同一种交付方式。</li>
         <li>不要只看概念层说明，最好结合真实场景判断是否匹配当前团队问题。</li>
       </ul>
     </article>
@@ -164,7 +167,7 @@ lastUpdated: false
         <li>平台已经落下通用资源层和执行器注册层，第一种非脚本样板是平台治理控制台的 HTTP 能力接入；租户侧也已经有只读可见台账。</li>
         <li>HTTP 资源当前只按“固定接口 + 显式鉴权 + 写操作白名单”推进，配置权仍保留在平台治理控制台，不把它包装成通用 API 平台。</li>
         <li>1.1 已先在平台治理控制台落下订单与生命周期骨架，并在璇络个人免费版前台落下一条真实账单中心第一版，但仍未对外承诺完整通用订阅 / 自动续费能力。</li>
-        <li>进入标准 SaaS 共享租户号段后，标准 SaaS 客户当前优先走共享租户前端；需要更强隔离或更深定制时，再走单租户交付或私有化。</li>
+        <li>当前官网正式合作默认先沟通私有化部署包；如果需要更强隔离或更深定制，再继续收口到企业交付方案。</li>
         <li><code>execfabric-hack</code> 主要用于本地多入口聚合、联调和同步，不作为客户长期正式运行入口。</li>
         <li>平台后面可能继续扩展到 API、模板、连接器和审批流程等能力类型，但只按真实需求逐步开放。</li>
       </ul>
@@ -172,7 +175,7 @@ lastUpdated: false
 
   <section class="brand-card">
     <p class="brand-kicker">Current Paths</p>
-    <h2>当前对外更稳定的四层路径</h2>
+    <h2>当前对外更稳定的三层路径</h2>
     <table>
       <thead>
         <tr>
@@ -184,22 +187,16 @@ lastUpdated: false
       </thead>
       <tbody>
         <tr>
-          <td>免费线</td>
+          <td>公开演示</td>
           <td>第一次接触平台的人</td>
-          <td>先感知产品定位、执行链路和个人入口价值</td>
+          <td>先感知产品定位、执行链路和演示价值</td>
           <td><a href="https://execfabric.cn/">快速开始</a></td>
         </tr>
         <tr>
-          <td>本地脚本位增购</td>
-          <td>已经在个人空间持续接脚本的人</td>
-          <td>这是个人空间扩容，不是正式团队订阅</td>
-          <td><a href="./personal-billing-membership.html">支付与会员</a></td>
-        </tr>
-        <tr>
-          <td>标准团队版</td>
-          <td>开始进入多人协作的团队</td>
-          <td>当前由共享 SaaS 正式租户入口承接，不再默认复制一套新前端工程</td>
-          <td><a href="./customer-flow.html">客户交付与使用说明</a></td>
+          <td>私有化部署包</td>
+          <td>已经准备推进真实接入的团队</td>
+          <td>当前官网正式合作默认口径，先收口部署边界、账号体系和交付内容</td>
+          <td><a href="./deployment.html">部署方式</a></td>
         </tr>
         <tr>
           <td>企业交付</td>
@@ -244,7 +241,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>不是企业后台简单裁剪版</h3>
-        <p>免费版不是把复杂后台菜单直接开放，而是做独立、轻量、可增长的正式入口。</p>
+        <p>公开演示不是把复杂后台菜单直接开放，而是做独立、轻量、可说明的前置入口。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>不是 demo 脚本拼装站</h3>
@@ -270,7 +267,7 @@ lastUpdated: false
       <article class="brand-card brand-card--nested">
         <span class="brand-pill">03</span>
         <h3>产品入口问题</h3>
-        <p>个人免费线、团队协作与企业交付需要一条连续路径，而不是三套彼此割裂的系统。</p>
+        <p>公开演示、私有化部署包与企业交付需要一条连续路径，而不是三套彼此割裂的系统。</p>
       </article>
     </div>
   </section>
@@ -315,16 +312,14 @@ lastUpdated: false
         <h3>个人探索者</h3>
         <ul class="brand-list">
           <li>先从免登录体验页开始，快速感受一次真实执行链路。</li>
-          <li>注册后会先进入独立结果页，再进入个人入口；当前有效菜单会继续落到“我的技能库 / 脚本管理（上传脚本 / 脚本列表） / 对话执行 / 执行历史 / 个人空间 / 公告中心 / 社区广场 / 升级正式版”，同时保留 HTTP 只读台账等扩展入口。</li>
-          <li>如果只是个人继续使用，优先看本地脚本位轻量扩容，不要急着切企业交付口径。</li>
-          <li>适合先验证“AI 能不能真正帮我调度脚本”。</li>
+          <li>当前公开环境以演示为主，不开放在线注册，重点是先验证“AI 能不能真正帮我调度脚本”。</li>
+          <li>如果需要继续推进真实接入，下一步直接沟通私有化部署包与正式交付边界。</li>
         </ul>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>团队与企业</h3>
         <ul class="brand-list">
-          <li>如果只是标准能力和较轻协作，可优先评估共享 SaaS 共享租户路径。</li>
-          <li>如果重点是标准团队协作，先走团队版正式租户入口，不要直接跳成企业项目。</li>
+          <li>当前官网主售卖口径已经收口为私有化部署包，不再主推共享 SaaS 或个人注册。</li>
           <li>如果需要多人协作、权限控制、审计或本地接入，继续沟通场景和交付边界。</li>
           <li>如果涉及内网、合规或私有化交付，可继续咨询企业方案。</li>
           <li>先明确业务场景，再决定部署与交付方式，会比先比较功能表更有效。</li>
@@ -389,7 +384,7 @@ lastUpdated: false
       <a class="brand-link-card" href="./deployment.html">
         <span>Step 07</span>
         <strong>部署方式</strong>
-        <p>看平台如何覆盖共享 SaaS、单租户交付、平台治理、免费入口和本地混合执行。</p>
+        <p>看平台如何覆盖私有化部署包、单租户交付、平台治理、公开演示和本地混合执行。</p>
       </a>
       <a class="brand-link-card" href="./editions.html">
         <span>Step 08</span>
@@ -428,7 +423,7 @@ lastUpdated: false
       <ul class="brand-list">
         <li>不是把模型接出来就结束，而是让 AI 在规则内真正执行。</li>
         <li>不是一次性 demo，而是能持续沉淀能力资产、流程和审计记录。</li>
-        <li>个人免费线、正式交付和本地接入能共用同一套可信执行底座。</li>
+        <li>公开演示、正式交付和本地接入能共用同一套可信执行底座。</li>
         <li>支持网页入口、本地脚本接入，以及后续更完整的能力桥接路径。</li>
       </ul>
     </article>
@@ -447,8 +442,8 @@ lastUpdated: false
     <div class="brand-card__row">
       <div>
         <p class="brand-kicker">Next Step</p>
-        <h2>继续深入产品细节，或直接进入四层分流沟通</h2>
-        <p class="brand-lead">可继续查看应用场景、CLI 接入和核心能力，也可直接提交线索，判断该继续走免费线、本地脚本位、标准团队版还是企业交付。</p>
+        <h2>继续深入产品细节，或直接进入正式交付沟通</h2>
+        <p class="brand-lead">可继续查看应用场景、CLI 接入和核心能力，也可直接提交线索，判断该先停留在公开演示，还是直接进入私有化部署包与企业交付。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./scenarios.html">
@@ -463,9 +458,9 @@ lastUpdated: false
           <span>Delivery</span>
           <strong>客户交付与使用说明</strong>
         </a>
-        <a class="brand-link-card" href="./personal-billing-membership.html">
-          <span>Billing</span>
-          <strong>支付与会员</strong>
+        <a class="brand-link-card" href="./deployment.html">
+          <span>Package</span>
+          <strong>私有化部署包</strong>
         </a>
         <a class="brand-link-card" href="./capabilities.html">
           <span>Capability</span>

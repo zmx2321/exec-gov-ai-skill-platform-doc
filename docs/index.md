@@ -7,10 +7,10 @@ hero:
   tagline: 璇络(ExecFabric)从 Python 脚本起步，把散装脚本、文件处理和本地自动化流程纳入统一入口，沉淀为可治理、可审计、可交付的执行网络，让执行有边界，结果可追踪。
   actions:
     - theme: brand
-      text: 立即免费体验（免登录）
-      link: https://execfabric.cn/#/experience
+      text: 查看私有化部署包
+      link: /product/deployment.html
     - theme: alt
-      text: 申请内测资格
+      text: 沟通私有化方案
       link: /contact.html#lead-form
     - theme: alt
       text: 沟通真实场景
@@ -60,9 +60,9 @@ features:
       <p class="landing-lead">
         如果你现在要介绍项目，不必再手动解释每个域名分别是干什么的。
         当前官网已经单独整理了
-        <strong>个人免费版、超管后台、标准客户样板、标准 SaaS 共享租户和私有化测试入口</strong>，
-        其中 <strong>private-test.execfabric.cn</strong> 也已经明确为
-        <strong>对应可直接交付运行的私有化部署形态</strong>。
+        <strong>公开演示入口、产品说明和私有化测试入口</strong>，
+        其中 <strong>private-test.execfabric.cn</strong> 已明确为
+        <strong>当前主推、可直接交付运行的私有化部署包形态</strong>。
       </p>
     </div>
     <div class="brand-link-grid brand-link-grid--three">
@@ -72,9 +72,9 @@ features:
         <p>把当前所有正式线上入口、角色说明和推荐介绍方式集中看清楚。</p>
       </a>
       <a class="brand-link-card" href="https://execfabric.cn/">
-        <span>FREE</span>
-        <strong>产品主入口</strong>
-        <p>第一次接触项目的人，优先先看个人免费版和公开体验路径。</p>
+        <span>DEMO</span>
+        <strong>公开演示入口</strong>
+        <p>第一次接触项目的人，先看公开演示路径，不把它当成当前正式售卖版本。</p>
       </a>
       <a class="brand-link-card" href="https://private-test.execfabric.cn/">
         <span>PRIVATE</span>
@@ -121,16 +121,16 @@ features:
         <p class="brand-kicker">Split</p>
         <h2>如果你不确定该走哪条入口</h2>
         <ul class="brand-list">
-          <li>只是第一次接触：先看免费线体验</li>
+          <li>只是第一次接触：先看公开演示</li>
           <li>已有一个具体问题：申请内测资格</li>
-          <li>准备正式合作：走合作线索页</li>
+          <li>准备正式合作：直接沟通私有化部署包</li>
         </ul>
       </article>
     </div>
     <div class="brand-actions">
       <a class="cta-button cta-button--brand" href="./contact.html#lead-form">去填内测表单</a>
-      <a class="cta-button" href="https://execfabric.cn/#/experience">先看免费线体验</a>
-      <a class="cta-button" href="./contact.html#lead-form">沟通正式合作</a>
+      <a class="cta-button" href="https://execfabric.cn/#/experience">先看公开演示</a>
+      <a class="cta-button" href="./contact.html#lead-form">沟通私有化部署包</a>
     </div>
   </section>
 
@@ -182,8 +182,11 @@ features:
           但这并不等于终端用户已经可以完整自助支付。真实第三方支付网关、用户账单中心和外发提醒渠道仍在后续阶段。
         </p>
         <p class="landing-lead">
-          同时，璇络标准 SaaS 共享租户前端骨架也已经建立：进入<strong>标准 SaaS 共享租户号段</strong>后，标准 SaaS 客户不再默认一客户复制一套前端工程，
-          而是优先走共享租户前端。它当前已经能承接正式租户入口，但品牌化、初始化和更细菜单边界仍在继续收口。
+          公开演示入口会继续保留，但当前官网销售口径不再主推共享 SaaS 或个人注册，而是优先承接
+          <strong>私有化部署包</strong>、
+          <strong>正式交付边界</strong>
+          和
+          <strong>本地接入场景</strong>。
         </p>
         <p class="landing-lead">
           当前统一口径：私有化部署测试页面可在 <code>private-test.execfabric.cn</code> 查看。
@@ -194,7 +197,7 @@ features:
           <span>审计留痕</span>
           <span>本地桥接</span>
           <span>安全可控</span>
-          <span>共享 SaaS</span>
+          <span>私有化部署</span>
         </div>
         <div class="landing-brand__quick-grid">
           <article class="landing-brand__quick-card">
@@ -221,7 +224,7 @@ features:
           <div class="landing-brand__signal-list">
             <div class="landing-brand__signal-item">
               <strong>入口</strong>
-              <span>免费线、本地扩容、团队版、企业交付</span>
+              <span>公开演示、需求沟通、私有化交付</span>
             </div>
             <div class="landing-brand__signal-item">
               <strong>能力</strong>
@@ -247,7 +250,7 @@ features:
           <article class="landing-brand__meta landing-brand__meta--wide">
             <span class="link-panel-label">Scenario Fit</span>
             <strong>当前支持按真实场景沟通接入方式</strong>
-            <p>更适合已经有脚本、自动化任务、文件处理或本地接入诉求的团队，先判断边界，再决定试点、标准团队版还是正式交付。</p>
+            <p>更适合已经有脚本、自动化任务、文件处理或本地接入诉求的团队，先判断边界，再决定是否进入私有化部署包与正式交付。</p>
           </article>
           <article class="landing-brand__meta landing-brand__meta--wide landing-brand__meta--trail">
             <span class="link-panel-label">Audit Trail</span>
@@ -302,8 +305,8 @@ features:
         从商业化主线看，当前最实际的进度不是“已经做成完整 SaaS 收费台”，而是“已经先把平台运营侧的收费与生命周期骨架跑起来”；用户自助链路仍在继续补齐。
       </p>
       <p class="landing-lead">
-        对正式客户来说，当前已经不是只有“一客户一套前端代码副本”这一条路。标准 SaaS 客户可以先走共享租户前端；
-        如果需要更强隔离、专属页面、专属品牌或更深部署控制，再继续走单租户交付或私有化。
+        对正式客户来说，当前官网不再把共享 SaaS 或个人自助注册作为主售卖路径。
+        如果需要更强隔离、专属页面、专属品牌或更深部署控制，当前统一按私有化部署包与企业交付来沟通。
       </p>
     </div>
     <div class="landing-metrics">
@@ -325,7 +328,7 @@ features:
       <article class="metric-card">
         <span class="metric-value">可演进</span>
         <span class="metric-label">成长路径清晰</span>
-        <p>从免费线到本地脚本位、标准团队版，再到企业部署，逐步扩展而非推倒重来。</p>
+        <p>从公开演示到私有化部署包，再到企业部署与本地接入，逐步扩展而非推倒重来。</p>
       </article>
     </div>
   </section>
@@ -335,24 +338,24 @@ features:
       <p class="landing-kicker">Commercial Route</p>
       <h2>面对哪类问题，先走哪条入口</h2>
       <p class="landing-lead">
-        当前更稳的理解方式不是笼统地说“先体验再看”，而是先判断自己属于
-        <strong>免费线</strong>、
-        <strong>本地脚本位扩容</strong>、
-        <strong>标准团队版</strong>，
-        还是
+        当前更稳的理解方式不是笼统地说“先体验再看”，而是先判断自己是只需要
+        <strong>公开演示</strong>，
+        还是已经应该直接进入
+        <strong>私有化部署包</strong>
+        与
         <strong>企业交付</strong>。
       </p>
     </div>
     <div class="landing-grid landing-grid--three">
       <article class="mode-card">
-        <span class="link-panel-label">Free</span>
-        <h3>个人开发者 / 技术尝鲜者</h3>
-        <p>无需先理解复杂架构，先体验一句话调度脚本，再判断这种方式是否值得正式接入自己的执行流。</p>
+        <span class="link-panel-label">Demo</span>
+        <h3>第一次接触项目的人</h3>
+        <p>无需先理解复杂架构，先体验一句话调度脚本，再判断这种方式是否值得继续正式沟通。</p>
       </article>
       <article class="mode-card">
-        <span class="link-panel-label">Team</span>
+        <span class="link-panel-label">Private</span>
         <h3>团队管理者 / 技术负责人</h3>
-        <p>先判断自己是只需要个人空间继续扩容，还是已经进入标准团队协作；多人协作优先看共享 SaaS 正式租户路径。</p>
+        <p>如果已经有真实脚本、权限边界或本地接入诉求，当前默认直接看私有化部署包与正式交付路径。</p>
       </article>
       <article class="mode-card">
         <span class="link-panel-label">Enterprise</span>
@@ -361,7 +364,7 @@ features:
       </article>
     </div>
     <div class="landing-inline-links">
-      <a href="https://execfabric.cn/#/experience">立即免费体验（免登录）</a>
+      <a href="https://execfabric.cn/#/experience">立即查看公开演示</a>
       <a href="./contact.html#lead-form">沟通真实场景</a>
       <a href="./product/index.html">查看产品概览</a>
       <a href="./product/editions.html">看当前阶段</a>
@@ -495,7 +498,7 @@ features:
       <article class="metric-card">
         <span class="metric-value">四层路径</span>
         <span class="metric-label">进入路径清晰</span>
-        <p>先走免费线，再按本地脚本位、标准团队版和企业交付逐步推进，不把所有人都塞进同一条路。</p>
+        <p>先走公开演示，再按私有化部署包和企业交付逐步推进，不把所有人都塞进同一条路。</p>
       </article>
     </div>
   </section>
@@ -578,7 +581,7 @@ features:
       </article>
       <article class="landing-card">
         <h3>开发者与小团队</h3>
-        <p>需要把已有脚本整理成可调用、可描述、可维护的能力，并在免费入口、共享 SaaS 或本地执行路径之间找到合适的起步方式。</p>
+        <p>需要把已有脚本整理成可调用、可描述、可维护的能力，并在公开演示、私有化部署包或本地执行路径之间找到合适的起步方式。</p>
       </article>
     </div>
   </section>
